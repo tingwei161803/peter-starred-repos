@@ -21,6 +21,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
     "zh": "開源的 Windows 與 Office 啟用腳本,支援 HWID、Ohook、KMS 等多種方式。"
    },
+   "search": "activator hwid kms kms38 massgrave massgravel microsoft microsoft365 office office365 ohook powershell tsforge windows windows-10 windows-11",
    "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
    "homepage": "https://massgrave.dev",
    "meta": {
@@ -49,6 +50,7 @@ window.SITE_PAGE_DATA = {
     "en": "Odoo. Open Source Apps To Grow Your Business.",
     "zh": "開源的企業 ERP 全家桶:進銷存、會計、CRM、電商、人資都有,模組化自由組裝。"
    },
+   "search": "apps business erp management odoo odoo-apps python",
    "url": "https://github.com/odoo/odoo",
    "homepage": "https://www.odoo.com",
    "meta": {
@@ -77,6 +79,7 @@ window.SITE_PAGE_DATA = {
     "en": "An open source collection of animated, interactive & fully customizable React components for building memorable websites.",
     "zh": "開源的 React 動畫互動元件庫,可高度客製,拿來做有記憶點的網站很快。"
    },
+   "search": "3d animations component-library components components-library components-react css-animations javascript react react-components reactjs tailwind tailwindcss ui-components ui-library web",
    "url": "https://github.com/DavidHDev/react-bits",
    "homepage": "https://reactbits.dev",
    "meta": {
@@ -105,6 +108,7 @@ window.SITE_PAGE_DATA = {
     "en": "macOS system monitor in your menu bar",
     "zh": "macOS 選單列的系統監控工具,CPU、記憶體、磁碟、網速、電池一眼看完。"
    },
+   "search": "battery bluetooth clock cpu disk fans gpu macos menubar monitor network sensors stats temperature",
    "url": "https://github.com/exelban/stats",
    "homepage": "https://mac-stats.com",
    "meta": {
@@ -130,6 +134,7 @@ window.SITE_PAGE_DATA = {
     "en": "🌈谷粒-Chrome插件英雄榜, 为优秀的Chrome插件写一本中文说明书, 让Chrome插件英雄们造福人类~  ChromePluginHeroes, Write a Chinese manual for the excellent Chrome plugin, let the Chrome plugin heroes benefit the human~ 公众号「0加1」同步更新",
     "zh": "為優秀的 Chrome 擴充寫中文說明書的專案,幫你找到真正好用的外掛。"
    },
+   "search": "",
    "url": "https://github.com/zhaoolee/ChromeAppHeroes",
    "homepage": "https://zhaoolee.com/ChromeAppHeroes/",
    "meta": {
@@ -158,6 +163,7 @@ window.SITE_PAGE_DATA = {
     "en": "🐱跨平台互动桌宠 BongoCat，为桌面增添乐趣！",
     "zh": "跨平台的互動桌寵,你打字牠就跟著敲,替桌面加點樂趣。"
    },
+   "search": "bongo-cat bongocat cross-platform desktop-app desktop-pet linux macos pet pet-project rust tauri tauri-app windows",
    "url": "https://github.com/ayangweb/BongoCat",
    "homepage": "https://github.com/ayangweb/Awesome-BongoCat",
    "meta": {
@@ -186,6 +192,7 @@ window.SITE_PAGE_DATA = {
     "en": "Saves Discord chat logs to a file",
     "zh": "把 Discord 聊天記錄匯出成檔案存檔,支援多種格式。"
    },
+   "search": "archival archiver chat discord export expoter log",
    "url": "https://github.com/Tyrrrz/DiscordChatExporter",
    "homepage": "https://github.com/Tyrrrz/DiscordChatExporter/releases",
    "meta": {
@@ -214,6 +221,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-Source Form Builder",
     "zh": "開源的表單建立工具,問卷、測驗、意見蒐集都能做,可自架。"
    },
+   "search": "form quiz survey",
    "url": "https://github.com/heyform/heyform",
    "homepage": "https://heyform.net",
    "meta": {
@@ -239,6 +247,7 @@ window.SITE_PAGE_DATA = {
     "en": "Visualize your year in travel using your Google Location History (Timeline) data",
     "zh": "用 Google 位置紀錄(時間軸)資料把你這一年的旅行視覺化。"
    },
+   "search": "",
    "url": "https://github.com/mahlernim/google-timeline-visualizer",
    "homepage": "",
    "meta": {
@@ -264,6 +273,7 @@ window.SITE_PAGE_DATA = {
     "en": "A personalized language-learning tool that combines Duolingo-style lessons with your own curated vocabulary lists. Seamlessly add words from books, articles, or videos, and revisit them through interactive quizzes and LLM-generated lessons.",
     "zh": "個人化語言學習工具,把你從書、文章、影片收集的生字做成 Duolingo 風格的課程。"
    },
+   "search": "",
    "url": "https://github.com/baturyilmaz/wordpecker-app",
    "homepage": "https://wordpeckerapp.com",
    "meta": {
@@ -291,6 +301,7 @@ window.SITE_PAGE_DATA = {
     "en": "🚀 汇聚优质的第三方 BongoCat 模型！",
     "zh": "BongoCat 桌寵的第三方模型精選集。"
    },
+   "search": "awesome-bongo-cat awesome-bongocat bongo-cat bongocat",
    "url": "https://github.com/ayangweb/Awesome-BongoCat",
    "homepage": "https://github.com/BongoCatPet/BongoCat",
    "meta": {
@@ -316,6 +327,7 @@ window.SITE_PAGE_DATA = {
     "en": "English pronunciation correction teacher built with gemini",
     "zh": "用 Gemini 做的英語發音矯正老師,唸一段就給你回饋。"
    },
+   "search": "",
    "url": "https://github.com/nishuzumi/gemini-teacher",
    "homepage": "",
    "meta": {
@@ -344,6 +356,7 @@ window.SITE_PAGE_DATA = {
     "en": "日历、公历(阳历)、农历(阴历、老黄历)、佛历、道历，支持节假日、星座、儒略日、干支、生肖、节气、节日、彭祖百忌、每日宜忌、吉神宜趋凶煞宜忌、吉神(喜神/福神/财神/阳贵神/阴贵神)方位、胎神方位、冲煞、纳音、星宿、八字、五行、十神、建除十二值星、青龙名堂等十二神、黄道黑道日及吉凶等。lunar is a calendar library for Solar and Chinese Lunar.",
     "zh": "農曆與傳統曆法函式庫:節氣、干支、生肖、宜忌、吉神方位、八字五行全都算得出來。"
    },
+   "search": "calendar lunar solar",
    "url": "https://github.com/6tail/lunar-python",
    "homepage": "https://6tail.cn/calendar/api.html",
    "meta": {
@@ -369,6 +382,7 @@ window.SITE_PAGE_DATA = {
     "en": "An explorable Japanese suburban railway-crossing neighbourhood on a small planet, rendered 3D-to-2D as a cel-shaded anime background. Three.js, no image assets.",
     "zh": "用 Three.js 做的日式平交道小星球場景,3D 轉 2D 賽璐璐渲染成動畫背景,完全不用圖片素材。"
    },
+   "search": "",
    "url": "https://github.com/Kenton-GMI/sakura-crossing",
    "homepage": "",
    "meta": {
@@ -392,6 +406,7 @@ window.SITE_PAGE_DATA = {
     "en": "Original open-source IELTS Speaking Simulator GPT. 100K+ conversations and the foundation of Joe Speaking.",
     "zh": "開源的雅思口說模擬器 GPT,累積 10 萬次以上對話。"
    },
+   "search": "",
    "url": "https://github.com/hubeiqiao/IELTS-Speaking-Simulator",
    "homepage": "https://chat.openai.com/g/g-uGueIrCsT-ielts-speaking-simulator",
    "meta": {
@@ -420,6 +435,7 @@ window.SITE_PAGE_DATA = {
     "en": "📎 Public API for companies funded by Y Combinator",
     "zh": "Y Combinator 投資公司的公開 API,可查所有 YC 校友公司資料。"
    },
+   "search": "api json rest-api typescript y-combinator",
    "url": "https://github.com/yc-oss/api",
    "homepage": "https://yc-oss.github.io/api/meta.json",
    "meta": {
@@ -445,6 +461,7 @@ window.SITE_PAGE_DATA = {
     "en": "SBIR 政府補助計畫相關的專案。",
     "zh": "SBIR 政府補助計畫相關的專案。"
    },
+   "search": "",
    "url": "https://github.com/backtrue/sbir-grants",
    "homepage": "",
    "meta": {
@@ -470,6 +487,7 @@ window.SITE_PAGE_DATA = {
     "en": "supervisor 專案,倉庫未附說明。",
     "zh": "supervisor 專案,倉庫未附說明。"
    },
+   "search": "",
    "url": "https://github.com/ybq22/supervisor",
    "homepage": "",
    "meta": {
@@ -498,6 +516,7 @@ window.SITE_PAGE_DATA = {
     "en": "赛博朋克的按钮文字、全景VR，cesium案例、数据大屏案例，本地ORC文字识别，欢迎star",
     "zh": "前端特效示範合集:賽博龐克按鈕、全景 VR、Cesium 地圖、資料大屏、本機文字辨識。"
    },
+   "search": "bigscreen cesium css3 gis orc vr",
    "url": "https://github.com/whanxueyu/demo-collection",
    "homepage": "https://axydemo.netlify.app",
    "meta": {
@@ -526,6 +545,7 @@ window.SITE_PAGE_DATA = {
     "en": "A lunar calendar converter in Python, including 24 solar terms and a number of solar holidays and lunar holidays, mainly from China.",
     "zh": "Python 的農曆轉換工具,含 24 節氣與中國國定及農曆節日。"
    },
+   "search": "24-solar-terms chinese-festivals festival lunar-calendar lunar-solar-converter lunisolar-calendar solar-calendar",
    "url": "https://github.com/wolfhong/LunarCalendar",
    "homepage": "https://pypi.org/project/LunarCalendar/",
    "meta": {
@@ -551,6 +571,7 @@ window.SITE_PAGE_DATA = {
     "en": "3D版殭屍大逃殺~",
     "zh": "3D 版殭屍大逃殺網頁遊戲。"
    },
+   "search": "",
    "url": "https://github.com/craig7351/zombie-survivors",
    "homepage": "",
    "meta": {
@@ -576,6 +597,7 @@ window.SITE_PAGE_DATA = {
     "en": "台大周邊美食的小工具網站。",
     "zh": "台大周邊美食的小工具網站。"
    },
+   "search": "",
    "url": "https://github.com/pcwu2022/ntufood",
    "homepage": "",
    "meta": {
@@ -604,6 +626,7 @@ window.SITE_PAGE_DATA = {
     "en": "🥩❄️ 雪地肉舖 — 放置經營 × 塔防網頁遊戲 (Vue 3 + Babylon.js + Cloudflare Pages/D1)",
     "zh": "雪地肉舖:放置經營加塔防的網頁遊戲,用 Vue 3、Babylon.js 與 Cloudflare D1 做的。"
    },
+   "search": "babylonjs cloudflare-pages game idle-game tower-defense typescript vue webgl",
    "url": "https://github.com/craig7351/fake-whiteout-survival",
    "homepage": "https://fake-whiteout-survival.pages.dev",
    "meta": {
@@ -629,6 +652,7 @@ window.SITE_PAGE_DATA = {
     "en": "Upload one image → AI generates 8 LINE stickers → download ZIP, ready for LINE Creators Market",
     "zh": "上傳一張圖,AI 生成 8 張 LINE 貼圖並打包成可直接上架的 ZIP。"
    },
+   "search": "",
    "url": "https://github.com/yazelin/line-sticker-studio",
    "homepage": "https://yazelin.github.io/line-sticker-studio/",
    "meta": {
@@ -654,6 +678,7 @@ window.SITE_PAGE_DATA = {
     "en": "LINEBot",
     "zh": "LINE Bot 的實作範例。"
    },
+   "search": "",
    "url": "https://github.com/jimmyliao/linebot",
    "homepage": "",
    "meta": {
@@ -679,6 +704,7 @@ window.SITE_PAGE_DATA = {
     "en": "史丹佛 Shah Lab 的最佳化悖論研究專案。",
     "zh": "史丹佛 Shah Lab 的最佳化悖論研究專案。"
    },
+   "search": "",
    "url": "https://github.com/som-shahlab/opt-paradox",
    "homepage": "",
    "meta": {
@@ -704,6 +730,7 @@ window.SITE_PAGE_DATA = {
     "en": "憤怒棒球網頁小遊戲。",
     "zh": "憤怒棒球網頁小遊戲。"
    },
+   "search": "",
    "url": "https://github.com/craig7351/angry-baseball",
    "homepage": "",
    "meta": {
@@ -732,6 +759,7 @@ window.SITE_PAGE_DATA = {
     "en": "真。AI。咏唱魔法 — 語音咏唱俯視角Survev網頁遊戲 (Phaser + TypeScript). 喊出法術名稱即時施法.",
     "zh": "語音詠唱的俯視角網頁遊戲:喊出法術名稱即時施法,Phaser 加 Web Speech API。"
    },
+   "search": "co-op multiplayer-game phaser speech-recognition voice-control web-speech-api websocket",
    "url": "https://github.com/yazelin/ai-chant-magic",
    "homepage": "https://yazelin.github.io/ai-chant-magic/",
    "meta": {
@@ -757,6 +785,7 @@ window.SITE_PAGE_DATA = {
     "en": "Lumi Health — AI 驅動預防醫學平台 | Next.js + Tailwind CSS",
     "zh": "Lumi Health:AI 驅動的預防醫學平台,用 Next.js 與 Tailwind 做的。"
    },
+   "search": "",
    "url": "https://github.com/panguinchiu/lumi-health",
    "homepage": "",
    "meta": {

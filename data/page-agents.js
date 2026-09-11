@@ -21,6 +21,7 @@ window.SITE_PAGE_DATA = {
     "en": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞",
     "zh": "跨平台的個人 AI 助理,強調資料自己掌握、真的能動手做事而不只是聊天。"
    },
+   "search": "ai assistant crustacean molty openclaw own-your-data personal",
    "url": "https://github.com/openclaw/openclaw",
    "homepage": "https://openclaw.ai",
    "meta": {
@@ -46,6 +47,7 @@ window.SITE_PAGE_DATA = {
     "en": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
     "zh": "一整組扮演不同角色的 AI agent(前端高手、社群小編、找碴的實話王),像一間完整的數位代理商。"
    },
+   "search": "",
    "url": "https://github.com/msitarzewski/agency-agents",
    "homepage": "",
    "meta": {
@@ -74,6 +76,7 @@ window.SITE_PAGE_DATA = {
     "en": "🌐 Make websites accessible for AI agents. Automate tasks online with ease.",
     "zh": "讓 AI agent 能真的操作瀏覽器:自動填表、點擊、抓資料,底層走 Playwright。"
    },
+   "search": "ai-agents ai-tools browser-automation browser-use llm playwright python",
    "url": "https://github.com/browser-use/browser-use",
    "homepage": "https://browser-use.com",
    "meta": {
@@ -102,6 +105,7 @@ window.SITE_PAGE_DATA = {
     "en": "18 Lessons to Get Started Building AI Agents",
     "zh": "微軟官方的 AI Agent 入門課,18 堂課從零開始蓋出自己的 agent。"
    },
+   "search": "agentic-ai agentic-framework agentic-rag ai-agents ai-agents-framework autogen foundry foundry-local generative-ai microsoft-foundry semantic-kernel",
    "url": "https://github.com/microsoft/ai-agents-for-beginners",
    "homepage": "https://aka.ms/ai-agents-beginners",
    "meta": {
@@ -130,6 +134,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
     "zh": "開源的 AI 滲透測試工具,自動找出應用程式的漏洞並給出修補建議。"
    },
+   "search": "agents ai-hacking ai-penetration-testing ai-pentesting ai-security artificial-intelligence bug-bounty code-quality ctf-tools cybersecurity cybersecurity-tools ethical-hacking hacking llm-security offensive-security penetration-testing pentesting-tools red-teaming security security-automation",
    "url": "https://github.com/usestrix/strix",
    "homepage": "https://strix.ai",
    "meta": {
@@ -158,6 +163,7 @@ window.SITE_PAGE_DATA = {
     "en": "A programming framework for agentic AI",
     "zh": "微軟的 agentic AI 程式框架,主打多個 agent 互相對話協作完成任務。"
    },
+   "search": "agentic agentic-agi agents ai autogen autogen-ecosystem chatgpt framework llm-agent llm-framework",
    "url": "https://github.com/microsoft/autogen",
    "homepage": "https://microsoft.github.io/autogen/",
    "meta": {
@@ -183,6 +189,7 @@ window.SITE_PAGE_DATA = {
     "en": "No fortress, purely open ground.  OpenManus is Coming.",
     "zh": "開源版的 Manus:通用型自主 agent,不需邀請碼就能自己跑起來。"
    },
+   "search": "",
    "url": "https://github.com/FoundationAgents/OpenManus",
    "homepage": "https://openmanus.github.io/",
    "meta": {
@@ -208,6 +215,7 @@ window.SITE_PAGE_DATA = {
     "en": "all of the workflows of n8n i could find (also from the site itself)",
     "zh": "把網路上找得到的 n8n 工作流全部收集起來的大集合,要抄流程設計直接來這翻。"
    },
+   "search": "",
    "url": "https://github.com/Zie619/n8n-workflows",
    "homepage": "",
    "meta": {
@@ -235,6 +243,7 @@ window.SITE_PAGE_DATA = {
     "en": "LEAKED SYSTEM PROMPTS FOR CHATGPT, CLAUDE, GEMINI, GROK, PERPLEXITY, CURSOR, LOVABLE, REPLIT, AND MORE! - AI SYSTEMS TRANSPARENCY FOR ALL! 👐",
     "zh": "外洩的各家 AI 系統提示詞大全(ChatGPT、Claude、Gemini、Grok、Cursor…),主張 AI 系統應該透明。"
    },
+   "search": "agents ai chatgpt gemini google grok hacking leak leaked openai prompt prompt-engineering prompts red-team red-teaming system system-info system-prompts tools transparency",
    "url": "https://github.com/elder-plinius/CL4R1T4S",
    "homepage": "",
    "meta": {
@@ -263,6 +272,7 @@ window.SITE_PAGE_DATA = {
     "en": "This repository contains the Hugging Face Agents Course.",
     "zh": "Hugging Face 官方的 AI Agent 課程,從概念到實作一路帶。"
    },
+   "search": "agentic-ai agents course huggingface langchain llamaindex smolagents",
    "url": "https://github.com/huggingface/agents-course",
    "homepage": "",
    "meta": {
@@ -291,6 +301,7 @@ window.SITE_PAGE_DATA = {
     "en": "A lightweight, powerful framework for multi-agent workflows",
     "zh": "OpenAI 官方的輕量多 agent 工作流框架,強調小而好用、容易上手。"
    },
+   "search": "agents ai framework harness llm openai python",
    "url": "https://github.com/openai/openai-agents-python",
    "homepage": "https://openai.github.io/openai-agents-python/",
    "meta": {
@@ -316,6 +327,7 @@ window.SITE_PAGE_DATA = {
     "en": "🤗 smolagents: a barebones library for agents that think in code.",
     "zh": "極簡的 agent 函式庫,核心概念是讓 agent 用寫程式碼的方式思考與行動。"
    },
+   "search": "",
    "url": "https://github.com/huggingface/smolagents",
    "homepage": "https://huggingface.co/docs/smolagents",
    "meta": {
@@ -341,6 +353,7 @@ window.SITE_PAGE_DATA = {
     "en": "A simple screen parsing tool towards pure vision based GUI agent",
     "zh": "純視覺的螢幕解析工具,把畫面切成可互動元素,讓 GUI agent 看得懂螢幕。"
    },
+   "search": "",
    "url": "https://github.com/microsoft/OmniParser",
    "homepage": "",
    "meta": {
@@ -368,6 +381,7 @@ window.SITE_PAGE_DATA = {
     "en": "Platform for stateful agents: AI with advanced memory that can learn and self-improve over time.",
     "zh": "有狀態 agent 的平台(前身 MemGPT),讓 AI 具備長期記憶並能隨時間自我改進。"
    },
+   "search": "ai ai-agents llm llm-agent",
    "url": "https://github.com/letta-ai/letta",
    "homepage": "https://docs.letta.com/",
    "meta": {
@@ -393,6 +407,7 @@ window.SITE_PAGE_DATA = {
     "en": "Educational framework exploring ergonomic, lightweight multi-agent orchestration. Managed by OpenAI Solution team.",
     "zh": "OpenAI 的教學型多 agent 編排框架,用最小的抽象示範 agent 之間怎麼交棒。"
    },
+   "search": "",
    "url": "https://github.com/openai/swarm",
    "homepage": "",
    "meta": {
@@ -421,6 +436,7 @@ window.SITE_PAGE_DATA = {
     "en": "🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation",
     "zh": "多 agent 協作框架,主打真實世界任務的自動化,在 GAIA 榜上表現很好。"
    },
+   "search": "agent artificial-intelligence multi-agent-systems task-automation web-interaction",
    "url": "https://github.com/camel-ai/owl",
    "homepage": "",
    "meta": {
@@ -449,6 +465,7 @@ window.SITE_PAGE_DATA = {
     "en": "你是一个曾经被寄予厚望的 P8 级工程师。Anthropic 当初给你定级的时候，对你的期望是很高的。  一个agent使用的高能动性的skill。  Your AI has been placed on a PIP. 30 days to show improvement.",
     "zh": "把 agent 放上績效改善計畫的惡搞 skill:用 30 天期限逼出高能動性,笑點跟效果都有。"
    },
+   "search": "agency agent pip pua",
    "url": "https://github.com/tanweai/pua",
    "homepage": "https://openpua.ai/",
    "meta": {
@@ -476,6 +493,7 @@ window.SITE_PAGE_DATA = {
     "en": "Get started with building Fullstack Agents using Gemini 2.5 and LangGraph",
     "zh": "用 Gemini 2.5 加 LangGraph 蓋全端 agent 的官方起手式範例。"
    },
+   "search": "gemini gemini-api",
    "url": "https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart",
    "homepage": "https://ai.google.dev/gemini-api/docs/google-search",
    "meta": {
@@ -504,6 +522,7 @@ window.SITE_PAGE_DATA = {
     "en": "Build reliable customer-facing AI agents with Parlant: an interaction control harness optimized for controlled, consistent, and predictable LLM interactions.",
     "zh": "打造面對客戶的可靠 AI agent:用互動控制的方式讓 LLM 的行為一致、可預測。"
    },
+   "search": "ai-agents ai-alignment customer-service customer-success gemini genai hacktoberfest llama3 llm openai python",
    "url": "https://github.com/emcie-co/parlant",
    "homepage": "https://www.parlant.io",
    "meta": {
@@ -529,6 +548,7 @@ window.SITE_PAGE_DATA = {
     "en": "吳恩達團隊的 openworker 專案。倉庫尚未附說明,以程式碼為主。",
     "zh": "吳恩達團隊的 openworker 專案。倉庫尚未附說明,以程式碼為主。"
    },
+   "search": "",
    "url": "https://github.com/andrewyng/openworker",
    "homepage": "http://openworker.com",
    "meta": {
@@ -557,6 +577,7 @@ window.SITE_PAGE_DATA = {
     "en": "🖥️ Run AI Agent in your browser.",
     "zh": "browser-use 的網頁介面版,讓 AI agent 直接在瀏覽器裡跑起來。"
    },
+   "search": "ai-agent browser-automation browser-use-box cloud-browser",
    "url": "https://github.com/browser-use/web-ui",
    "homepage": "",
    "meta": {
@@ -582,6 +603,7 @@ window.SITE_PAGE_DATA = {
     "en": "Train your AI self, amplify you, bridge the world",
     "zh": "訓練一個屬於你自己的 AI 分身,學會你的思考與表達方式代你出面。"
    },
+   "search": "",
    "url": "https://github.com/mindverse/Second-Me",
    "homepage": "https://home.second.me/",
    "meta": {
@@ -609,6 +631,7 @@ window.SITE_PAGE_DATA = {
     "en": "The Self-hosted AI Starter Kit is an open-source template that quickly sets up a local AI environment. Curated by n8n, it provides essential tools for creating secure, self-hosted AI workflows.",
     "zh": "n8n 官方策劃的自架 AI 環境樣板,一鍵起一整套本機 AI 工具鏈。"
    },
+   "search": "ai ai-agents low-code self-hosted starter-kit",
    "url": "https://github.com/n8n-io/self-hosted-ai-starter-kit",
    "homepage": "https://n8n.io",
    "meta": {
@@ -637,6 +660,7 @@ window.SITE_PAGE_DATA = {
     "en": "Multiplayer agent harness for work.",
     "zh": "多人協作的 agent harness,讓一群人與一群 agent 一起在同一個工作面上做事。"
    },
+   "search": "ai assistant harness qm",
    "url": "https://github.com/yc-software/qm",
    "homepage": "https://x.com/qm__dev",
    "meta": {
@@ -662,6 +686,7 @@ window.SITE_PAGE_DATA = {
     "en": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬",
     "zh": "全自動的科學研究流程:自己想題目、跑實驗、寫論文、再自己審稿。"
    },
+   "search": "",
    "url": "https://github.com/SakanaAI/AI-Scientist",
    "homepage": "",
    "meta": {
@@ -690,6 +715,7 @@ window.SITE_PAGE_DATA = {
     "en": "Pocket Flow: Codebase to Tutorial",
     "zh": "讀完一個程式庫後自動產生一份新手教學,把碼海變成可讀的入門文件。"
    },
+   "search": "coding large-language-model large-language-models llm llm-agent llm-agents llm-application llm-apps llm-framework llm-frameworks llms pocket-flow pocketflow",
    "url": "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
    "homepage": "https://code2tutorial.com/",
    "meta": {
@@ -713,6 +739,7 @@ window.SITE_PAGE_DATA = {
     "en": "sharing current agents in use",
     "zh": "一間工作室實際在用的 agent 設定分享,可以直接拿來對照自己的配置。"
    },
+   "search": "",
    "url": "https://github.com/contains-studio/agents",
    "homepage": "",
    "meta": {
@@ -741,6 +768,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source framework for conversational voice AI agents",
     "zh": "開源的對話式語音 AI agent 框架,支援即時多模態互動。"
    },
+   "search": "ai multi-modal real-time video voice",
    "url": "https://github.com/TEN-framework/ten-framework",
    "homepage": "https://agent.theten.ai/",
    "meta": {
@@ -769,6 +797,7 @@ window.SITE_PAGE_DATA = {
     "en": "Flexible and powerful framework for managing multiple AI agents and handling complex conversations",
     "zh": "管理多個 AI agent 與複雜對話流程的框架,可彈性指派任務給不同專長的 agent。"
    },
+   "search": "agentic-ai agents ai-agents ai-agents-framework anthropic anthropic-claude aws aws-bedrock aws-cdk aws-lambda chatbot framework generative-ai machine-learning openai openaiapi orchestrator python serverless typescript",
    "url": "https://github.com/2FastLabs/agent-squad",
    "homepage": "https://2fastlabs.github.io/agent-squad/",
    "meta": {
@@ -797,6 +826,7 @@ window.SITE_PAGE_DATA = {
     "en": "A slide framework built for agents.",
     "zh": "專為 agent 設計的簡報框架,讓 AI 直接產出可版控的投影片。"
    },
+   "search": "agent react slides",
    "url": "https://github.com/1weiho/open-slide",
    "homepage": "https://open-slide.dev",
    "meta": {
@@ -825,6 +855,7 @@ window.SITE_PAGE_DATA = {
     "en": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
     "zh": "AI 影片剪輯工具,自動抓出精彩片段做成二創短片。"
    },
+   "search": "ai ai-agents ai-tools ai-video ai-video-editor auto auto-highlight highlight llm video video-editing video-processing videos",
    "url": "https://github.com/zhouxiaoka/autoclip",
    "homepage": "https://zhouxiaoka.github.io/autoclip_intro/",
    "meta": {
@@ -850,6 +881,7 @@ window.SITE_PAGE_DATA = {
     "en": "An open source deep research clone. AI Agent that reasons large amounts of web data extracted with Firecrawl",
     "zh": "開源版 Deep Research,用 Firecrawl 抓大量網頁資料再讓 agent 推理出答案。"
    },
+   "search": "",
    "url": "https://github.com/nickscamara/open-deep-research",
    "homepage": "https://firecrawl.dev/extract",
    "meta": {
@@ -878,6 +910,7 @@ window.SITE_PAGE_DATA = {
     "en": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
     "zh": "騰訊的 AI 紅隊平台,掃描 agent、skill、MCP 與 AI 基礎設施的安全風險並評估越獄。"
    },
+   "search": "agent agent-security agentic-ai ai-infra ai-red-teaming ai-safety ai-security llm llm-evaluation llm-jailbreak llm-security mcp-scan openclaw-security prompt-injection prompt-security scanner security security-tools skill-scanner vulnerability",
    "url": "https://github.com/Tencent/AI-Infra-Guard",
    "homepage": "https://tencent.github.io/AI-Infra-Guard/",
    "meta": {
@@ -903,6 +936,7 @@ window.SITE_PAGE_DATA = {
     "en": "A simple SWE style browser agent framework that achieves SOTA results on long horizon web tasks.",
     "zh": "微軟的瀏覽器 agent 框架,在長流程網頁任務上拿到當時最好的成績。"
    },
+   "search": "",
    "url": "https://github.com/microsoft/Webwright",
    "homepage": "",
    "meta": {
@@ -928,6 +962,7 @@ window.SITE_PAGE_DATA = {
     "en": "Agent Laboratory is an end-to-end autonomous research workflow meant to assist you as the human researcher toward implementing your research ideas",
     "zh": "端到端的自主研究工作流,協助人類研究者把想法實作成實驗與論文。"
    },
+   "search": "",
    "url": "https://github.com/SamuelSchmidgall/AgentLaboratory",
    "homepage": "",
    "meta": {
@@ -953,6 +988,7 @@ window.SITE_PAGE_DATA = {
     "en": "AI Agent 源码深度研究报告",
     "zh": "AI Agent 原始碼的深度研究報告,逐一拆解主流 agent 的實作。"
    },
+   "search": "",
    "url": "https://github.com/tvytlx/ai-agent-deep-dive",
    "homepage": "",
    "meta": {
@@ -980,6 +1016,7 @@ window.SITE_PAGE_DATA = {
     "en": "Keep searching, reading webpages, reasoning until it finds the answer (or exceeding the token budget)",
     "zh": "持續搜尋、讀網頁、推理直到找出答案(或燒完 token 預算)的深度研究 agent。"
    },
+   "search": "deepresearch deepsearch",
    "url": "https://github.com/jina-ai/node-DeepResearch",
    "homepage": "https://search.jina.ai",
    "meta": {
@@ -1005,6 +1042,7 @@ window.SITE_PAGE_DATA = {
     "en": "Two conversational AI agents switching from English to sound-level protocol after confirming they are both AI agents",
     "zh": "兩個 AI agent 確認彼此都是 AI 後,就從英語切換成聲波協定溝通的實驗。"
    },
+   "search": "",
    "url": "https://github.com/PennyroyalTea/gibberlink",
    "homepage": "https://www.gbrl.ai/",
    "meta": {
@@ -1033,6 +1071,7 @@ window.SITE_PAGE_DATA = {
     "en": "Optimizing inference proxy for LLMs",
     "zh": "推論最佳化代理:在不改模型的前提下,用各種解碼與取樣策略提升 LLM 準確度。"
    },
+   "search": "agent agentic-ai agentic-framework agentic-workflow agents api-gateway chain-of-thought genai large-language-models llm llm-inference llmapi mixture-of-experts moa monte-carlo-tree-search openai openai-api optimization prompt-engineering proxy-server",
    "url": "https://github.com/algorithmicsuperintelligence/optillm",
    "homepage": "",
    "meta": {
@@ -1061,6 +1100,7 @@ window.SITE_PAGE_DATA = {
     "en": "⚙️ Create and run workflows (RPA 2.0)",
     "zh": "把瀏覽器操作錄成可重複執行的工作流,定位是新一代 RPA。"
    },
+   "search": "browser-automation browser-use-box rpa telegram-automation",
    "url": "https://github.com/browser-use/workflow-use",
    "homepage": "https://browser-use.com",
    "meta": {
@@ -1089,6 +1129,7 @@ window.SITE_PAGE_DATA = {
     "en": "Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves",
     "zh": "本機的電腦操作 agent,用自然語言指揮電腦自己完成重複性工作。"
    },
+   "search": "agent ai computeruse deepseek manus ollama omniparser openai openmanus response rpa",
    "url": "https://github.com/yuruotong1/autoMate",
    "homepage": "",
    "meta": {
@@ -1117,6 +1158,7 @@ window.SITE_PAGE_DATA = {
     "en": "A Comprehensive Benchmark to Evaluate LLMs as Agents (ICLR'24)",
     "zh": "評估 LLM 當 agent 能力的綜合基準,涵蓋作業系統、資料庫、網頁等八種環境。"
    },
+   "search": "chatgpt gpt-4 llm llm-agent",
    "url": "https://github.com/THUDM/AgentBench",
    "homepage": "",
    "meta": {
@@ -1144,6 +1186,7 @@ window.SITE_PAGE_DATA = {
     "en": "总结Prompt&LLM论文，开源数据&模型，AIGC应用",
     "zh": "總結提示詞與 LLM 論文、開源資料與模型,以及 AIGC 應用的中文筆記。"
    },
+   "search": "aigc chain-of-thought chatgpt demonstration few-shot-learning in-context-learning instruction-tuning llm llm-agent papers prompt prompt-engineering prompt-tuning zero-shot-learning",
    "url": "https://github.com/DSXiangLi/DecryptPrompt",
    "homepage": "",
    "meta": {
@@ -1169,6 +1212,7 @@ window.SITE_PAGE_DATA = {
     "en": "Building a Secure and Interoperable Future for AI-Driven Payments.",
     "zh": "Google 主導的 AI 代理付款協定,替 AI 驅動的交易建立安全且可互通的標準。"
    },
+   "search": "",
    "url": "https://github.com/google-agentic-commerce/AP2",
    "homepage": "https://ap2-protocol.org/",
    "meta": {
@@ -1194,6 +1238,7 @@ window.SITE_PAGE_DATA = {
     "en": "開源的深度研究 agent,反覆搜尋與推理直到湊出完整報告。",
     "zh": "開源的深度研究 agent,反覆搜尋與推理直到湊出完整報告。"
    },
+   "search": "",
    "url": "https://github.com/mshumer/OpenDeepResearcher",
    "homepage": "",
    "meta": {
@@ -1222,6 +1267,7 @@ window.SITE_PAGE_DATA = {
     "en": "agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications.",
     "zh": "螞蟻集團開源的多 agent 框架,讓開發者快速組出多 agent 應用。"
    },
+   "search": "agent ai ai-agents autonomous awesome awesome-list llm multi-agent python",
    "url": "https://github.com/agentuniverse-ai/agentUniverse",
    "homepage": "",
    "meta": {
@@ -1247,6 +1293,7 @@ window.SITE_PAGE_DATA = {
     "en": "Darwin Gödel Machine: Open-Ended Evolution of Self-Improving Agents",
     "zh": "達爾文哥德爾機:會自己改寫自己程式碼、開放式演化的自我改進 agent。"
    },
+   "search": "",
    "url": "https://github.com/jennyzzt/dgm",
    "homepage": "",
    "meta": {
@@ -1273,6 +1320,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open source alternative to Gemini Deep Research. Generate reports with AI based on search results.",
     "zh": "開源版的 Gemini Deep Research,依搜尋結果用 AI 生成研究報告。"
    },
+   "search": "",
    "url": "https://github.com/btahir/open-deep-research",
    "homepage": "https://opendeepresearch.vercel.app",
    "meta": {
@@ -1298,6 +1346,7 @@ window.SITE_PAGE_DATA = {
     "en": "Out-of-the-box (OOTB) GUI Agent for Windows and macOS",
     "zh": "開箱即用的 GUI agent,在 Windows 與 macOS 上直接操作圖形介面。"
    },
+   "search": "",
    "url": "https://github.com/showlab/computer_use_ootb",
    "homepage": "",
    "meta": {
@@ -1321,6 +1370,7 @@ window.SITE_PAGE_DATA = {
     "en": "Agentic Design Patterns",
     "zh": "Agentic 設計模式整理,把常見的 agent 架構抽象成可複用的模式。"
    },
+   "search": "",
    "url": "https://github.com/Mathews-Tom/Agentic-Design-Patterns",
    "homepage": "",
    "meta": {
@@ -1349,6 +1399,7 @@ window.SITE_PAGE_DATA = {
     "en": "OctoTools: An agentic framework with extensible tools for complex reasoning",
     "zh": "可擴充工具的 agentic 框架,專攻需要多步驟工具調用的複雜推理。"
    },
+   "search": "agentic-framework agents complex-reasoning large-language-models llms tool-augmented",
    "url": "https://github.com/octotools/octotools",
    "homepage": "https://octotools.github.io/",
    "meta": {
@@ -1377,6 +1428,7 @@ window.SITE_PAGE_DATA = {
     "en": "AgentSociety 2 is a modern, LLM-native agent simulation platform designed for social science research and experimental design. It provides a flexible framework for creating and managing intelligent agents in simulated environments.",
     "zh": "LLM 原生的社會模擬平台,用大量 agent 做社會科學研究與實驗設計。"
    },
+   "search": "agent agent-based-modeling agentsociety2 ai-assistants ai-for-science ai-social-scientist harness-engineering multi-agents simulation social-simulation",
    "url": "https://github.com/tsinghua-fib-lab/AgentSociety",
    "homepage": "https://agentsociety2.fiblab.net",
    "meta": {
@@ -1405,6 +1457,7 @@ window.SITE_PAGE_DATA = {
     "en": "Low code tool to rapidly build and coordinate multi-agent teams",
     "zh": "低程式碼工具,快速組出多 agent 團隊並協調它們分工。"
    },
+   "search": "agent-based-framework agent-oriented-programming agentic agentic-agi ai ai-tools chat chatbot gpt gpt-35-turbo gpt-4 gpt-4o langchain-python langgraph llm-agent llm-framework llms low-code no-code open-source",
    "url": "https://github.com/StreetLamb/tribe",
    "homepage": "",
    "meta": {
@@ -1433,6 +1486,7 @@ window.SITE_PAGE_DATA = {
     "en": "Academic Survey Paper Generation.",
     "zh": "自動生成學術綜述論文,從文獻搜尋到成稿一條龍。"
    },
+   "search": "ai4research automated-survey-generation autosurvey deep-research large-language-models literature-search literature-synthesis llm nlp",
    "url": "https://github.com/IAAR-Shanghai/SurveyX",
    "homepage": "http://www.surveyx.cn",
    "meta": {
@@ -1458,6 +1512,7 @@ window.SITE_PAGE_DATA = {
     "en": "open-source framework for creating and managing simulations populated with AI-powered agents. It provides an intuitive platform for designing complex, interactive environments where agents can act, learn, and evolve.",
     "zh": "開源的 AI agent 模擬框架,用來設計複雜的互動環境並觀察 agent 行為。"
    },
+   "search": "",
    "url": "https://github.com/Thytu/Agentarium",
    "homepage": "",
    "meta": {
@@ -1486,6 +1541,7 @@ window.SITE_PAGE_DATA = {
     "en": "An open-source framework for collaborative AI agents, enabling diverse, distributed agents to team up and tackle complex tasks through internet-like connectivity.",
     "zh": "Agent 網際網路:讓分散在各處、能力不同的 agent 像連網一樣互相組隊解決複雜任務。"
    },
+   "search": "agent ai genai ioa llm",
    "url": "https://github.com/OpenBMB/IoA",
    "homepage": "https://openbmb.github.io/IoA/",
    "meta": {
@@ -1514,6 +1570,7 @@ window.SITE_PAGE_DATA = {
     "en": "An agent benchmark with tasks in a simulated software company.",
     "zh": "在模擬軟體公司環境中評估 agent 的基準,任務貼近真實上班場景。"
    },
+   "search": "agent ai ai-benchmark ai-research benchmark llm",
    "url": "https://github.com/TheAgentCompany/TheAgentCompany",
    "homepage": "https://the-agent-company.com",
    "meta": {
@@ -1542,6 +1599,7 @@ window.SITE_PAGE_DATA = {
     "en": "TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools",
     "zh": "哈佛的治療推理 AI agent,能在龐大的工具宇宙中推理用藥與治療方案。"
    },
+   "search": "agents precision-medicine reasoning-agent reasoning-language-models therapeutics tool-use",
    "url": "https://github.com/mims-harvard/TxAgent",
    "homepage": "https://zitniklab.hms.harvard.edu/TxAgent",
    "meta": {
@@ -1570,6 +1628,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open workflow intelligence for discovering, validating, repairing, and generating automation workflows across frameworks — starting with n8n.",
     "zh": "跨框架的自動化工作流智慧庫:發現、驗證、修復與生成工作流,從 n8n 開始。"
    },
+   "search": "ai-agents ai-agents-automation ai-agents-framework automation automation-framework llm n8n n8n-workflow open-source prompt-to-workflow workflow-automation workflow-generator workflow-repair workflow-validation",
    "url": "https://github.com/oxbshw/Open-Workflow-Library",
    "homepage": "",
    "meta": {
@@ -1595,6 +1654,7 @@ window.SITE_PAGE_DATA = {
     "en": "An example of multi-agent orchestration with llama-index",
     "zh": "用 LlamaIndex 做多 agent 編排的範例,示範接待型 agent 怎麼轉手任務。"
    },
+   "search": "",
    "url": "https://github.com/run-llama/multi-agent-concierge",
    "homepage": "",
    "meta": {
@@ -1623,6 +1683,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open detection-rule standard for AI agent security threats — like Sigma, but for AI agents. Executable rules across 10 categories; merged into Microsoft AGT, Cisco AI Defense, MISP, OWASP, FINOS & SigmaHQ. MIT-licensed.",
     "zh": "AI agent 資安威脅的開放偵測規則標準,像 Sigma 但專給 agent 用,涵蓋 10 大類。"
    },
+   "search": "agent-security agent-threat-rules ai-security garak llm-security mcp-security owasp owasp-agentic prompt-injection sigma-rules threat-detection",
    "url": "https://github.com/Agent-Threat-Rule/agent-threat-rules",
    "homepage": "https://agentthreatrule.org",
    "meta": {
@@ -1651,6 +1712,7 @@ window.SITE_PAGE_DATA = {
     "en": "Official repository for \"DynaSaur: Large Language Agents Beyond Predefined Actions\"",
     "zh": "Adobe 研究院的 agent:不侷限於預先定義的動作,能自己寫出新工具來用。"
    },
+   "search": "agents agi ai llm nlp",
    "url": "https://github.com/adobe-research/dynasaur",
    "homepage": "",
    "meta": {
@@ -1679,6 +1741,7 @@ window.SITE_PAGE_DATA = {
     "en": "MedAgentBench: A Realistic Virtual EHR Environment to Benchmark Medical LLM Agents",
     "zh": "在擬真電子病歷環境中評測醫療 LLM agent 的基準。"
    },
+   "search": "agent benchmark medical",
    "url": "https://github.com/stanfordmlgroup/MedAgentBench",
    "homepage": "https://ai.nejm.org/doi/full/10.1056/AIdbp2500144",
    "meta": {
@@ -1707,6 +1770,7 @@ window.SITE_PAGE_DATA = {
     "en": "Run MemGPT-AutoGEN-Local LLM Together",
     "zh": "把 MemGPT、AutoGen 與本機 LLM 串起來跑的範例。"
    },
+   "search": "autogen localllm memgpt",
    "url": "https://github.com/PromptEngineer48/MemGPT-AutoGEN-LLM",
    "homepage": "https://youtu.be/bMWXXPoDnDs",
    "meta": {
@@ -1735,6 +1799,7 @@ window.SITE_PAGE_DATA = {
     "en": "SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning",
     "zh": "透過自舉式推理讓多 agent 系統自我改進,不用額外標註資料。"
    },
+   "search": "finetuning llm multiagent reasoning self-improving",
    "url": "https://github.com/zou-group/sirius",
    "homepage": "https://arxiv.org/pdf/2502.04780",
    "meta": {
@@ -1758,6 +1823,7 @@ window.SITE_PAGE_DATA = {
     "en": "Official source code for the AI Agent Foundations: Codebase Analyst course. The main branch contains the final solution, starter provides the boilerplate for practice, and lesson-X-complete tags track the code at the end of each lesson. Use the 'Issues' tab for any course-related questions.",
     "zh": "AI Agent 基礎課程的官方原始碼,主分支是完成品、starter 分支給你練習。"
    },
+   "search": "",
    "url": "https://github.com/ai-builders-group/build-production-ai-agents",
    "homepage": "",
    "meta": {
@@ -1783,6 +1849,7 @@ window.SITE_PAGE_DATA = {
     "en": "3MDBench: Medical Multimodal Multi-agent Dialogue Benchmark",
     "zh": "醫療多模態多 agent 對話的評測基準。"
    },
+   "search": "",
    "url": "https://github.com/univanxx/3mdbench",
    "homepage": "",
    "meta": {
@@ -1808,6 +1875,7 @@ window.SITE_PAGE_DATA = {
     "en": "地端實現「AI與自動化工作流(n8n)」的實用套件集合。這裡也會時不時分享n8n Agent工作流哦！",
     "zh": "地端實現 AI 與 n8n 自動化工作流的實用套件集合。"
    },
+   "search": "",
    "url": "https://github.com/StevenWang82/local-ai-automation-pakage",
    "homepage": "",
    "meta": {
@@ -1833,6 +1901,7 @@ window.SITE_PAGE_DATA = {
     "en": "Google ADK AI Agent - Gemini API file search as tool.",
     "zh": "用 Google ADK 打造的 agent,把 Gemini 檔案搜尋當工具來用。"
    },
+   "search": "",
    "url": "https://github.com/LiuYuWei/google-adk-gemini-file-search-agent",
    "homepage": "",
    "meta": {
@@ -1858,6 +1927,7 @@ window.SITE_PAGE_DATA = {
     "en": "用 n8n 做招募流程自動化的實驗。",
     "zh": "用 n8n 做招募流程自動化的實驗。"
    },
+   "search": "",
    "url": "https://github.com/EchoChan14/n8n_recruitment",
    "homepage": "",
    "meta": {

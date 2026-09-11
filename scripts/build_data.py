@@ -86,7 +86,10 @@ def build_items(raw, starred_at, zh):
             "language": lang or "—",
             "stars": r["stargazers_count"],
             "forks": r["forks_count"],
-            "topics": (r.get("topics") or [])[:5],
+            # 留完整的 topics。[:5] 的截斷原本是為了卡片上不要塞 18 個 tag,
+            # 但那是**顯示**的考量 —— 拿來限制搜尋就會出現「frontend 明明是這個
+            # repo 的 topic 卻搜不到」(它排第 8 個)。顯示端各自再截。
+            "topics": r.get("topics") or [],
             "url": r["html_url"],
             "homepage": (r.get("homepage") or "").strip(),
             "archived": bool(r.get("archived")),
@@ -139,6 +142,8 @@ def gallery_page(key, en, zh, items):
             "tags": ([i["language"]] if i["language"] != "—" else [])
                     + i["topics"][:3] + (["archived"] if i["archived"] else []),
             "overview": bilingual(i),
+            # 同上:卡片上的 tags 只放 3 個 topic(版面考量),搜尋要吃全部
+            "search": " ".join(i["topics"]),
             "url": i["url"],
             "homepage": i["homepage"],
             "meta": {
@@ -244,6 +249,10 @@ def all_page(items):
             "lang": i["language"],
             "stars": i["stars"],
             "pushed": i["pushed"],
+            # 只給搜尋用的額外文字,畫面上不顯示。少了它就會出現「這個字明明是
+            # 這個 repo 的 topic 卻搜不到」—— 「frontend」就是這種情況。
+            # 空白串接而不是陣列:同樣的內容省掉引號與逗號,整份小十幾 KB。
+            "search": " ".join(i["topics"]),
         } for i in rows],
     }
 

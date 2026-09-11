@@ -18,6 +18,7 @@ window.SITE_PAGE_DATA = {
     "en": "Skills for Real Engineers. Straight from my .agents directory.",
     "zh": "Matt Pocock 自己 .agents 目錄裡實際在用的 agent skills,偏 TypeScript 工程實務。"
    },
+   "search": "",
    "url": "https://github.com/mattpocock/skills",
    "homepage": "https://aihero.dev/skills",
    "meta": {
@@ -46,6 +47,7 @@ window.SITE_PAGE_DATA = {
     "en": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
     "zh": "Agent harness 效能調校系統:技能、直覺、記憶、安全與研究優先的開發流程,支援 Claude Code、Codex、Cursor。"
    },
+   "search": "ai-agents anthropic claude claude-code developer-tools llm mcp productivity",
    "url": "https://github.com/affaan-m/ECC",
    "homepage": "https://ecc.tools",
    "meta": {
@@ -69,6 +71,7 @@ window.SITE_PAGE_DATA = {
     "en": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
     "zh": "把 Karpathy 對 LLM 寫程式常見陷阱的觀察濃縮成一份 CLAUDE.md,直接改善 Claude Code 的行為。"
    },
+   "search": "",
    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
    "homepage": "",
    "meta": {
@@ -97,6 +100,7 @@ window.SITE_PAGE_DATA = {
     "en": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
     "zh": "視覺化工作流自動化平台,400+ 整合、可自架,支援在流程裡直接嵌入 AI 節點與自訂程式碼。"
    },
+   "search": "ai apis automation cli data-flow development integration-framework integrations ipaas low-code low-code-platform mcp mcp-client mcp-server n8n no-code self-hosted typescript workflow workflow-automation",
    "url": "https://github.com/n8n-io/n8n",
    "homepage": "https://n8n.io",
    "meta": {
@@ -123,6 +127,7 @@ window.SITE_PAGE_DATA = {
     "en": "Public repository for Agent Skills",
     "zh": "Anthropic 官方的 Agent Skills 公開倉庫,是寫自己 skill 時最好的參考範本。"
    },
+   "search": "agent-skills",
    "url": "https://github.com/anthropics/skills",
    "homepage": "",
    "meta": {
@@ -151,6 +156,7 @@ window.SITE_PAGE_DATA = {
     "en": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
     "zh": "一站式的 LLM 應用開發平台:視覺化搭建 agentic workflow 與 RAG 流程,可雲端或自架。"
    },
+   "search": "agent agentic-ai agentic-framework agentic-workflow ai automation claude deepseek genai gpt llm low-code mcp nextjs no-code openai python skills workflow",
    "url": "https://github.com/langgenius/dify",
    "homepage": "https://dify.ai",
    "meta": {
@@ -178,6 +184,7 @@ window.SITE_PAGE_DATA = {
     "en": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
     "zh": "收集市面上各家 AI 工具(Cursor、Devin、Manus、Perplexity…)外洩或公開的系統提示詞。"
    },
+   "search": "ai bolt cluely copilot cursor cursorai devin github-copilot lovable open-source perplexity replit system-prompts trae trae-ai trae-ide v0 vscode windsurf windsurf-ai",
    "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
    "homepage": "",
    "meta": {
@@ -206,6 +213,7 @@ window.SITE_PAGE_DATA = {
     "en": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
     "zh": "100+ 個可直接跑的 AI Agent、Agent Skill 與 RAG 應用範例,全部開源免費。"
    },
+   "search": "agents llms python rag",
    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
    "homepage": "https://www.theunwindai.com",
    "meta": {
@@ -234,6 +242,7 @@ window.SITE_PAGE_DATA = {
     "en": "💫 Toolkit to help you get started with Spec-Driven Development",
     "zh": "GitHub 官方的規格驅動開發工具包,先寫清楚規格再讓 AI 寫程式,減少來回修正。"
    },
+   "search": "ai copilot development engineering prd spec spec-driven",
    "url": "https://github.com/github/spec-kit",
    "homepage": "https://github.github.com/spec-kit/",
    "meta": {
@@ -259,6 +268,7 @@ window.SITE_PAGE_DATA = {
     "en": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
     "zh": "把 Garry Tan 本人的 Claude Code 設定整套搬過來:23 個工具分別扮演 CEO、設計師、工程主管、QA 等角色。"
    },
+   "search": "",
    "url": "https://github.com/garrytan/gstack",
    "homepage": "",
    "meta": {
@@ -287,6 +297,7 @@ window.SITE_PAGE_DATA = {
     "en": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
     "zh": "讓 AI agent 像資深工程師一樣懶:最好的程式碼是你根本沒寫的那些,主動勸退過度設計。"
    },
+   "search": "agent-skills ai-agents claude claude-code claude-code-plugin cursor-rules developer-tools llm prompt-engineering yagni",
    "url": "https://github.com/DietrichGebert/ponytail",
    "homepage": "https://ponytail.dev",
    "meta": {
@@ -315,6 +326,7 @@ window.SITE_PAGE_DATA = {
     "en": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
     "zh": "給 AI coding agent 的 UI/UX 設計智庫 skill,內含風格、配色、字體配對與各平台的設計規範。"
    },
+   "search": "ai-skills antigravity claude claude-code codex command-line copilot cursor-ai html5 kiro landing-page mobile-ui qoder react tailwindcss trae ui-design uikit windsurf-ai",
    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
    "homepage": "https://www.uupm.cc/",
    "meta": {
@@ -343,6 +355,7 @@ window.SITE_PAGE_DATA = {
     "en": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
     "zh": "把整個程式庫連同文件、SQL schema、設定檔、PDF 一起變成可查詢的知識圖譜,是 Claude Code 的 /graphify skill。"
    },
+   "search": "ai-agents antigravity ast claude-code code-analysis code-search codex cursor developer-tools gemini graphrag knowledge-graph leiden llm mcp openclaw rag skills tree-sitter",
    "url": "https://github.com/Graphify-Labs/graphify",
    "homepage": "https://www.graphify.com",
    "meta": {
@@ -370,6 +383,7 @@ window.SITE_PAGE_DATA = {
     "en": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
     "zh": "收集各大品牌設計系統的 DESIGN.md,丟一份進專案就能讓 coding agent 產出風格一致的 UI。"
    },
+   "search": "awesome-list design-md design-system design-tokens figma google-stitch landing-page vibe-coding vibe-design vibecoding",
    "url": "https://github.com/VoltAgent/awesome-design-md",
    "homepage": "https://getdesign.md/",
    "meta": {
@@ -398,6 +412,7 @@ window.SITE_PAGE_DATA = {
     "en": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
     "zh": "Google 官方的開源終端機 AI agent,把 Gemini 的能力直接帶進命令列。"
    },
+   "search": "ai ai-agents cli gemini gemini-api mcp-client mcp-server",
    "url": "https://github.com/google-gemini/gemini-cli",
    "homepage": "https://geminicli.com",
    "meta": {
@@ -425,6 +440,7 @@ window.SITE_PAGE_DATA = {
     "en": "Magnificent app which corrects your previous console command.",
     "zh": "打錯指令時輸入 fuck,它會自動猜你想打什麼並幫你改好。"
    },
+   "search": "python shell",
    "url": "https://github.com/nvbn/thefuck",
    "homepage": "",
    "meta": {
@@ -453,6 +469,7 @@ window.SITE_PAGE_DATA = {
     "en": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
     "zh": "本機優先的開源設計外掛,讓你的 coding agent 變成設計引擎,直接產出原型與 landing page。"
    },
+   "search": "agent-skills ai-design byok claude-code-for-design claude-design codex-design coding-agents cursor-design deepseek deepseek-harness design-systems desktop-app dsh dsh-plugin figma-alternative hermes-agent local-first prototyping ui-generator vibe-coding",
    "url": "https://github.com/nexu-io/open-design",
    "homepage": "https://open-design.ai",
    "meta": {
@@ -481,6 +498,7 @@ window.SITE_PAGE_DATA = {
     "en": "Production-grade engineering skills for AI coding agents.",
     "zh": "Addy Osmani 整理的生產級工程 skills,給 AI coding agent 用的最佳實務集。"
    },
+   "search": "agent-skills antigravity claude-code codex cursor skills",
    "url": "https://github.com/addyosmani/agent-skills",
    "homepage": "https://skills.addy.ie",
    "meta": {
@@ -506,6 +524,7 @@ window.SITE_PAGE_DATA = {
     "en": "Model Context Protocol Servers",
     "zh": "MCP 官方的伺服器實作集合,想接檔案系統、資料庫、GitHub 等外部工具給 LLM 用就看這裡。"
    },
+   "search": "",
    "url": "https://github.com/modelcontextprotocol/servers",
    "homepage": "https://modelcontextprotocol.io",
    "meta": {
@@ -534,6 +553,7 @@ window.SITE_PAGE_DATA = {
     "en": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
     "zh": "即時全球情勢儀表板:AI 彙整新聞、地緣政治與基礎設施監控,整合成單一戰情室介面。"
    },
+   "search": "agent ai dashboard geopolitics mcp mcp-server monitoring news opensource osint palantir situation",
    "url": "https://github.com/koala73/worldmonitor",
    "homepage": "https://worldmonitor.app",
    "meta": {
@@ -562,6 +582,7 @@ window.SITE_PAGE_DATA = {
     "en": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
     "zh": "讓 AI 有品味的 skill,阻止它產出無聊、罐頭式的通用內容。"
    },
+   "search": "agent ai claude claude-code codex coding design frontend lowcode nocode skill skills vibecoding",
    "url": "https://github.com/Leonxlnx/taste-skill",
    "homepage": "https://tasteskill.dev",
    "meta": {
@@ -590,6 +611,7 @@ window.SITE_PAGE_DATA = {
     "en": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
     "zh": "把任何程式碼變成可探索、可搜尋、可提問的互動知識圖譜,主打會教人而不是炫技。"
    },
+   "search": "antigravity-skills business-knowledge claude-code claude-skills codebase-analysis codex codex-skills developer-tools-ai-agent gemini-cli-skills karpathy-llm-wiki knowledge-base knowledge-graph memory opencode-skills pi-agent understandcode vibe-coding",
    "url": "https://github.com/Egonex-AI/Understand-Anything",
    "homepage": "https://understand-anything.com/",
    "meta": {
@@ -618,6 +640,7 @@ window.SITE_PAGE_DATA = {
     "en": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
     "zh": "自適應的 Python 爬蟲框架,網站改版後能自己找回目標元素,從單次請求到全站爬取都能處理。"
    },
+   "search": "ai ai-scraping automation crawler crawling crawling-python data data-extraction mcp mcp-server playwright python scraping selectors stealth web-scraper web-scraping web-scraping-python webscraping xpath",
    "url": "https://github.com/D4Vinci/Scrapling",
    "homepage": "https://scrapling.readthedocs.io/en/latest/",
    "meta": {
@@ -646,6 +669,7 @@ window.SITE_PAGE_DATA = {
     "en": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
     "zh": "給 AI agent 一雙看網路的眼睛:一個 CLI 讀寫 Twitter、Reddit、YouTube、GitHub、B 站、小紅書,不用付 API 費用。"
    },
+   "search": "agent-infrastructure ai-agent ai-search automation bilibili claude-code cli cursor free-api llm-tools mcp python reddit-scraper twitter-scraper web-scraper xiaohongshu youtube-transcript",
    "url": "https://github.com/Panniantong/Agent-Reach",
    "homepage": "",
    "meta": {
@@ -674,6 +698,7 @@ window.SITE_PAGE_DATA = {
     "en": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1",
     "zh": "從 0 到 1 手刻一個迷你版 Claude Code,用來搞懂 agent harness 到底怎麼運作。"
    },
+   "search": "agent agent-development ai-agent claude claude-code educational llm python teaching tutorial",
    "url": "https://github.com/shareAI-lab/learn-claude-code",
    "homepage": "https://learn.shareai.run",
    "meta": {
@@ -702,6 +727,7 @@ window.SITE_PAGE_DATA = {
     "en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
     "zh": "Claude Skills 的精選清單,收錄社群做出來的各種 skill、資源與工具。"
    },
+   "search": "agent-skills ai-agents antigravity automation claude claude-code codex composio cursor developer-tools gemini-cli mcp openai-codex rube saas skill workflow-automation",
    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
    "homepage": "",
    "meta": {
@@ -730,6 +756,7 @@ window.SITE_PAGE_DATA = {
     "en": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
     "zh": "在送進 LLM 之前先壓縮工具輸出、日誌與 RAG 片段,JSON 可省 60–95% token 而答案不變。"
    },
+   "search": "agent ai anthropic claude-code compression context-engineering context-window cursor fastapi langchain llm mcp openai prompt-engineering proxy python rag token-optimization tokens typescript",
    "url": "https://github.com/headroomlabs-ai/headroom",
    "homepage": "https://docs.headroomlabs.ai/docs",
    "meta": {
@@ -758,6 +785,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source AI job search: scan job portals, evaluate listings into a structured A-H report with a global 1-5 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
     "zh": "開源的 AI 求職流程:掃職缺、評分成 A–H 報告、客製履歷、追蹤投遞進度,全部在本機跑。"
    },
+   "search": "ai ai-agent anthropic ats automation beginner-friendly career careerops claude claude-code cli first-timers-only golang good-first-issue interview-prep job-application job-hunting job-search open-source resume",
    "url": "https://github.com/career-ops-hq/career-ops",
    "homepage": "https://career-ops.org",
    "meta": {
@@ -783,6 +811,7 @@ window.SITE_PAGE_DATA = {
     "en": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
     "zh": "預先建好的程式碼知識圖譜,程式一改就自動同步,讓各家 coding agent 少用 token 也少走冤枉路。"
    },
+   "search": "",
    "url": "https://github.com/colbymchenry/codegraph",
    "homepage": "https://colbymchenry.github.io/codegraph/",
    "meta": {
@@ -808,6 +837,7 @@ window.SITE_PAGE_DATA = {
     "en": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
     "zh": "自主寫程式的 agent,可以當 SDK、IDE 擴充或 CLI 助理三種型態使用。"
    },
+   "search": "",
    "url": "https://github.com/cline/cline",
    "homepage": "https://cline.bot",
    "meta": {
@@ -836,6 +866,7 @@ window.SITE_PAGE_DATA = {
     "en": "Spec-driven development (SDD) for AI coding assistants.",
     "zh": "給 AI coding assistant 的規格驅動開發流程,先對齊規格再動手寫。"
    },
+   "search": "ai context-engineering engineering planning prd sdd sdlc spec spec-driven-development specification",
    "url": "https://github.com/Fission-AI/OpenSpec",
    "homepage": "https://openspec.dev/",
    "meta": {
@@ -864,6 +895,7 @@ window.SITE_PAGE_DATA = {
     "en": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
     "zh": "把最新版的套件文件即時餵給 LLM 與 AI 編輯器,解決模型記憶裡的 API 已經過時的問題。"
    },
+   "search": "llm mcp mcp-server vibe-coding",
    "url": "https://github.com/upstash/context7",
    "homepage": "https://context7.com",
    "meta": {
@@ -892,6 +924,7 @@ window.SITE_PAGE_DATA = {
     "en": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
     "zh": "全世界第一套開源的 agentic 影片製作系統,12 條生產管線、700+ skill,把 coding agent 變成剪輯工作室。"
    },
+   "search": "agent agentic-ai ai claude copilot cursor elevenlabs ffmpeg flux image-generation open-source openai python remotion stable-diffusion text-to-speech text-to-video video-generation video-production",
    "url": "https://github.com/calesthio/OpenMontage",
    "homepage": "https://www.openmontage.video/",
    "meta": {
@@ -917,6 +950,7 @@ window.SITE_PAGE_DATA = {
     "en": "Breakthrough Method for Agile Ai Driven Development",
     "zh": "把敏捷開發流程拆成一組 AI agent 角色(PM、架構師、開發、QA),用方法論驅動 AI 寫專案。"
    },
+   "search": "",
    "url": "https://github.com/bmad-code-org/BMAD-METHOD",
    "homepage": "",
    "meta": {
@@ -945,6 +979,7 @@ window.SITE_PAGE_DATA = {
     "en": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
     "zh": "給 Claude Code 的學術研究 skill 組:研究 → 撰寫 → 審閱 → 修訂 → 定稿的完整流程。"
    },
+   "search": "academic-pipeline academic-writing ai-research claude claude-code literature-review peer-review prompt-engineering",
    "url": "https://github.com/Imbad0202/academic-research-skills",
    "homepage": "https://buymeacoffee.com/crucify020v",
    "meta": {
@@ -973,6 +1008,7 @@ window.SITE_PAGE_DATA = {
     "en": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 2,115+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
     "zh": "本機的 agent 控制平面,內建 2115+ 個 agentic skill 供 agent 自己發現、挑選與驗證技術棧。"
    },
+   "search": "agent-skills agentic-skills ai-agent-skills ai-agents ai-coding ai-workflows antigravity antigravity-skills claude-code claude-code-skills codex-cli codex-skills cursor cursor-skills developer-tools gemini-cli gemini-skills kiro mcp skill-library",
    "url": "https://github.com/sickn33/agentic-awesome-skills",
    "homepage": "https://sickn33.github.io/agentic-awesome-skills/",
    "meta": {
@@ -1001,6 +1037,7 @@ window.SITE_PAGE_DATA = {
     "en": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
     "zh": "把任何 AI agent 變成科學研究員:165 個驗證過的科學 skill 加 100+ 科學資料庫,19 萬名科學家在用。"
    },
+   "search": "agent-skills ai-scientist bioinformatics chemoinformatics claude claude-skills claudecode clinical-research computational-biology data-analysis drug-discovery genomics materials-science metabolomics proteomics scientific-computing scientific-visualization",
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "homepage": "https://arxiv.org/abs/2609.00065",
    "meta": {
@@ -1026,6 +1063,7 @@ window.SITE_PAGE_DATA = {
     "en": "Browser automation CLI for AI agents",
     "zh": "Vercel 出的瀏覽器自動化 CLI,專門給 AI agent 用,Rust 寫的所以很快。"
    },
+   "search": "",
    "url": "https://github.com/vercel-labs/agent-browser",
    "homepage": "https://agent-browser.dev",
    "meta": {
@@ -1054,6 +1092,7 @@ window.SITE_PAGE_DATA = {
     "en": "📄  Configuration files that enhance Cursor AI editor experience with custom rules and behaviors",
     "zh": "Cursor 編輯器的 .cursorrules 設定檔精選,依技術棧分類,直接抄一份進專案。"
    },
+   "search": "awesome awesome-list cursor cursor-ai-editor cursorrules",
    "url": "https://github.com/PatrickJS/awesome-cursorrules",
    "homepage": "https://github.com/PatrickJS/awesome-cursorrules",
    "meta": {
@@ -1079,6 +1118,7 @@ window.SITE_PAGE_DATA = {
     "en": "Skills for Designers and Engineers.",
     "zh": "給設計師與工程師的 agent skills,偏互動細節與動效品味。"
    },
+   "search": "",
    "url": "https://github.com/emilkowalski/skills",
    "homepage": "https://emilkowal.ski/skill",
    "meta": {
@@ -1107,6 +1147,7 @@ window.SITE_PAGE_DATA = {
     "en": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
     "zh": "38 種編輯風格的圖表型別,純 HTML + SVG 自包含,拒絕陰影與罐頭 Mermaid 風。"
    },
+   "search": "agent-skills claude-code codex data-visualization diagrams drawio mermaid svg",
    "url": "https://github.com/cathrynlavery/diagram-design",
    "homepage": "https://cathrynlavery.github.io/diagram-design/",
    "meta": {
@@ -1135,6 +1176,7 @@ window.SITE_PAGE_DATA = {
     "en": "👾 Fast and simple video download library and CLI tool written in Go",
     "zh": "Go 寫的影片下載函式庫與 CLI,支援 B 站、YouTube 等多站,快且簡單。"
    },
+   "search": "bilibili crawler download downloader go golang iqiyi qq scraper tumblr video youku youtube",
    "url": "https://github.com/iawia002/lux",
    "homepage": "",
    "meta": {
@@ -1160,6 +1202,7 @@ window.SITE_PAGE_DATA = {
     "en": "Vercel's official collection of agent skills",
     "zh": "Vercel 官方的 agent skills 集合,偏前端與部署實務。"
    },
+   "search": "",
    "url": "https://github.com/vercel-labs/agent-skills",
    "homepage": "https://skills.sh/vercel-labs/agent-skills",
    "meta": {
@@ -1188,6 +1231,7 @@ window.SITE_PAGE_DATA = {
     "en": "Google Workspace CLI — one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills.",
     "zh": "Google Workspace 官方 CLI:一個指令操作 Drive、Gmail、日曆、試算表、文件,內含給 AI agent 的 skill。"
    },
+   "search": "agent-skills ai-agent automation cli discovery-api gemini-cli-extension google-admin google-api google-calendar google-chat google-docs google-drive google-sheets google-workspace oauth2 rust",
    "url": "https://github.com/googleworkspace/cli",
    "homepage": "https://developers.google.com/workspace",
    "meta": {
@@ -1215,6 +1259,7 @@ window.SITE_PAGE_DATA = {
     "en": "A list of AI autonomous agents",
     "zh": "自主 AI agent 的清單,把市面上各種 agent 專案分類整理。"
    },
+   "search": "agent ai artificial-intelligence autogpt autonomous-agents awesome babyagi copilot gpt gpt-4 gpt-engineer openai python",
    "url": "https://github.com/e2b-dev/awesome-ai-agents",
    "homepage": "https://docs.e2b.dev/?utm_source=github&utm_medium=referral&utm_campaign=repo_website&utm_content=awesome-ai-agents",
    "meta": {
@@ -1243,6 +1288,7 @@ window.SITE_PAGE_DATA = {
     "en": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
     "zh": "阻止 coding agent 把答案埋在一大段廢話裡的 skill,輸出對注意力不足者友善。"
    },
+   "search": "adhd claude- claude-code-plugin claude-skills developer-tools productivity",
    "url": "https://github.com/ayghri/i-have-adhd",
    "homepage": "",
    "meta": {
@@ -1268,6 +1314,7 @@ window.SITE_PAGE_DATA = {
     "en": "🔥 Clone and recreate any website as a modern React app in seconds",
     "zh": "幾秒內把任何網站複製重建成一個現代 React app。"
    },
+   "search": "",
    "url": "https://github.com/firecrawl/open-lovable",
    "homepage": "",
    "meta": {
@@ -1296,6 +1343,7 @@ window.SITE_PAGE_DATA = {
     "en": "📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.",
     "zh": "把整個 repo 打包成一個 AI 好讀的檔案,要把程式庫餵給 LLM 時很實用。"
    },
+   "search": "ai anthropic artificial-intelligence chatbot chatgpt claude deepseek developer-tools gemini genai generative-ai gpt javascript language-model llama llm mcp nodejs openai typescript",
    "url": "https://github.com/yamadashy/repomix",
    "homepage": "https://repomix.com",
    "meta": {
@@ -1324,6 +1372,7 @@ window.SITE_PAGE_DATA = {
     "en": "An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.",
     "zh": "AI 驅動的任務管理系統,可以直接塞進 Cursor、Windsurf、Roo 等編輯器裡用。"
    },
+   "search": "ai cursor cursor-ai cursorai lovable lovable-dev roocode task-manager tasks tasks-list windsurf windsurf-ai",
    "url": "https://github.com/eyaltoledano/claude-task-master",
    "homepage": "https://tryhamster.com",
    "meta": {
@@ -1352,6 +1401,7 @@ window.SITE_PAGE_DATA = {
     "en": "Get 10X more out of Claude Code, Codex or any coding agent",
     "zh": "用看板管理多個 coding agent 的任務,讓 Claude Code、Codex 平行跑而不打架。"
    },
+   "search": "agent ai-agents kanban management task-manager",
    "url": "https://github.com/BloopAI/vibe-kanban",
    "homepage": "https://www.vibekanban.com/",
    "meta": {
@@ -1380,6 +1430,7 @@ window.SITE_PAGE_DATA = {
     "en": "A Claude Code plugin that shows what's happening - context usage, active tools, running agents, and todo progress",
     "zh": "Claude Code 的狀態列外掛,顯示脈絡用量、正在跑的工具與 agent、待辦進度。"
    },
+   "search": "anthropic claude claude-code cli plugin statusline typescript",
    "url": "https://github.com/jarrodwatts/claude-hud",
    "homepage": "",
    "meta": {
@@ -1408,6 +1459,7 @@ window.SITE_PAGE_DATA = {
     "en": "Community plugin to control Blender 3D with any LLM of your choice",
     "zh": "用任何 LLM 操控 Blender 3D 的社群外掛,靠 MCP 把建模指令交給 AI。"
    },
+   "search": "3d-modeling ai blender blender-addon claude generative-ai llm mcp model-context-protocol python",
    "url": "https://github.com/ahujasid/blender-mcp",
    "homepage": "https://mcp-for-blender.com/",
    "meta": {
@@ -1436,6 +1488,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems.",
     "zh": "開源的 AI 編排框架,用模組化管線與 agent 工作流打造可上線的 LLM 應用。"
    },
+   "search": "agent-framework agentic-ai agentic-rag agents ai ai-agents context-engineering framework genai generative-ai information-retrieval large-language-models llm mcp multi-agent orchestration python rag retrieval-augmented-generation semantic-search",
    "url": "https://github.com/deepset-ai/haystack",
    "homepage": "https://haystack.deepset.ai",
    "meta": {
@@ -1464,6 +1517,7 @@ window.SITE_PAGE_DATA = {
     "en": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
     "zh": "380 個 Claude Code skill、30+ agent、70+ 自訂指令的大合輯,也支援 Codex、Gemini CLI、Cursor。"
    },
+   "search": "agent-plugins agent-skills agentic-ai ai-coding-agent anthropic-claude claude-ai claude-code claude-code-plugins claude-code-skills claude-skills codex-skills coding-agent-plugins cursor-skills developer-tools gemini-cli-skills openai-codex openclaw openclaw-plugins openclaw-skills prompt-engineering",
    "url": "https://github.com/alirezarezvani/claude-skills",
    "homepage": "https://alirezarezvani.medium.com/",
    "meta": {
@@ -1492,6 +1546,7 @@ window.SITE_PAGE_DATA = {
     "en": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
     "zh": "把 Claude Code 變成一間遊戲工作室:49 個 agent、72 個 skill,照真實工作室的分工協作。"
    },
+   "search": "ai-agents ai-assisted-development anthropic claude claude-code game-design game-development gamedev godot indie-game-dev unity unreal-engine",
    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
    "homepage": "",
    "meta": {
@@ -1520,6 +1575,7 @@ window.SITE_PAGE_DATA = {
     "en": "50+ tutorials and implementations for Generative AI Agent techniques, from basic conversational bots to complex multi-agent systems.",
     "zh": "50+ 個生成式 AI Agent 技巧的教學與實作,從基本聊天機器人到複雜多 agent 系統。"
    },
+   "search": "agentic-ai agents ai ai-agents autonomous-agents genai generative-ai langchain langgraph llm llms machine-learning mcp multi-agent multi-agent-systems openai python rag tutorials",
    "url": "https://github.com/NirDiamant/GenAI_Agents",
    "homepage": "https://diamant-ai.com",
    "meta": {
@@ -1545,6 +1601,7 @@ window.SITE_PAGE_DATA = {
     "en": "A configuration framework that enhances Claude Code with specialized commands, cognitive personas, and development methodologies.",
     "zh": "強化 Claude Code 的設定框架,加上專門指令、認知角色與開發方法論。"
    },
+   "search": "",
    "url": "https://github.com/SuperClaude-Org/SuperClaude_Framework",
    "homepage": "https://superclaude.netlify.app/",
    "meta": {
@@ -1573,6 +1630,7 @@ window.SITE_PAGE_DATA = {
     "en": "A MCP for Claude Desktop / Claude Code / Windsurf / Cursor to build n8n workflows for you",
     "zh": "讓 Claude Desktop / Cursor 等工具能直接幫你搭 n8n 工作流的 MCP server。"
    },
+   "search": "mcp mcp-server n8n workflows",
    "url": "https://github.com/czlonkowski/n8n-mcp",
    "homepage": "https://www.n8n-mcp.com/",
    "meta": {
@@ -1601,6 +1659,7 @@ window.SITE_PAGE_DATA = {
     "en": "A privacy-first app that strips AI watermarks from content you own.",
     "zh": "隱私優先的小工具,把你自己內容上的 AI 浮水印(含 C2PA 標記)清掉。"
    },
+   "search": "agent-skill ai anthropic c2pa chatgpt claude gemini openai provenance synthid watermark watermark-detection watermark-tools watermarking watermarks",
    "url": "https://github.com/guillaumemeyer/watermarks-remover",
    "homepage": "https://github.com/guillaumemeyer/watermarks-remover",
    "meta": {
@@ -1629,6 +1688,7 @@ window.SITE_PAGE_DATA = {
     "en": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
     "zh": "macOS 選單列小工具,不用登入就能看 OpenAI Codex 與 Claude Code 的用量統計。"
    },
+   "search": "ai claude-code codex swift",
    "url": "https://github.com/steipete/CodexBar",
    "homepage": "https://codex.bar",
    "meta": {
@@ -1657,6 +1717,7 @@ window.SITE_PAGE_DATA = {
     "en": "Agent Skills for Google products and technologies",
     "zh": "Google 官方的 Agent Skills,涵蓋 Google 各項產品與雲端技術。"
    },
+   "search": "google googlecloud skills",
    "url": "https://github.com/google/skills",
    "homepage": "",
    "meta": {
@@ -1682,6 +1743,7 @@ window.SITE_PAGE_DATA = {
     "en": "🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.",
     "zh": "微軟的互動式 AI 資料分析工具,用拖拉加自然語言就能連接、探索與視覺化資料。"
    },
+   "search": "",
    "url": "https://github.com/microsoft/data-formulator",
    "homepage": "https://data-formulator.ai/",
    "meta": {
@@ -1707,6 +1769,7 @@ window.SITE_PAGE_DATA = {
     "en": "Let your Claude able to think",
     "zh": "一組讓 Claude 展開思考過程的提示詞,把推理步驟攤開來看。"
    },
+   "search": "",
    "url": "https://github.com/richards199999/Thinking-Claude",
    "homepage": "",
    "meta": {
@@ -1732,6 +1795,7 @@ window.SITE_PAGE_DATA = {
     "en": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
     "zh": "讓 Claude 看影片的 skill:下載、抽影格、轉逐字稿,全部餵給模型。"
    },
+   "search": "",
    "url": "https://github.com/bradautomates/claude-video",
    "homepage": "",
    "meta": {
@@ -1759,6 +1823,7 @@ window.SITE_PAGE_DATA = {
     "en": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
     "zh": "在文字空間最佳化 agent 技能:靠軌跡回饋自動改寫 skill,不用動模型權重。"
    },
+   "search": "agent-skills self-evolving-agents",
    "url": "https://github.com/microsoft/SkillOpt",
    "homepage": "https://aka.ms/skillopt",
    "meta": {
@@ -1787,6 +1852,7 @@ window.SITE_PAGE_DATA = {
     "en": "Free, simple, fast interactive diagrams for any GitHub repository",
     "zh": "把任何 GitHub repo 一鍵變成互動式架構圖,快速看懂一個專案的結構。"
    },
+   "search": "ai code github system-design",
    "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
    "homepage": "https://gitdiagram.com",
    "meta": {
@@ -1815,6 +1881,7 @@ window.SITE_PAGE_DATA = {
     "en": "Replace 'hub' with 'ingest' in any GitHub URL to get a prompt-friendly extract of a codebase",
     "zh": "把 GitHub 網址的 hub 改成 ingest,就能拿到一份適合貼給 LLM 的程式庫摘要。"
    },
+   "search": "ai code developer-tool ingestion",
    "url": "https://github.com/coderamp-labs/gitingest",
    "homepage": "https://gitingest.com",
    "meta": {
@@ -1838,6 +1905,7 @@ window.SITE_PAGE_DATA = {
     "en": "Official AI skills for GSAP. These skills teach AI coding agents how to correctly use GSAP (GreenSock Animation Platform), including best practices, common animation patterns, and plugin usage.",
     "zh": "GSAP 官方的 AI skills,教 coding agent 正確使用 GSAP 動畫的最佳實務與常見模式。"
    },
+   "search": "",
    "url": "https://github.com/greensock/gsap-skills",
    "homepage": "",
    "meta": {
@@ -1865,6 +1933,7 @@ window.SITE_PAGE_DATA = {
     "en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows — particularly Claude Code",
     "zh": "Claude Skills 的精選清單,特別針對 Claude Code 的客製化工作流。"
    },
+   "search": "agentic-coding anthropic awesome awesome-list awesome-lists claude claude-ai claude-code claude-desktop claude-skills claudeskills",
    "url": "https://github.com/travisvn/awesome-claude-skills",
    "homepage": "",
    "meta": {
@@ -1893,6 +1962,7 @@ window.SITE_PAGE_DATA = {
     "en": "Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection",
     "zh": "把文件網站、GitHub repo 與 PDF 自動轉成 Claude skill,並偵測技能之間的衝突。"
    },
+   "search": "ai-tools ast-parser automation claude-ai claude-skills code-analysis conflict-detection documentation documentation-generator github github-scraper mcp mcp-server multi-source ocr pdf python web-scraping",
    "url": "https://github.com/yusufkaraaslan/Skill_Seekers",
    "homepage": "https://skillseekersweb.com/",
    "meta": {
@@ -1921,6 +1991,7 @@ window.SITE_PAGE_DATA = {
     "en": "A framework for building realtime voice AI agents 🤖🎙️📹",
     "zh": "打造即時語音 AI agent 的框架,處理串流、打斷、轉場等即時對話難題。"
    },
+   "search": "agents ai openai real-time video voice",
    "url": "https://github.com/livekit/agents",
    "homepage": "https://docs.livekit.io/agents",
    "meta": {
@@ -1949,6 +2020,7 @@ window.SITE_PAGE_DATA = {
     "en": "The largest Open-Source UI Library! Community-made and free to use. Made with either CSS or Tailwind.",
     "zh": "最大的開源 UI 元件庫,社群貢獻的 CSS 與 Tailwind 元件,免費可商用。"
    },
+   "search": "community css tailwind ui",
    "url": "https://github.com/uiverse-io/galaxy",
    "homepage": "https://Uiverse.io",
    "meta": {
@@ -1977,6 +2049,7 @@ window.SITE_PAGE_DATA = {
     "en": "LangGPT: Empowering everyone to become a prompt expert! 🚀  📌 结构化提示词（Structured Prompt）提出者 📌 元提示词（Meta-Prompt）发起者   📌 最流行的提示词落地范式 | Language of GPT  The pioneering framework for structured & meta-prompt design 10,000+ ⭐ | Battle-tested by thousands of users worldwide  Created by 云中江树",
     "zh": "結構化提示詞(Structured Prompt)的提出者,把寫 prompt 變成有章法的框架。"
    },
+   "search": "chatgpt claude deeplearning doubao framework gemini gpt-4 gpt3-prompts langgpt meta-prompting prompt prompt-engineering qwen structured-prompts",
    "url": "https://github.com/langgptai/LangGPT",
    "homepage": "https://github.com/langgptai",
    "meta": {
@@ -2005,6 +2078,7 @@ window.SITE_PAGE_DATA = {
     "en": "67 Specialized Skills for Full-Stack Developers. Transform Claude Code into your expert pair programmer.",
     "zh": "給全端開發者的 67 個專門 skill,把 Claude Code 變成懂你技術棧的結對夥伴。"
    },
+   "search": "ai-agents claude claude-code claude-marketplace claude-skills",
    "url": "https://github.com/Jeffallan/claude-skills",
    "homepage": "",
    "meta": {
@@ -2032,6 +2106,7 @@ window.SITE_PAGE_DATA = {
     "en": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
     "zh": "中文手繪風插圖生成 skill:16:9 白底、少量紅橙藍批註,適合替文章配圖。"
    },
+   "search": "ai-agent chinese codex-skill handdrawn illustration image-generation xiaohei",
    "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
    "homepage": "https://www.ianneo.xyz",
    "meta": {
@@ -2060,6 +2135,7 @@ window.SITE_PAGE_DATA = {
     "en": "ValueCell is a community-driven, multi-agent platform for financial applications.",
     "zh": "社群驅動的金融多 agent 平台,股票與加密貨幣的分析工作流。"
    },
+   "search": "agentic-ai agents ai assitant crypto equity finance investment mcp python react stock-market",
    "url": "https://github.com/ValueCell-ai/valuecell",
    "homepage": "https://valuecell.ai",
    "meta": {
@@ -2086,6 +2162,7 @@ window.SITE_PAGE_DATA = {
     "en": "Copilot Chat extension for VS Code",
     "zh": "VS Code 的 GitHub Copilot Chat 擴充套件原始碼。"
    },
+   "search": "",
    "url": "https://github.com/microsoft/vscode-copilot-chat",
    "homepage": "https://code.visualstudio.com",
    "meta": {
@@ -2114,6 +2191,7 @@ window.SITE_PAGE_DATA = {
     "en": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills（Distill high-value content from books, long-form videos, podcasts, and more into executable Agent Skills）",
     "zh": "把書、長影片、播客這類高價值內容蒸餾成可執行的 Agent Skill。"
    },
+   "search": "agent-workflows ai-skills automation book-to-skill knowledge-distillation prompt-engineering skill-generator templates",
    "url": "https://github.com/kangarooking/cangjie-skill",
    "homepage": "",
    "meta": {
@@ -2139,6 +2217,7 @@ window.SITE_PAGE_DATA = {
     "en": "A suite of plugins for legal workflows",
     "zh": "Anthropic 官方的法務工作流外掛組,合約審閱、盡職調查等場景。"
    },
+   "search": "",
    "url": "https://github.com/anthropics/claude-for-legal",
    "homepage": "",
    "meta": {
@@ -2167,6 +2246,7 @@ window.SITE_PAGE_DATA = {
     "en": "An open-source and free self-hosted SSL certificates ACME tool, automates the full-cycle of issuance, deployment, renewal, and monitoring visually. 完全开源免费的自托管 SSL 证书 ACME 工具，申请、部署、续期、监控全流程自动化可视化，支持各大主流云厂商。",
     "zh": "自架的免費 SSL 憑證管理工具,申請、部署、續期、監控全流程視覺化自動化。"
    },
+   "search": "acme acme-client automation certbot certificate certificate-management certificate-manager certificates devops google-trust-services https https-certificate lego letsencrypt self-hosted ssl ssl-cert ssl-certificate ssl-certificates zerossl",
    "url": "https://github.com/certimate-go/certimate",
    "homepage": "https://docs.certimate.me",
    "meta": {
@@ -2195,6 +2275,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open Source Deep Research Alternative to Reason and Search on Private Data. Written in Python.",
     "zh": "開源版的 Deep Research,能在你自己的私有資料上做多輪推理與搜尋。"
    },
+   "search": "agent agentic-rag claude deep-research deepseek deepseek-r1 grok grok3 llama4 llm milvus openai qwen3 rag reasoning-models vector-database zilliz",
    "url": "https://github.com/zilliztech/deep-searcher",
    "homepage": "https://zilliztech.github.io/deep-searcher/",
    "meta": {
@@ -2220,6 +2301,7 @@ window.SITE_PAGE_DATA = {
     "en": "Anthropic 官方的 Claude Agent SDK Python 版,用來自己蓋 agent 應用。",
     "zh": "Anthropic 官方的 Claude Agent SDK Python 版,用來自己蓋 agent 應用。"
    },
+   "search": "",
    "url": "https://github.com/anthropics/claude-agent-sdk-python",
    "homepage": "",
    "meta": {
@@ -2248,6 +2330,7 @@ window.SITE_PAGE_DATA = {
     "en": "22 prompt engineering techniques with hands-on Jupyter Notebook tutorials, from fundamental concepts to advanced strategies for leveraging LLMs.",
     "zh": "22 種提示工程技巧的實作教學,每一招都有可跑的 Jupyter Notebook。"
    },
+   "search": "ai chain-of-thought chatgpt claude few-shot-learning genai generative-ai gpt in-context-learning langchain llm llms machine-learning openai prompt-engineering prompting python tutorials",
    "url": "https://github.com/NirDiamant/Prompt_Engineering",
    "homepage": "https://diamant-ai.com",
    "meta": {
@@ -2273,6 +2356,7 @@ window.SITE_PAGE_DATA = {
     "en": "Use this skill to enable Claude Code to communicate directly with your Google NotebookLM notebooks. Query your uploaded documents and get source-grounded, citation-backed answers from Gemini. Features browser automation, library management, persistent authentication, and answers exclusively from your own knowledge base.",
     "zh": "讓 Claude Code 直接跟你的 Google NotebookLM 對話,查詢已上傳文件並拿到附出處的答案。"
    },
+   "search": "",
    "url": "https://github.com/PleasePrompto/notebooklm-skill",
    "homepage": "",
    "meta": {
@@ -2301,6 +2385,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source implementation of AlphaEvolve",
     "zh": "DeepMind AlphaEvolve 的開源實作,用演化式搜尋讓 LLM 自己改進程式碼。"
    },
+   "search": "alpha-evolve alphacode alphaevolve coding-agent deepmind deepmind-lab discovery distributed-evolutionary-algorithms evolutionary-algorithms evolutionary-computation genetic-algorithm genetic-algorithms iterative-methods iterative-refinement llm-engineering llm-ensemble llm-inference openevolve optimize",
    "url": "https://github.com/algorithmicsuperintelligence/openevolve",
    "homepage": "",
    "meta": {
@@ -2326,6 +2411,7 @@ window.SITE_PAGE_DATA = {
     "en": "Generate beautiful dark-themed system architecture diagrams as standalone HTML/SVG files. Works as a Claude AI skill.",
     "zh": "產生深色主題的系統架構圖,輸出成自包含的 HTML/SVG 檔,也能當 Claude skill 用。"
    },
+   "search": "",
    "url": "https://github.com/Cocoon-AI/architecture-diagram-generator",
    "homepage": "",
    "meta": {
@@ -2354,6 +2440,7 @@ window.SITE_PAGE_DATA = {
     "en": "The Enterprise-Grade Multi-Agent Orchestration Framework. Website: https://swarms.ai",
     "zh": "企業級的多 agent 編排框架,強調可靠度與生產環境部署。"
    },
+   "search": "agentic-ai agentic-workflow agents ai artificial-intelligence chatgpt claude-code gpt4all huggingface langchain langchain-python machine-learning multi-agent-systems prompt-engineering prompt-toolkit prompting swarms tree-of-thoughts",
    "url": "https://github.com/kyegomez/swarms",
    "homepage": "https://docs.swarms.world",
    "meta": {
@@ -2382,6 +2469,7 @@ window.SITE_PAGE_DATA = {
     "en": "Product Management skills framework built on battle-tested methods for Claude Code, Cowork, Codex, and AI agents.",
     "zh": "產品經理的 skill 框架,把久經驗證的 PM 方法論做成 Claude Code 可執行的技能。"
    },
+   "search": "ai-agents ai-product-management claude-skills pm-frameworks product-management",
    "url": "https://github.com/deanpeters/Product-Manager-Skills",
    "homepage": "",
    "meta": {
@@ -2410,6 +2498,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open device management",
     "zh": "開源的裝置管理平台,用 GitOps 的方式管理大量 macOS、Windows、Linux 與 iOS 裝置。"
    },
+   "search": "binary-authorization configuration-management device-management gitops ios linux macos mdm open-source orchestration osquery patching powershell scripting security software-management telemetry vulnerability-management",
    "url": "https://github.com/fleetdm/fleet",
    "homepage": "https://fleetdm.com",
    "meta": {
@@ -2435,6 +2524,7 @@ window.SITE_PAGE_DATA = {
     "en": "Rapidly build AI apps in Python",
     "zh": "用純 Python 快速蓋 AI 應用介面的框架,不用碰前端。"
    },
+   "search": "",
    "url": "https://github.com/mesop-dev/mesop",
    "homepage": "https://mesop-dev.github.io/mesop/",
    "meta": {
@@ -2464,6 +2554,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source context retrieval layer for AI agents",
     "zh": "開源的 agent 脈絡檢索層,把各種 SaaS 與資料源統一成 agent 查得到的知識。"
    },
+   "search": "agent-infrastructure ai ai-agents ai-infrastructure api context-retrieval data-connectors developer-tools enterprise-data information-retrieval integration llm open-source rag retrieval retrieval-augmented-generation sdk search search-api semantic-search",
    "url": "https://github.com/airweave-ai/airweave",
    "homepage": "https://airweave.ai",
    "meta": {
@@ -2489,6 +2580,7 @@ window.SITE_PAGE_DATA = {
     "en": "Comprehensive Claude Code project configuration example with hooks, skills, agents, commands, and GitHub Actions workflows",
     "zh": "完整的 Claude Code 專案設定範例,hooks、skills、agents、指令與 GitHub Actions 都有。"
    },
+   "search": "",
    "url": "https://github.com/ChrisWiles/claude-code-showcase",
    "homepage": "",
    "meta": {
@@ -2516,6 +2608,7 @@ window.SITE_PAGE_DATA = {
     "en": "A language model programming library.",
     "zh": "把提示詞當函式來寫的語言模型程式庫,自帶版本追蹤與視覺化。"
    },
+   "search": "ai prompt-engineering",
    "url": "https://github.com/MadcowD/ell",
    "homepage": "http://docs.ell.so/",
    "meta": {
@@ -2541,6 +2634,7 @@ window.SITE_PAGE_DATA = {
     "en": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
     "zh": "本機優先的 coding agent 分析工具:session 搜尋、統計與 token 用量,支援 20+ 種 agent。"
    },
+   "search": "",
    "url": "https://github.com/kenn-io/agentsview",
    "homepage": "https://agentsview.io",
    "meta": {
@@ -2569,6 +2663,7 @@ window.SITE_PAGE_DATA = {
     "en": "scrape data  from Google Maps. Extracts data such as the name, address, phone number, website URL, rating,  reviews number, latitude and longitude, reviews,email and more for each place",
     "zh": "Google 地圖資料抓取工具,可取店名、地址、電話、網站、評分與評論。"
    },
+   "search": "agent-skills claude-skills codex-skills distributed-scraper distributed-scraping golang google-maps google-maps-scraping web-scraper web-scraping",
    "url": "https://github.com/gosom/google-maps-scraper",
    "homepage": "",
    "meta": {
@@ -2597,6 +2692,7 @@ window.SITE_PAGE_DATA = {
     "en": "An AI-powered data science team of agents to help you perform common data science tasks 10X faster.",
     "zh": "一組 AI 資料科學家 agent,幫你把常見的資料科學工作做快十倍。"
    },
+   "search": "agents ai ai-engineer ai-engineering copilot data-science data-scientist generative-ai gpt machine-learning ml-engineer ml-engineering openai",
    "url": "https://github.com/business-science/ai-data-science-team",
    "homepage": "",
    "meta": {
@@ -2625,6 +2721,7 @@ window.SITE_PAGE_DATA = {
     "en": "Paste any GitHub URL → interactive architecture map. See how files connect, find what breaks if you change something. No install, no accounts — runs entirely in your browser.",
     "zh": "貼上 GitHub 網址就產生互動式架構圖,看檔案怎麼相連、改一處會影響誰,全在瀏覽器跑。"
    },
+   "search": "architecture browser-based code-analysis codebase-visualization d3js dependency-graph developer-tools github-api single-file visualization",
    "url": "https://github.com/braedonsaunders/codeflow",
    "homepage": "https://codeflow-five.vercel.app",
    "meta": {
@@ -2653,6 +2750,7 @@ window.SITE_PAGE_DATA = {
     "en": "Zotero MCP: Connects your Zotero research library with Claude and other AI assistants via the Model Context Protocol to discuss papers, get summaries, analyze citations, and more.",
     "zh": "透過 MCP 把 Zotero 文獻庫接給 Claude,可以討論論文、要摘要、分析引用。"
    },
+   "search": "claude mcp semantic-search zotero",
    "url": "https://github.com/54yyyu/zotero-mcp",
    "homepage": "https://stevenyuyy.com/zotero-mcp/",
    "meta": {
@@ -2678,6 +2776,7 @@ window.SITE_PAGE_DATA = {
     "en": "Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning",
     "zh": "自動把機器學習論文轉成可執行的程式碼實作。"
    },
+   "search": "",
    "url": "https://github.com/going-doer/Paper2Code",
    "homepage": "",
    "meta": {
@@ -2706,6 +2805,7 @@ window.SITE_PAGE_DATA = {
     "en": "A simple, secure MCP-to-OpenAPI proxy server",
     "zh": "把 MCP server 轉成 OpenAPI 介面的代理伺服器,讓一般 HTTP 客戶端也能用 MCP 工具。"
    },
+   "search": "mcp mcp-server mcp-to-openapi open-webui openapi",
    "url": "https://github.com/open-webui/mcpo",
    "homepage": "https://docs.openwebui.com/features/plugin/tools/openapi-servers/mcp",
    "meta": {
@@ -2731,6 +2831,7 @@ window.SITE_PAGE_DATA = {
     "en": "Task-Aware Agent-driven Prompt Optimization Framework",
     "zh": "微軟的提示詞自動最佳化框架,依任務特性由 agent 驅動迭代改寫 prompt。"
    },
+   "search": "",
    "url": "https://github.com/microsoft/PromptWizard",
    "homepage": "",
    "meta": {
@@ -2756,6 +2857,7 @@ window.SITE_PAGE_DATA = {
     "en": "Google Gen AI Python SDK provides an interface for developers to integrate Google's generative models into their Python applications.",
     "zh": "Google Gen AI 的官方 Python SDK,把 Gemini 等生成模型接進 Python 應用。"
    },
+   "search": "",
    "url": "https://github.com/googleapis/python-genai",
    "homepage": "https://googleapis.github.io/python-genai/",
    "meta": {
@@ -2781,6 +2883,7 @@ window.SITE_PAGE_DATA = {
     "en": "Automated workflows for Claude Code. Features spec-driven development for new features (Requirements → Design → Tasks → Implementation) and streamlined bug fix workflow for quick issue resolution (Report → Analyze → Fix → Verify).",
     "zh": "Claude Code 的自動化工作流:需求 → 設計 → 任務 → 實作的規格驅動開發,另附快速修 bug 流程。"
    },
+   "search": "",
    "url": "https://github.com/Pimzino/claude-code-spec-workflow",
    "homepage": "",
    "meta": {
@@ -2809,6 +2912,7 @@ window.SITE_PAGE_DATA = {
     "en": "Turn approved specs into long-running autonomous implementation. A minimal, adaptable SDD harness with Agent Skills for Claude Code, Codex, Cursor, Copilot, Windsurf, OpenCode, Gemini CLI, and Antigravity.",
     "zh": "把審核過的規格轉成長時間自主實作的 SDD harness,支援 Claude Code、Codex、Cursor 等多家。"
    },
+   "search": "agent-skills claude-code codex cursor gemini-cli github-copilot kiro opencode sdd spec-driven-development steering subagents",
    "url": "https://github.com/gotalab/cc-sdd",
    "homepage": "",
    "meta": {
@@ -2834,6 +2938,7 @@ window.SITE_PAGE_DATA = {
     "en": "HumanLayer 團隊的 agent skills 集合,偏工程流程與人機協作把關。",
     "zh": "HumanLayer 團隊的 agent skills 集合,偏工程流程與人機協作把關。"
    },
+   "search": "",
    "url": "https://github.com/humanlayer/skills",
    "homepage": "",
    "meta": {
@@ -2862,6 +2967,7 @@ window.SITE_PAGE_DATA = {
     "en": "Perforator is a cluster-wide continuous profiling tool designed for large data centers",
     "zh": "Yandex 的叢集級持續效能剖析工具,用 eBPF 在整個資料中心產生火焰圖。"
    },
+   "search": "continuous-profiling ebpf flamegraph performance performance-tools profiling",
    "url": "https://github.com/yandex/perforator",
    "homepage": "https://perforator.tech",
    "meta": {
@@ -2887,6 +2993,7 @@ window.SITE_PAGE_DATA = {
     "en": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
     "zh": "Cloudflare 的資安稽核 skill,分階段掃描並產出可獨立驗證、機器可讀的發現。"
    },
+   "search": "",
    "url": "https://github.com/cloudflare/security-audit-skill",
    "homepage": "",
    "meta": {
@@ -2915,6 +3022,7 @@ window.SITE_PAGE_DATA = {
     "en": "Agent Skills for NVIDIA products — install into Claude Code, Codex, and other coding agents to run Physical AI, robotics, simulation, CUDA, and RAG workflows end to end.",
     "zh": "NVIDIA 產品的 Agent Skills,裝進 Claude Code 或 Codex 就能跑機器人、模擬、CUDA 與 RAG 工作流。"
    },
+   "search": "agent-skills agentic-ai ai-agents claude-code codex coding-agents cuda developer-tools llm omniverse physical-ai rag robotics simulation",
    "url": "https://github.com/NVIDIA/skills",
    "homepage": "https://docs.nvidia.com/skills",
    "meta": {
@@ -2943,6 +3051,7 @@ window.SITE_PAGE_DATA = {
     "en": "World's first AI meeting copilot → The Invisible Companion for Work + Life",
     "zh": "AI 會議副駕:Chrome 擴充,即時轉錄、摘要與後續追蹤。"
    },
+   "search": "ai chrome-extension copilot meetings transcriptions",
    "url": "https://github.com/thepersonalaicompany/amurex",
    "homepage": "https://chromewebstore.google.com/detail/amurex-early-preview/dckidmhhpnfhachdpobgfbjnhfnmddmc",
    "meta": {
@@ -2968,6 +3077,7 @@ window.SITE_PAGE_DATA = {
     "en": "OpenAI Privacy Filter",
     "zh": "OpenAI 的隱私過濾工具,用來在資料進模型前遮蔽個人識別資訊。"
    },
+   "search": "",
    "url": "https://github.com/openai/privacy-filter",
    "homepage": "",
    "meta": {
@@ -2996,6 +3106,7 @@ window.SITE_PAGE_DATA = {
     "en": "The official CLI for Agentic Document Extraction (ADE) by LandingAI — parse documents and extract schema-shaped data from your terminal",
     "zh": "LandingAI 的 agentic 文件抽取官方 CLI,在終端機解析文件並取出結構化欄位。"
    },
+   "search": "agentic-document-extraction cli document-extraction document-parsing ocr pdf",
    "url": "https://github.com/landing-ai/ade-cli",
    "homepage": "https://docs.landing.ai/ade/ade-overview",
    "meta": {
@@ -3019,6 +3130,7 @@ window.SITE_PAGE_DATA = {
     "en": "設計相關的 AI agent skills 集合。",
     "zh": "設計相關的 AI agent skills 集合。"
    },
+   "search": "",
    "url": "https://github.com/elayadesign/ai-design-skills",
    "homepage": "",
    "meta": {
@@ -3047,6 +3159,7 @@ window.SITE_PAGE_DATA = {
     "en": "Aila(AI超元域): The premier AI integration tool for Windows, macOS, and Android. Ask once, get answers from 10+ AIs like ChatGPT, Gemini, Claude3, Copilot, Poe, perplexity and more. Features customizable AI and prompts.",
     "zh": "跨平台的 AI 整合工具,問一次同時得到 ChatGPT、Gemini、Claude、Copilot 等十多家的回答。"
    },
+   "search": "autogpt autogpt-no-paid-api chatgpt chatgpt-app chatgpt-bot chatgpt-plugins chatgpt4 claude claude3 freegpt gemini gpt-5 gpt5 llama2 openai openai-api stable stable-diffusion stable-diffusion-webui",
    "url": "https://github.com/win4r/AISuperDomain",
    "homepage": "https://www.youtube.com/@AIsuperdomain",
    "meta": {
@@ -3075,6 +3188,7 @@ window.SITE_PAGE_DATA = {
     "en": "A conversational Q&A agent configuration system, self-hosted deployment solutions, and a convenient all-in-one application SDK, allowing you to create intelligent Q&A bots for your GitHub repositories",
     "zh": "對話式問答 agent 的設定系統與自架方案,幫你的 GitHub repo 做出智慧問答機器人。"
    },
+   "search": "ai assistant assistant-chat-bots assistants github-apps llm rag react",
    "url": "https://github.com/afx-team/petercat",
    "homepage": "https://petercat.ai",
    "meta": {
@@ -3098,6 +3212,7 @@ window.SITE_PAGE_DATA = {
     "en": "AI agent skill to scan iOS/macOS projects for App Store rejection patterns before submission",
     "zh": "送審前先掃描 iOS/macOS 專案有沒有常見的 App Store 退件地雷。"
    },
+   "search": "",
    "url": "https://github.com/truongduy2611/app-store-preflight-skills",
    "homepage": "",
    "meta": {
@@ -3126,6 +3241,7 @@ window.SITE_PAGE_DATA = {
     "en": "蒸餾李宏毅老師的skill，結合Karpathy的LLM，Fable 5加持 以及 本人親自訪談",
     "zh": "把李宏毅老師的教學風格蒸餾成 skill,結合 Karpathy 的 LLM 觀點與作者親自訪談。"
    },
+   "search": "claude explainability fable5 hung-yi-lee skills",
    "url": "https://github.com/voidful/hung-yi-lee-skill",
    "homepage": "",
    "meta": {
@@ -3152,6 +3268,7 @@ window.SITE_PAGE_DATA = {
     "en": "Will 保哥整理的最佳 GitHub Copilot 設定",
     "zh": "保哥整理的 GitHub Copilot 最佳設定,繁體中文開發者可直接套用。"
    },
+   "search": "github-copilot github-copilot-chat",
    "url": "https://github.com/doggy8088/github-copilot-configs",
    "homepage": "https://www.facebook.com/will.fans/",
    "meta": {
@@ -3177,6 +3294,7 @@ window.SITE_PAGE_DATA = {
     "en": "Google Colab 的官方命令列工具,從終端機管理與執行 notebook。",
     "zh": "Google Colab 的官方命令列工具,從終端機管理與執行 notebook。"
    },
+   "search": "",
    "url": "https://github.com/googlecolab/google-colab-cli",
    "homepage": "",
    "meta": {
@@ -3204,6 +3322,7 @@ window.SITE_PAGE_DATA = {
     "en": "归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。",
     "zh": "歸藏的材質插畫 skill:生成帶字解釋圖、美化圖表與參考配圖。"
    },
+   "search": "agent chart-visualization chinese claude-code codex data-visualization explainer illustration image-generation material-illustration skill social-media",
    "url": "https://github.com/op7418/guizang-material-illustration",
    "homepage": "",
    "meta": {
@@ -3232,6 +3351,7 @@ window.SITE_PAGE_DATA = {
     "en": "ELI5 — A Claude Code skill that explains anything to anyone: kids, managers, engineers, parents. Adapts tone, vocabulary, and analogies to match the audience.",
     "zh": "Claude Code 的 skill,把任何東西解釋給任何人聽,自動調整語氣、用詞與比喻對象。"
    },
+   "search": "ai-skill anthropic claude claude-code claude-skill education eli5 explain-like-im-5 llm prompt-engineering",
    "url": "https://github.com/DreambigOu/ELI5",
    "homepage": "https://andrewou.pages.dev/posts/building-an-eli5-skill-for-claude/",
    "meta": {
@@ -3260,6 +3380,7 @@ window.SITE_PAGE_DATA = {
     "en": "「說人話」：繁體中文的去 AI 味改寫 skill。抓 38 種 AI 寫作痕跡，順手校正中國用語與半形標點，給 Claude Code / Codex / Cursor 用。",
     "zh": "去 AI 味的繁中改寫 skill:抓 38 種 AI 寫作痕跡,順手校正中國用語與半形標點。"
    },
+   "search": "agent-skills ai-writing claude-code codex cursor humanizer prompt-engineering traditional-chinese writing-tools zh-tw",
    "url": "https://github.com/Raymondhou0917/speak-human-tw",
    "homepage": "",
    "meta": {
@@ -3285,6 +3406,7 @@ window.SITE_PAGE_DATA = {
     "en": "Create apps with Gemini",
     "zh": "用 Gemini 即時生成小應用的示範專案。"
    },
+   "search": "",
    "url": "https://github.com/osanseviero/InstantCoder",
    "homepage": "https://huggingface.co/spaces/osanseviero/GemCoder",
    "meta": {
@@ -3313,6 +3435,7 @@ window.SITE_PAGE_DATA = {
     "en": "Claude Skills for Governance, Risk, & Compliance (GRC): Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, EU AI Act, ISO 42001, ISO 27701, DORA, CSRD, India's DPDPA, CMMC 2.0, NIST AI Risk, SWIFT, CCPA/CPRA, and others. Benchmark 93% (with skills) vs 74% (without skills). Updated Monthly.",
     "zh": "治理、風險與法遵的 Claude Skills,涵蓋 ISO 27001、SOC 2、GDPR、HIPAA、歐盟 AI 法。"
    },
+   "search": "claude-ai claude-skills compliance csrd data-privacy dpdpa-2023 eu-ai-act fedramp gdpr governance grc hipaa iso27001 iso27701 iso42001 nist-csf pci-dss risk security soc2",
    "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
    "homepage": "https://sushegaad.github.io/Claude-Skills-Governance-Risk-and-Compliance/",
    "meta": {
@@ -3336,6 +3459,7 @@ window.SITE_PAGE_DATA = {
     "en": "A concise list for mcp servers",
     "zh": "MCP server 的精簡清單,想找現成的 MCP 工具翻這份。"
    },
+   "search": "",
    "url": "https://github.com/MobinX/awesome-mcp-list",
    "homepage": "",
    "meta": {
@@ -3361,6 +3485,7 @@ window.SITE_PAGE_DATA = {
     "en": "Humanizer 的繁體中文版本，Agent Skills，專門去除文字中 AI 生成的痕跡。",
     "zh": "Humanizer 的繁體中文版 Agent Skill,專門去除文字裡的 AI 生成痕跡。"
    },
+   "search": "",
    "url": "https://github.com/kevintsai1202/Humanizer-zh-TW",
    "homepage": "",
    "meta": {
@@ -3389,6 +3514,7 @@ window.SITE_PAGE_DATA = {
     "en": "Synthetic Data SDK ✨",
     "zh": "合成資料 SDK,用差分隱私技術產生可安全共享的擬真資料集。"
    },
+   "search": "differential-privacy generative-ai machine-learning privacy-enhancing-technologies synthetic-data synthetic-data-generation synthetic-data-generator",
    "url": "https://github.com/mostly-ai/mostlyai",
    "homepage": "https://mostly-ai.github.io/mostlyai/",
    "meta": {
@@ -3412,6 +3538,7 @@ window.SITE_PAGE_DATA = {
     "en": "skill for explaining architecture",
     "zh": "解釋系統架構的 skill,讓 AI 把一個專案的設計講清楚。"
    },
+   "search": "",
    "url": "https://github.com/poteto/how",
    "homepage": "",
    "meta": {
@@ -3440,6 +3567,7 @@ window.SITE_PAGE_DATA = {
     "en": "MCP server that integrates the LINE Messaging API to connect an AI Agent to the LINE Official Account.",
     "zh": "把 LINE Messaging API 接給 AI agent 的 MCP server,可操作 LINE 官方帳號。"
    },
+   "search": "line linebot mcp mcp-server",
    "url": "https://github.com/line/line-bot-mcp-server",
    "homepage": "",
    "meta": {
@@ -3467,6 +3595,7 @@ window.SITE_PAGE_DATA = {
     "en": "Agent2Agent (A2A) – awesome A2A agents, tools, servers & clients, all in one place.",
     "zh": "Agent2Agent (A2A) 協定的精選清單:agent、工具、伺服器與客戶端一次收齊。"
    },
+   "search": "a2a a2a-cli a2a-mcp a2a-protocol a2a-server agent agent2agent mcp",
    "url": "https://github.com/ai-boost/awesome-a2a",
    "homepage": "http://agent2agent.ren/",
    "meta": {
@@ -3495,6 +3624,7 @@ window.SITE_PAGE_DATA = {
     "en": "Bring receipts from your Claude Code sessions",
     "zh": "把 Claude Code 的 session 印成收據,用熱感應收據機輸出你的 vibe coding 帳單。"
    },
+   "search": "claude claude-code receipt-printer vibe-coding",
    "url": "https://github.com/chrishutchinson/claude-receipts",
    "homepage": "https://www.npmjs.com/package/claude-receipts",
    "meta": {
@@ -3523,6 +3653,7 @@ window.SITE_PAGE_DATA = {
     "en": "用 ChatGPT／Codex 安裝 AI 剪輯環境，並依八大步驟完成可驗證的短影音剪輯。",
     "zh": "用 ChatGPT / Codex 架起 AI 剪輯環境,依八大步驟做出可驗證的短影音。"
    },
+   "search": "agent-skills elevenlabs ffmpeg hyperframes traditional-chinese video-editing",
    "url": "https://github.com/Jaycheng1103/chatgpt-video-editing-skills",
    "homepage": "",
    "meta": {
@@ -3551,6 +3682,7 @@ window.SITE_PAGE_DATA = {
     "en": "WIP - Automated Question Answering for ArXiv Papers with Large Language Models (https://arxiv.taesiri.xyz/)",
     "zh": "用大語言模型自動替 arXiv 論文生成問答,幫你快速抓重點。"
    },
+   "search": "arxiv arxiv-daily arxiv-dataset arxiv-papers arxiv-preprint automated-qa claude claude2 gpt gpt-4 llama llama2 llm question-answering",
    "url": "https://github.com/taesiri/ArXivQA",
    "homepage": "https://arxiv.taesiri.xyz/",
    "meta": {
@@ -3579,6 +3711,7 @@ window.SITE_PAGE_DATA = {
     "en": "台灣第三方金流 Skills for AI Agents - 藍新金流、綠界科技 ECPay、統一金流 PAYUNi",
     "zh": "台灣第三方金流的 AI Agent Skills:藍新、綠界 ECPay、統一 PAYUNi 串接。"
    },
+   "search": "payment-integration payments skills taiwan",
    "url": "https://github.com/paid-tw/skills",
    "homepage": "",
    "meta": {
@@ -3604,6 +3737,7 @@ window.SITE_PAGE_DATA = {
     "en": "A Claude Code hook that blocks your prompt until you do your push-ups, counted live via webcam. Random reps, session-persistent debt (no closing the tab to skip), streak stats, and three trigger modes. Your AI works hard, so should you.",
     "zh": "Claude Code 的 hook:沒做完伏地挺身就不讓你送出 prompt,用鏡頭即時計數還會累積欠債。"
    },
+   "search": "",
    "url": "https://github.com/BotchetDig/workout-gate",
    "homepage": "",
    "meta": {
@@ -3627,6 +3761,7 @@ window.SITE_PAGE_DATA = {
     "en": "VibeCoding security shield for novice developers - preventing disaster-level security vulnerabilities",
     "zh": "給新手開發者的 VibeCoding 資安護盾,攔下災難級的安全漏洞。"
    },
+   "search": "",
    "url": "https://github.com/cyesuta/Code-Guardian-Aegis",
    "homepage": "",
    "meta": {
@@ -3652,6 +3787,7 @@ window.SITE_PAGE_DATA = {
     "en": "Local-first meeting transcription and summarization CLI",
     "zh": "本機優先的會議轉錄與摘要 CLI,錄音不外流。"
    },
+   "search": "",
    "url": "https://github.com/nczz/ownscribe",
    "homepage": "",
    "meta": {
@@ -3680,6 +3816,7 @@ window.SITE_PAGE_DATA = {
     "en": "Lecture recordings → structured grounded notes + a synced HTML viewer: video, timestamped transcript and curated summary on one page. Local GPU pipeline (Whisper ASR · slide extraction · OCR · VLM signals · capture-time alignment). Claude Code skill + plain CLI.",
     "zh": "把上課錄影變成結構化筆記加同步 HTML 檢視器:影片、帶時間戳的逐字稿與摘要同頁,本機 GPU 跑完。"
    },
+   "search": "claude-code faster-whisper lecture-notes note-taking obsidian ocr transcription whisper",
    "url": "https://github.com/drpwchen/lecture-to-notes",
    "homepage": "https://drpwchen.com/posts/lecture-to-notes/",
    "meta": {
@@ -3705,6 +3842,7 @@ window.SITE_PAGE_DATA = {
     "en": "拆解 Claude Code agent harness 運作機制的技術部落格文章。",
     "zh": "拆解 Claude Code agent harness 運作機制的技術部落格文章。"
    },
+   "search": "",
    "url": "https://github.com/MIBlue119/claude-code-harness-blog",
    "homepage": "https://claude-code-harness-blog.vercel.app",
    "meta": {
@@ -3730,6 +3868,7 @@ window.SITE_PAGE_DATA = {
     "en": "同一個問題，多幾種看法。涵蓋十大領域的思考輔助 skill，幫你換角度理解問題、找出其他解釋與選項，並檢查成立條件。適用於 ChatGPT、Claude 與 Codex。",
     "zh": "涵蓋十大領域的思考輔助 skill:幫你換角度看同一個問題、找出其他解釋與選項,並檢查前提是否成立。"
    },
+   "search": "",
    "url": "https://github.com/kcchien/model-thinking",
    "homepage": "",
    "meta": {
@@ -3758,6 +3897,7 @@ window.SITE_PAGE_DATA = {
     "en": "🕹️Arcade-themed statusline for Claude Code — Pac-Man inspired chase game & Pikmin Bloom inspired flower trail",
     "zh": "街機風的 Claude Code 狀態列,小精靈追逐戰加皮克敏花徑,用 Rust 寫的。"
    },
+   "search": "bash claude cli statusline terminal",
    "url": "https://github.com/sorosora/arcade-statusline",
    "homepage": "",
    "meta": {
@@ -3783,6 +3923,7 @@ window.SITE_PAGE_DATA = {
     "en": "Citation-complete agent-assisted scholarly literature mining in Rust with NVIDIA Nemotron and Qdrant",
     "zh": "用 Rust 加 NVIDIA Nemotron 與 Qdrant 做的學術文獻探勘 skill,引用資訊完整。"
    },
+   "search": "",
    "url": "https://github.com/Ruisi-Lu/academic-literature-mining-skill",
    "homepage": "",
    "meta": {
@@ -3808,6 +3949,7 @@ window.SITE_PAGE_DATA = {
     "en": "Reroll your Claude Code /buddy companion — brute-force for any species + rarity, with accountUuid trap fix for Team/Pro users",
     "zh": "重骰 Claude Code 的 /buddy 夥伴,可指定物種與稀有度,並修正 Team/Pro 帳號的卡關問題。"
    },
+   "search": "",
    "url": "https://github.com/ithiria894/claude-code-buddy-reroll",
    "homepage": "",
    "meta": {
@@ -3836,6 +3978,7 @@ window.SITE_PAGE_DATA = {
     "en": "md2video is a small agent-friendly workflow for turning source content into a narrated slide video.",
     "zh": "對 agent 友善的小型工作流,把 Markdown 原稿轉成帶旁白的簡報影片。"
    },
+   "search": "agentic-ai mcp skills",
    "url": "https://github.com/isomoes-video/md2video",
    "homepage": "",
    "meta": {
@@ -3864,6 +4007,7 @@ window.SITE_PAGE_DATA = {
     "en": "幫任何網站加上聚光燈導覽的 Claude skill：分析版面、訪談開發者、產生步驟並用 Playwright 逐步驗證。Claude skill that adds a verified spotlight onboarding tour to any website.",
     "zh": "幫任何網站加上聚光燈導覽的 Claude skill:分析版面、訪談開發者、產生步驟並用 Playwright 逐步驗證。"
    },
+   "search": "accessibility claude-skill onboarding playwright product-tour spotlight",
    "url": "https://github.com/matt-ye/Toutour",
    "homepage": "",
    "meta": {

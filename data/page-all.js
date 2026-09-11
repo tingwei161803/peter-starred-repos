@@ -61,7 +61,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Markdown",
    "stars": 546005,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "awesome-list free programming tutorial-code tutorial-exercises tutorials"
   },
   {
    "repo": "sindresorhus/awesome",
@@ -76,7 +77,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 504203,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "awesome awesome-list lists resources unicorns"
   },
   {
    "repo": "public-apis/public-apis",
@@ -91,7 +93,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 477480,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "api apis dataset development free list lists open-source public public-api public-apis resources software"
   },
   {
    "repo": "EbookFoundation/free-programming-books",
@@ -106,7 +109,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 396275,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "books education hacktoberfest list resource"
   },
   {
    "repo": "openclaw/openclaw",
@@ -121,7 +125,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 389225,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai assistant crustacean molty openclaw own-your-data personal"
   },
   {
    "repo": "donnemartin/system-design-primer",
@@ -136,7 +141,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 368745,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "design design-patterns design-system development interview interview-practice interview-questions programming python system web web-application webapp"
   },
   {
    "repo": "nilbuild/developer-roadmap",
@@ -151,7 +157,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 366594,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "angular-roadmap backend-roadmap blockchain-roadmap computer-science dba-roadmap developer-roadmap devops-roadmap frontend-roadmap go-roadmap java-roadmap javascript-roadmap nodejs-roadmap python-roadmap qa-roadmap react-roadmap roadmap software-architect-roadmap vue-roadmap"
   },
   {
    "repo": "jwasham/coding-interview-university",
@@ -166,7 +173,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 360581,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "algorithm algorithms coding-interview coding-interviews computer-science data-structures interview interview-prep interview-preparation programming-interviews software-engineering study-plan"
   },
   {
    "repo": "mattpocock/skills",
@@ -181,7 +189,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 256814,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "affaan-m/ECC",
@@ -196,7 +205,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 254014,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-agents anthropic claude claude-code developer-tools llm mcp productivity"
   },
   {
    "repo": "TheAlgorithms/Python",
@@ -211,7 +221,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 224373,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "algorithm algorithm-competitions algorithms-implemented algos community-driven education hacktoberfest interview learn practice python searches sorting-algorithms sorts"
   },
   {
    "repo": "multica-ai/andrej-karpathy-skills",
@@ -226,7 +237,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 211296,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "n8n-io/n8n",
@@ -241,7 +253,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 203743,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai apis automation cli data-flow development integration-framework integrations ipaas low-code low-code-platform mcp mcp-client mcp-server n8n no-code self-hosted typescript workflow workflow-automation"
   },
   {
    "repo": "DigitalPlatDev/FreeDomain",
@@ -256,7 +269,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Markdown",
    "stars": 198210,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "digitalplat dns dns-tutorial documentation domain domain-platform domain-registration domainname domains education free free-domain freedomain internet-infrastructure nameserver"
   },
   {
    "repo": "massgravel/Microsoft-Activation-Scripts",
@@ -271,7 +285,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Batchfile",
    "stars": 189809,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "activator hwid kms kms38 massgrave massgravel microsoft microsoft365 office office365 ohook powershell tsforge windows windows-10 windows-11"
   },
   {
    "repo": "microsoft/markitdown",
@@ -286,7 +301,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 181500,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "autogen autogen-extension langchain markdown microsoft-office openai pdf"
   },
   {
    "repo": "firecrawl/firecrawl",
@@ -301,7 +317,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 177952,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-agents ai-crawler ai-scraping ai-search crawler data-extraction html-to-markdown llm markdown scraper scraping web-crawler web-data web-data-extraction web-scraper web-scraping web-search webscraping"
   },
   {
    "repo": "anthropics/skills",
@@ -316,7 +333,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 175210,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills"
   },
   {
    "repo": "langgenius/dify",
@@ -331,7 +349,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 155037,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent agentic-ai agentic-framework agentic-workflow ai automation claude deepseek genai gpt llm low-code mcp nextjs no-code openai python skills workflow"
   },
   {
    "repo": "msitarzewski/agency-agents",
@@ -346,7 +365,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 150962,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "x1xhlol/system-prompts-and-models-of-ai-tools",
@@ -361,7 +381,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 143454,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai bolt cluely copilot cursor cursorai devin github-copilot lovable open-source perplexity replit system-prompts trae trae-ai trae-ide v0 vscode windsurf windsurf-ai"
   },
   {
    "repo": "Shubhamsaboo/awesome-llm-apps",
@@ -376,7 +397,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 136664,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents llms python rag"
   },
   {
    "repo": "github/spec-kit",
@@ -391,7 +413,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 134119,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai copilot development engineering prd spec spec-driven"
   },
   {
    "repo": "garrytan/gstack",
@@ -406,7 +429,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 132090,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "Comfy-Org/ComfyUI",
@@ -421,7 +445,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 132073,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai comfy comfyui python pytorch stable-diffusion"
   },
   {
    "repo": "DietrichGebert/ponytail",
@@ -436,7 +461,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 131970,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills ai-agents claude claude-code claude-code-plugin cursor-rules developer-tools llm prompt-engineering yagni"
   },
   {
    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
@@ -451,7 +477,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 126071,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-skills antigravity claude claude-code codex command-line copilot cursor-ai html5 kiro landing-page mobile-ui qoder react tailwindcss trae ui-design uikit windsurf-ai"
   },
   {
    "repo": "harry0703/MoneyPrinterTurbo",
@@ -466,7 +493,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 121546,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-video-generator content-creation ffmpeg instagram-reels llm python short-video subtitles text-to-speech tiktok video-automation video-workflow workflow-automation youtube-shorts"
   },
   {
    "repo": "microsoft/generative-ai-for-beginners",
@@ -481,7 +509,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 119404,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai azure chatgpt dall-e generative-ai generativeai gpt language-model llms microsoft-for-beginners openai prompt-engineering semantic-search transformers"
   },
   {
    "repo": "Graphify-Labs/graphify",
@@ -496,7 +525,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 115985,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-agents antigravity ast claude-code code-analysis code-search codex cursor developer-tools gemini graphrag knowledge-graph leiden llm mcp openclaw rag skills tree-sitter"
   },
   {
    "repo": "VoltAgent/awesome-design-md",
@@ -511,7 +541,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 114818,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "awesome-list design-md design-system design-tokens figma google-stitch landing-page vibe-coding vibe-design vibecoding"
   },
   {
    "repo": "browser-use/browser-use",
@@ -526,7 +557,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 113299,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-agents ai-tools browser-automation browser-use llm playwright python"
   },
   {
    "repo": "jaywcjlove/awesome-mac",
@@ -541,7 +573,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Swift",
    "stars": 113269,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "app apple application apps awesome awesome-list awesome-lists awesome-mac desktop-app desktop-application desktop-apps list mac mac-osx macos macos-app macos-apps macosx software"
   },
   {
    "repo": "google-gemini/gemini-cli",
@@ -556,7 +589,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 106870,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-agents cli gemini gemini-api mcp-client mcp-server"
   },
   {
    "repo": "rasbt/LLMs-from-scratch",
@@ -571,7 +605,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 104585,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai artificial-intelligence attention-mechanism deep-learning finetuning from-scratch generative-ai gpt instruction-tuning language-model large-language-models llm machine-learning natural-language-processing pretraining python pytorch tokenizer transformers"
   },
   {
    "repo": "Anduin2017/HowToCook",
@@ -586,7 +621,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 102183,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "chinese cookbook cooking dishes recipes"
   },
   {
    "repo": "nvbn/thefuck",
@@ -601,7 +637,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 97777,
-   "pushed": "2024-07"
+   "pushed": "2024-07",
+   "search": "python shell"
   },
   {
    "repo": "nexu-io/open-design",
@@ -616,7 +653,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 94897,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills ai-design byok claude-code-for-design claude-design codex-design coding-agents cursor-design deepseek deepseek-harness design-systems desktop-app dsh dsh-plugin figma-alternative hermes-agent local-first prototyping ui-generator vibe-coding"
   },
   {
    "repo": "addyosmani/agent-skills",
@@ -631,7 +669,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 92978,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills antigravity claude-code codex cursor skills"
   },
   {
    "repo": "deepseek-ai/DeepSeek-R1",
@@ -646,7 +685,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 91998,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": ""
   },
   {
    "repo": "modelcontextprotocol/servers",
@@ -661,7 +701,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 90162,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "ByteByteGoHq/system-design-101",
@@ -676,7 +717,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 88977,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": "aws cloud-computing coding-interviews computer-science interview-questions software-architecture software-development software-engineering system-design system-design-interview"
   },
   {
    "repo": "koala73/worldmonitor",
@@ -691,7 +733,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 85837,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent ai dashboard geopolitics mcp mcp-server monitoring news opensource osint palantir situation"
   },
   {
    "repo": "Leonxlnx/taste-skill",
@@ -706,7 +749,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 85409,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent ai claude claude-code codex coding design frontend lowcode nocode skill skills vibecoding"
   },
   {
    "repo": "mlabonne/llm-course",
@@ -721,7 +765,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 82393,
-   "pushed": "2026-02"
+   "pushed": "2026-02",
+   "search": "course large-language-models llm machine-learning roadmap"
   },
   {
    "repo": "Egonex-AI/Understand-Anything",
@@ -736,7 +781,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 81818,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "antigravity-skills business-knowledge claude-code claude-skills codebase-analysis codex codex-skills developer-tools-ai-agent gemini-cli-skills karpathy-llm-wiki knowledge-base knowledge-graph memory opencode-skills pi-agent understandcode vibe-coding"
   },
   {
    "repo": "D4Vinci/Scrapling",
@@ -751,7 +797,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 79373,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-scraping automation crawler crawling crawling-python data data-extraction mcp mcp-server playwright python scraping selectors stealth web-scraper web-scraping web-scraping-python webscraping xpath"
   },
   {
    "repo": "Panniantong/Agent-Reach",
@@ -766,7 +813,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 78820,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-infrastructure ai-agent ai-search automation bilibili claude-code cli cursor free-api llm-tools mcp python reddit-scraper twitter-scraper web-scraper xiaohongshu youtube-transcript"
   },
   {
    "repo": "dair-ai/Prompt-Engineering-Guide",
@@ -781,7 +829,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "MDX",
    "stars": 78104,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "agent agents ai-agents chatgpt deep-learning generative-ai language-model llms openai prompt-engineering rag"
   },
   {
    "repo": "shareAI-lab/learn-claude-code",
@@ -796,7 +845,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 76346,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent agent-development ai-agent claude claude-code educational llm python teaching tutorial"
   },
   {
    "repo": "unslothai/unsloth",
@@ -811,7 +861,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 75834,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent ai chatgpt deepseek fine-tuning gemma image-generation llama llm llms openai python qwen reinforcement-learning self-hosted stable-diffusion text-to-speech tts ui unsloth"
   },
   {
    "repo": "PKUFlyingPig/cs-self-learning",
@@ -826,7 +877,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 75489,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "ComposioHQ/awesome-claude-skills",
@@ -841,7 +893,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 74686,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent-skills ai-agents antigravity automation claude claude-code codex composio cursor developer-tools gemini-cli mcp openai-codex rube saas skill workflow-automation"
   },
   {
    "repo": "hiyouga/LlamaFactory",
@@ -856,7 +909,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 74649,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent ai deepseek fine-tuning gemma gpt instruction-tuning large-language-models llama llama3 llm lora moe nlp peft qlora quantization qwen rlhf transformers"
   },
   {
    "repo": "microsoft/ai-agents-for-beginners",
@@ -871,7 +925,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 74212,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agentic-ai agentic-framework agentic-rag ai-agents ai-agents-framework autogen foundry foundry-local generative-ai microsoft-foundry semantic-kernel"
   },
   {
    "repo": "binhnguyennus/awesome-scalability",
@@ -886,7 +941,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 73805,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": "architecture awesome awesome-list backend big-data computer-science design-patterns devops distributed-systems interview interview-practice interview-questions lists machine-learning programming resources scalability system system-design web-development"
   },
   {
    "repo": "headroomlabs-ai/headroom",
@@ -901,7 +957,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 70686,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent ai anthropic claude-code compression context-engineering context-window cursor fastapi langchain llm mcp openai prompt-engineering proxy python rag token-optimization tokens typescript"
   },
   {
    "repo": "career-ops-hq/career-ops",
@@ -916,7 +973,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 70604,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-agent anthropic ats automation beginner-friendly career careerops claude claude-code cli first-timers-only golang good-first-issue interview-prep job-application job-hunting job-search open-source resume"
   },
   {
    "repo": "colbymchenry/codegraph",
@@ -931,7 +989,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C",
    "stars": 70095,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "cline/cline",
@@ -946,7 +1005,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 67669,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "Fission-AI/OpenSpec",
@@ -961,7 +1021,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 67661,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai context-engineering engineering planning prd sdd sdlc spec spec-driven-development specification"
   },
   {
    "repo": "mem0ai/mem0",
@@ -976,7 +1037,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 64920,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-memory agentic-memory-system agents ai ai-agents chatgpt genai llm long-term-memory memory memory-management python rag state-management"
   },
   {
    "repo": "upstash/context7",
@@ -991,7 +1053,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 61785,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "llm mcp mcp-server vibe-coding"
   },
   {
    "repo": "RVC-Boss/GPT-SoVITS",
@@ -1006,7 +1069,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 61676,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "text-to-speech tts vits voice-clone voice-cloneai voice-cloning"
   },
   {
    "repo": "usestrix/strix",
@@ -1021,7 +1085,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 61283,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents ai-hacking ai-penetration-testing ai-pentesting ai-security artificial-intelligence bug-bounty code-quality ctf-tools cybersecurity cybersecurity-tools ethical-hacking hacking llm-security offensive-security penetration-testing pentesting-tools red-teaming security security-automation"
   },
   {
    "repo": "microsoft/autogen",
@@ -1036,7 +1101,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 60873,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "agentic agentic-agi agents ai autogen autogen-ecosystem chatgpt framework llm-agent llm-framework"
   },
   {
    "repo": "jingyaogong/minimind",
@@ -1051,7 +1117,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 59846,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "artificial-intelligence large-language-model"
   },
   {
    "repo": "remotion-dev/remotion",
@@ -1066,7 +1133,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 58644,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "javascript react video"
   },
   {
    "repo": "FoundationAgents/OpenManus",
@@ -1081,7 +1149,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 58249,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "calesthio/OpenMontage",
@@ -1096,7 +1165,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 56679,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent agentic-ai ai claude copilot cursor elevenlabs ffmpeg flux image-generation open-source openai python remotion stable-diffusion text-to-speech text-to-video video-generation video-production"
   },
   {
    "repo": "Zie619/n8n-workflows",
@@ -1111,7 +1181,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 56549,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "odoo/odoo",
@@ -1126,7 +1197,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 54229,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "apps business erp management odoo odoo-apps python"
   },
   {
    "repo": "microsoft/VibeVoice",
@@ -1141,7 +1213,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 53983,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "bmad-code-org/BMAD-METHOD",
@@ -1156,7 +1229,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 52795,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "run-llama/llama_index",
@@ -1171,7 +1245,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 52072,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents application data fine-tuning framework llamaindex llm multi-agents rag vector-database"
   },
   {
    "repo": "elder-plinius/CL4R1T4S",
@@ -1186,7 +1261,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 49190,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents ai chatgpt gemini google grok hacking leak leaked openai prompt prompt-engineering prompts red-team red-teaming system system-info system-prompts tools transparency"
   },
   {
    "repo": "Imbad0202/academic-research-skills",
@@ -1201,7 +1277,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 47018,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "academic-pipeline academic-writing ai-research claude claude-code literature-review peer-review prompt-engineering"
   },
   {
    "repo": "DavidHDev/react-bits",
@@ -1216,7 +1293,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 46927,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "3d animations component-library components components-library components-react css-animations javascript react react-components reactjs tailwind tailwindcss ui-components ui-library web"
   },
   {
    "repo": "sickn33/agentic-awesome-skills",
@@ -1231,7 +1309,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 46161,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills agentic-skills ai-agent-skills ai-agents ai-coding ai-workflows antigravity antigravity-skills claude-code claude-code-skills codex-cli codex-skills cursor cursor-skills developer-tools gemini-cli gemini-skills kiro mcp skill-library"
   },
   {
    "repo": "karanpratapsingh/system-design",
@@ -1246,7 +1325,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 45981,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "architecture distributed-systems engineering interview interview-preparation microservices scalability system-design system-design-interview tech"
   },
   {
    "repo": "K-Dense-AI/scientific-agent-skills",
@@ -1261,7 +1341,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 43839,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills ai-scientist bioinformatics chemoinformatics claude claude-skills claudecode clinical-research computational-biology data-analysis drug-discovery genomics materials-science metabolomics proteomics scientific-computing scientific-visualization"
   },
   {
    "repo": "vercel-labs/agent-browser",
@@ -1276,7 +1357,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 42207,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "exelban/stats",
@@ -1291,7 +1373,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Swift",
    "stars": 41666,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "battery bluetooth clock cpu disk fans gpu macos menubar monitor network sensors stats temperature"
   },
   {
    "repo": "langchain-ai/langgraph",
@@ -1306,7 +1389,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 41266,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents ai ai-agents chatgpt deepagents enterprise framework gemini generative-ai langchain langgraph llm multiagent open-source openai pydantic python rag"
   },
   {
    "repo": "ashishps1/awesome-system-design-resources",
@@ -1321,7 +1405,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Java",
    "stars": 41247,
-   "pushed": "2026-02"
+   "pushed": "2026-02",
+   "search": "awesome backend computer-science distributed-systems high-level-design hld interview interview-questions scalability system-design"
   },
   {
    "repo": "PatrickJS/awesome-cursorrules",
@@ -1336,7 +1421,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 40742,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "awesome awesome-list cursor cursor-ai-editor cursorrules"
   },
   {
    "repo": "HKUDS/LightRAG",
@@ -1351,7 +1437,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 39493,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "docling genai gpt graphrag knowledge-graph large-language-models llm mineru rag ragas retrieval-augmented-generation"
   },
   {
    "repo": "suno-ai/bark",
@@ -1366,7 +1453,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 39263,
-   "pushed": "2024-08"
+   "pushed": "2024-08",
+   "search": ""
   },
   {
    "repo": "kilimchoi/engineering-blogs",
@@ -1381,7 +1469,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Ruby",
    "stars": 38585,
-   "pushed": "2024-08"
+   "pushed": "2024-08",
+   "search": "engineering-blogs lists programming-blogs software-development tech"
   },
   {
    "repo": "google/langextract",
@@ -1396,7 +1485,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 38549,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "gemini gemini-ai gemini-api gemini-flash gemini-pro information-extration large-language-models llm nlp python structured-data"
   },
   {
    "repo": "stanfordnlp/dspy",
@@ -1411,7 +1501,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 37855,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "karpathy/LLM101n",
@@ -1426,7 +1517,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 37499,
-   "pushed": "2024-08"
+   "pushed": "2024-08",
+   "search": ""
   },
   {
    "repo": "OpenBMB/VoxCPM",
@@ -1441,7 +1533,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 36858,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "audio deeplearning minicpm multilingual python pytorch speech speech-synthesis text-to-speech tts tts-model voice-cloning voice-design voxcpm"
   },
   {
    "repo": "emilkowalski/skills",
@@ -1456,7 +1549,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Markdown",
    "stars": 36199,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "microsoft/graphrag",
@@ -1471,7 +1565,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 35890,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "gpt gpt-4 gpt4 graphrag llm llms rag"
   },
   {
    "repo": "VectifyAI/PageIndex",
@@ -1486,7 +1581,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 35584,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-ai agents ai ai-agents context-engineering information-retrieval llm rag reasoning retrieval retrieval-augmented-generation vector-database"
   },
   {
    "repo": "cathrynlavery/diagram-design",
@@ -1501,7 +1597,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 34327,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills claude-code codex data-visualization diagrams drawio mermaid svg"
   },
   {
    "repo": "linshenkx/prompt-optimizer",
@@ -1516,7 +1613,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 34299,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai-prompts ai-tools llm prompt prompt-engineering prompt-optimization prompt-optimizer prompt-testing prompt-toolkit prompt-tuning"
   },
   {
    "repo": "huggingface/agents-course",
@@ -1531,7 +1629,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "MDX",
    "stars": 32312,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "agentic-ai agents course huggingface langchain llamaindex smolagents"
   },
   {
    "repo": "alchaincyf/nuwa-skill",
@@ -1546,7 +1645,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 32279,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "iawia002/lux",
@@ -1561,7 +1661,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Go",
    "stars": 31668,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "bilibili crawler download downloader go golang iqiyi qq scraper tumblr video youku youtube"
   },
   {
    "repo": "vercel-labs/agent-skills",
@@ -1576,7 +1677,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 30973,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "googleworkspace/cli",
@@ -1591,7 +1693,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 30787,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills ai-agent automation cli discovery-api gemini-cli-extension google-admin google-api google-calendar google-chat google-docs google-drive google-sheets google-workspace oauth2 rust"
   },
   {
    "repo": "getzep/graphiti",
@@ -1606,7 +1709,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 30697,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents graph llms rag"
   },
   {
    "repo": "Zackriya-Solutions/meetily",
@@ -1621,7 +1725,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 30505,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-meeting-assistant llm local-ai mac meeting-minutes meeting-notes offline-first ollama parakeet privacy-focused privacy-tools rust self-hosted sortformer speech-to-text transcription whisper whisper-cpp windows"
   },
   {
    "repo": "e2b-dev/awesome-ai-agents",
@@ -1636,7 +1741,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 29931,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent ai artificial-intelligence autogpt autonomous-agents awesome babyagi copilot gpt gpt-4 gpt-engineer openai python"
   },
   {
    "repo": "hpcaitech/Open-Sora",
@@ -1651,7 +1757,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 29697,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "NirDiamant/RAG_Techniques",
@@ -1666,7 +1773,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 29408,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-rag ai embeddings generative-ai gpt langchain llama-index llm llms machine-learning nlp openai python rag retrieval-augmented-generation semantic-search tutorials vector-database"
   },
   {
    "repo": "supermemoryai/supermemory",
@@ -1681,7 +1789,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 29340,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-memory ai-memory cloudflare-kv cloudflare-pages cloudflare-workers drizzle-orm memory postgres remix tailwindcss typescript vite"
   },
   {
    "repo": "ayghri/i-have-adhd",
@@ -1696,7 +1805,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 29312,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "adhd claude- claude-code-plugin claude-skills developer-tools productivity"
   },
   {
    "repo": "aishwaryanr/awesome-generative-ai-guide",
@@ -1711,7 +1821,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 29295,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "awesome awesome-list generative-ai interview-questions large-language-models llms notebook-jupyter vision-and-language"
   },
   {
    "repo": "openai/openai-agents-python",
@@ -1726,7 +1837,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 29271,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents ai framework harness llm openai python"
   },
   {
    "repo": "huggingface/smolagents",
@@ -1741,7 +1853,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 29236,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "HandsOnLLM/Hands-On-Large-Language-Models",
@@ -1756,7 +1869,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 28973,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "artificial-intelligence book large-language-models llm llms oreilly oreilly-books"
   },
   {
    "repo": "firecrawl/open-lovable",
@@ -1771,7 +1885,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 28383,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": ""
   },
   {
    "repo": "yamadashy/repomix",
@@ -1786,7 +1901,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 28248,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai anthropic artificial-intelligence chatbot chatgpt claude deepseek developer-tools gemini genai generative-ai gpt javascript language-model llama llm mcp nodejs openai typescript"
   },
   {
    "repo": "eyaltoledano/claude-task-master",
@@ -1801,7 +1917,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 28062,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "ai cursor cursor-ai cursorai lovable lovable-dev roocode task-manager tasks tasks-list windsurf windsurf-ai"
   },
   {
    "repo": "BloopAI/vibe-kanban",
@@ -1816,7 +1933,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 28037,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "agent ai-agents kanban management task-manager"
   },
   {
    "repo": "ATH-MaaS/Pixelle-Video",
@@ -1831,7 +1949,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 27894,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "aigc comfyui image-generation tts video-generation"
   },
   {
    "repo": "jarrodwatts/claude-hud",
@@ -1846,7 +1965,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 27875,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "anthropic claude claude-code cli plugin statusline typescript"
   },
   {
    "repo": "ahujasid/blender-mcp",
@@ -1861,7 +1981,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 27750,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "3d-modeling ai blender blender-addon claude generative-ai llm mcp model-context-protocol python"
   },
   {
    "repo": "QwenLM/Qwen3",
@@ -1876,7 +1997,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 27598,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": ""
   },
   {
    "repo": "huggingface/open-r1",
@@ -1891,7 +2013,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 26451,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "deepset-ai/haystack",
@@ -1906,7 +2029,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 26450,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-framework agentic-ai agentic-rag agents ai ai-agents context-engineering framework genai generative-ai information-retrieval large-language-models llm mcp multi-agent orchestration python rag retrieval-augmented-generation semantic-search"
   },
   {
    "repo": "resemble-ai/chatterbox",
@@ -1921,7 +2045,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 26319,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "zhaoolee/ChromeAppHeroes",
@@ -1936,7 +2061,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 25808,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "alirezarezvani/claude-skills",
@@ -1951,7 +2077,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 25711,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent-plugins agent-skills agentic-ai ai-coding-agent anthropic-claude claude-ai claude-code claude-code-plugins claude-code-skills claude-skills codex-skills coding-agent-plugins cursor-skills developer-tools gemini-cli-skills openai-codex openclaw openclaw-plugins openclaw-skills prompt-engineering"
   },
   {
    "repo": "microsoft/OmniParser",
@@ -1966,7 +2093,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 25377,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "SYSTRAN/faster-whisper",
@@ -1981,7 +2109,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 25289,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "deep-learning inference openai quantization speech-recognition speech-to-text transformer whisper"
   },
   {
    "repo": "Donchitos/Claude-Code-Game-Studios",
@@ -1996,7 +2125,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 24893,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "ai-agents ai-assisted-development anthropic claude claude-code game-design game-development gamedev godot indie-game-dev unity unreal-engine"
   },
   {
    "repo": "letta-ai/letta",
@@ -2011,7 +2141,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 24661,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-agents llm llm-agent"
   },
   {
    "repo": "datawhalechina/llm-cookbook",
@@ -2026,7 +2157,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 24650,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": "cookbook llm"
   },
   {
    "repo": "NirDiamant/GenAI_Agents",
@@ -2041,7 +2173,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 24196,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-ai agents ai ai-agents autonomous-agents genai generative-ai langchain langgraph llm llms machine-learning mcp multi-agent multi-agent-systems openai python rag tutorials"
   },
   {
    "repo": "SuperClaude-Org/SuperClaude_Framework",
@@ -2056,7 +2189,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 23873,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "Vonng/ddia",
@@ -2071,7 +2205,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 23536,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "book database ddia distributed-systems"
   },
   {
    "repo": "HKUDS/RAG-Anything",
@@ -2086,7 +2221,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 23261,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "multi-modal-rag retrieval-augmented-generation"
   },
   {
    "repo": "ayangweb/BongoCat",
@@ -2101,7 +2237,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Vue",
    "stars": 23038,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "bongo-cat bongocat cross-platform desktop-app desktop-pet linux macos pet pet-project rust tauri tauri-app windows"
   },
   {
    "repo": "czlonkowski/n8n-mcp",
@@ -2116,7 +2253,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 22845,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "mcp mcp-server n8n workflows"
   },
   {
    "repo": "openai/swarm",
@@ -2131,7 +2269,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 21953,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "comet-ml/opik",
@@ -2146,7 +2285,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 21874,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "evaluation hacktoberfest hacktoberfest2025 langchain llama-index llm llm-evaluation llm-observability llmops open-source openai playground prompt-engineering"
   },
   {
    "repo": "guillaumemeyer/watermarks-remover",
@@ -2161,7 +2301,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 21373,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skill ai anthropic c2pa chatgpt claude gemini openai provenance synthid watermark watermark-detection watermark-tools watermarking watermarks"
   },
   {
    "repo": "steipete/CodexBar",
@@ -2176,7 +2317,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Swift",
    "stars": 21112,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai claude-code codex swift"
   },
   {
    "repo": "camel-ai/owl",
@@ -2191,7 +2333,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 20123,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent artificial-intelligence multi-agent-systems task-automation web-interaction"
   },
   {
    "repo": "QwenLM/Qwen3-VL",
@@ -2206,7 +2349,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 19916,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": ""
   },
   {
    "repo": "facebookresearch/sam2",
@@ -2221,7 +2365,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 19827,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "pydantic/pydantic-ai",
@@ -2236,7 +2381,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 19804,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-framework genai harness harness-engineering llm pydantic python"
   },
   {
    "repo": "google/skills",
@@ -2251,7 +2397,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 19655,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "google googlecloud skills"
   },
   {
    "repo": "tanweai/pua",
@@ -2266,7 +2413,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 19599,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agency agent pip pua"
   },
   {
    "repo": "nari-labs/dia",
@@ -2281,7 +2429,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 19392,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "ai open-weight text-to-speech"
   },
   {
    "repo": "KlingAIResearch/LivePortrait",
@@ -2296,7 +2445,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 19025,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "face-animation image-animation video-editing video-generation"
   },
   {
    "repo": "InterviewReady/system-design-resources",
@@ -2311,7 +2461,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 18479,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": "cache fault-tolerance scalability system-design"
   },
   {
    "repo": "google-gemini/gemini-fullstack-langgraph-quickstart",
@@ -2326,7 +2477,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 18326,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "gemini gemini-api"
   },
   {
    "repo": "emcie-co/parlant",
@@ -2341,7 +2493,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 18283,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "ai-agents ai-alignment customer-service customer-success gemini genai hacktoberfest llama3 llm openai python"
   },
   {
    "repo": "confident-ai/deepeval",
@@ -2356,7 +2509,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 18173,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "evaluation-framework evaluation-metrics llm-evaluation llm-evaluation-framework llm-evaluation-metrics python"
   },
   {
    "repo": "bleedline/aimoneyhunter",
@@ -2371,7 +2525,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 18051,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": ""
   },
   {
    "repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
@@ -2386,7 +2541,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 18003,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "chain-of-thought in-context-learning instruction-following instruction-tuning large-language-models large-vision-language-model large-vision-language-models multi-modality multimodal-chain-of-thought multimodal-in-context-learning multimodal-instruction-tuning multimodal-large-language-models visual-instruction-tuning"
   },
   {
    "repo": "SimplifyJobs/New-Grad-Positions",
@@ -2401,7 +2557,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 17930,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "applications coderquad college fulltime hacktoberfest jobs newgrad position posting university"
   },
   {
    "repo": "Infrasys-AI/AISystem",
@@ -2416,7 +2573,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 17768,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": "ai aiinfra aisys dlsys mlsys"
   },
   {
    "repo": "deepseek-ai/Janus",
@@ -2431,7 +2589,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 17763,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": "any-to-any foundation-models llm multimodal unified-model vision-language-pretraining"
   },
   {
    "repo": "google-gemini/cookbook",
@@ -2446,7 +2605,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 17752,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "gemini gemini-api"
   },
   {
    "repo": "andrewyng/openworker",
@@ -2461,7 +2621,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 17451,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "dair-ai/ML-YouTube-Courses",
@@ -2476,7 +2637,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 17409,
-   "pushed": "2024-01"
+   "pushed": "2024-01",
+   "search": "ai data-science deep-learning machine-learning natural-language-processing nlp"
   },
   {
    "repo": "chiphuyen/aie-book",
@@ -2491,7 +2653,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 17351,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "microsoft/data-formulator",
@@ -2506,7 +2669,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 17105,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "richards199999/Thinking-Claude",
@@ -2521,7 +2685,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 17041,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "bradautomates/claude-video",
@@ -2536,7 +2701,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 16955,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "Wan-Video/Wan2.1",
@@ -2551,7 +2717,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 16946,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "aigc videogeneration"
   },
   {
    "repo": "microsoft/SkillOpt",
@@ -2566,7 +2733,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 16785,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills self-evolving-agents"
   },
   {
    "repo": "datawhalechina/leedl-tutorial",
@@ -2581,7 +2749,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 16755,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "bert chatgpt cnn deep-learning diffusion gan leedl-tutorial machine-learning network-compression pruning reinforcement-learning rnn self-attention transfer-learning transformer tutorial"
   },
   {
    "repo": "browser-use/web-ui",
@@ -2596,7 +2765,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 16318,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "ai-agent browser-automation browser-use-box cloud-browser"
   },
   {
    "repo": "ahmedkhaleel2004/gitdiagram",
@@ -2611,7 +2781,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 15967,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai code github system-design"
   },
   {
    "repo": "mindverse/Second-Me",
@@ -2626,7 +2797,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 15680,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "sparanoid/chinese-copywriting-guidelines",
@@ -2641,7 +2813,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 15674,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "chinese chinese-simplified chinese-traditional copywriting css documentation guideline leancloud markdown"
   },
   {
    "repo": "Unstructured-IO/unstructured",
@@ -2656,7 +2829,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 15409,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "data-pipelines deep-learning document-image-analysis document-image-processing document-parser document-parsing docx donut information-retrieval langchain llm machine-learning ml natural-language-processing nlp ocr pdf pdf-to-json pdf-to-text preprocessing"
   },
   {
    "repo": "coderamp-labs/gitingest",
@@ -2671,7 +2845,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 15406,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai code developer-tool ingestion"
   },
   {
    "repo": "n8n-io/self-hosted-ai-starter-kit",
@@ -2686,7 +2861,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 15233,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "ai ai-agents low-code self-hosted starter-kit"
   },
   {
    "repo": "naklecha/llama3-from-scratch",
@@ -2701,7 +2877,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 15216,
-   "pushed": "2024-05"
+   "pushed": "2024-05",
+   "search": ""
   },
   {
    "repo": "SWivid/F5-TTS",
@@ -2716,7 +2893,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 15213,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "duixcom/Duix-Avatar",
@@ -2731,7 +2909,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C",
    "stars": 15063,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "ai-avatar ai-avatars cloning cloning-tool digital-human multimodal-ai video-generation video-synthesis"
   },
   {
    "repo": "greensock/gsap-skills",
@@ -2746,7 +2925,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 15060,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "travisvn/awesome-claude-skills",
@@ -2761,7 +2941,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 15006,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "agentic-coding anthropic awesome awesome-list awesome-lists claude claude-ai claude-code claude-desktop claude-skills claudeskills"
   },
   {
    "repo": "yusufkaraaslan/Skill_Seekers",
@@ -2776,7 +2957,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 14936,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-tools ast-parser automation claude-ai claude-skills code-analysis conflict-detection documentation documentation-generator github github-scraper mcp mcp-server multi-source ocr pdf python web-scraping"
   },
   {
    "repo": "yc-software/qm",
@@ -2791,7 +2973,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 14722,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai assistant harness qm"
   },
   {
    "repo": "SakanaAI/AI-Scientist",
@@ -2806,7 +2989,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 14510,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "ageron/handson-ml3",
@@ -2821,7 +3005,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 14094,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "livekit/agents",
@@ -2836,7 +3021,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 14074,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents ai openai real-time video voice"
   },
   {
    "repo": "Lightning-AI/litgpt",
@@ -2851,7 +3037,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 13656,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai artificial-intelligence deep-learning large-language-models llm llm-inference llms"
   },
   {
    "repo": "microsoft/TRELLIS",
@@ -2866,7 +3053,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 13607,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "3d 3d-aigc 3d-generation image-to-3d text-to-3d"
   },
   {
    "repo": "dair-ai/AI-Papers-of-the-Week",
@@ -2881,7 +3069,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 13168,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai data-science deeplearning machine-learning nlp"
   },
   {
    "repo": "Vaibhavs10/insanely-fast-whisper",
@@ -2896,7 +3085,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 13060,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": ""
   },
   {
    "repo": "ShishirPatil/gorilla",
@@ -2911,7 +3101,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 13017,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "api api-documentation chatgpt claude-api gpt-4-api llm openai-api openai-functions"
   },
   {
    "repo": "The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
@@ -2926,7 +3117,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 12646,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "coding large-language-model large-language-models llm llm-agent llm-agents llm-application llm-apps llm-framework llm-frameworks llms pocket-flow pocketflow"
   },
   {
    "repo": "ace-step/ACE-Step-1.5",
@@ -2941,7 +3133,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 12597,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "text2music"
   },
   {
    "repo": "uiverse-io/galaxy",
@@ -2956,7 +3149,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 12578,
-   "pushed": "2024-09"
+   "pushed": "2024-09",
+   "search": "community css tailwind ui"
   },
   {
    "repo": "langgptai/LangGPT",
@@ -2971,7 +3165,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 12511,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "chatgpt claude deeplearning doubao framework gemini gpt-4 gpt3-prompts langgpt meta-prompting prompt prompt-engineering qwen structured-prompts"
   },
   {
    "repo": "contains-studio/agents",
@@ -2986,7 +3181,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 12409,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": ""
   },
   {
    "repo": "Tyrrrz/DiscordChatExporter",
@@ -3001,7 +3197,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C#",
    "stars": 11961,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "archival archiver chat discord export expoter log"
   },
   {
    "repo": "rany2/edge-tts",
@@ -3016,7 +3213,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11892,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "speech-synthesis text-to-speech tts"
   },
   {
    "repo": "qubvel-org/segmentation_models.pytorch",
@@ -3031,7 +3229,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11732,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "computer-vision deeplab-v3-plus deeplabv3 dpt fpn image-processing image-segmentation imagenet models pretrained-weights pspnet pytorch segformer segmentation segmentation-models semantic-segmentation transformers unet unet-pytorch unetplusplus"
   },
   {
    "repo": "Jeffallan/claude-skills",
@@ -3046,7 +3245,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11372,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai-agents claude claude-code claude-marketplace claude-skills"
   },
   {
    "repo": "helloianneo/ian-xiaohei-illustrations",
@@ -3061,7 +3261,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 11247,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "ai-agent chinese codex-skill handdrawn illustration image-generation xiaohei"
   },
   {
    "repo": "The-Pocket/PocketFlow",
@@ -3076,7 +3277,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11153,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "agentic-ai agentic-framework agentic-workflow agents ai-framework ai-frameworks aiagent aiagents artificial-intelligence flow-based-programming flow-engineering large-language-model large-language-models llm-agent llm-framework pocket-flow pocketflow retrieval-augmented-generation workflow workflow-orchestration"
   },
   {
    "repo": "TEN-framework/ten-framework",
@@ -3091,7 +3293,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11115,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai multi-modal real-time video voice"
   },
   {
    "repo": "QuentinFuxa/WhisperLiveKit",
@@ -3106,7 +3309,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11012,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "automatic-speech-recognition fastapi python pytorch real-time speaker-diarization speech-recognition speech-to-text streaming translation websocket whisper"
   },
   {
    "repo": "SparkAudio/Spark-TTS",
@@ -3121,7 +3325,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11004,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "ValueCell-ai/valuecell",
@@ -3136,7 +3341,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 11003,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "agentic-ai agents ai assitant crypto equity finance investment mcp python react stock-market"
   },
   {
    "repo": "Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
@@ -3151,7 +3357,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 10976,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "KalyanKS-NLP/llm-engineer-toolkit",
@@ -3166,7 +3373,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 10784,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai-engineer generative-ai large-language-models llm-engineer llms"
   },
   {
    "repo": "svcvit/Awesome-Dify-Workflow",
@@ -3181,7 +3389,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 10766,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "NVIDIA/personaplex",
@@ -3196,7 +3405,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 10482,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "CVHub520/X-AnyLabeling",
@@ -3211,7 +3421,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 10381,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "artificial-intelligence clip computer-vision deep-learning groundingdino image-annotation-tool image-classification image-labeling-tool image-matting instance-segmentation machine-learning object-detection ocr onnxruntime paddlepaddle pose-estimation rotated-object-detection sam vision-language-model yolo"
   },
   {
    "repo": "KoljaB/RealtimeSTT",
@@ -3226,7 +3437,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 10119,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "python realtime speech-to-text"
   },
   {
    "repo": "microsoft/vscode-copilot-chat",
@@ -3241,7 +3453,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 9968,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "kangarooking/cangjie-skill",
@@ -3256,7 +3469,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9704,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-workflows ai-skills automation book-to-skill knowledge-distillation prompt-engineering skill-generator templates"
   },
   {
    "repo": "xorbitsai/inference",
@@ -3271,7 +3485,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9554,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "artificial-intelligence deployment diffusers gemma glm glm-5-3 inference kimi kimi-k3 llama-cpp llamacpp llm machine-learning openai-api pytorch qwen sglang transformers vllm whisper"
   },
   {
    "repo": "PeterL1n/RobustVideoMatting",
@@ -3286,7 +3501,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9513,
-   "pushed": "2024-04"
+   "pushed": "2024-04",
+   "search": "ai computer-vision deep-learning machine-learning matting"
   },
   {
    "repo": "anthropics/claude-for-legal",
@@ -3301,7 +3517,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9404,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "oumi-ai/oumi",
@@ -3316,7 +3533,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9383,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "dpo evaluation fine-tuning gpt-oss gpt-oss-120b gpt-oss-20b inference llama llms open-weight open-weight-models open-weights sft slms vlms"
   },
   {
    "repo": "certimate-go/certimate",
@@ -3331,7 +3549,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Go",
    "stars": 9284,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "acme acme-client automation certbot certificate certificate-management certificate-manager certificates devops google-trust-services https https-certificate lego letsencrypt self-hosted ssl ssl-cert ssl-certificate ssl-certificates zerossl"
   },
   {
    "repo": "jasontang-ai/Context-Engineering",
@@ -3346,7 +3565,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9246,
-   "pushed": "2026-02"
+   "pushed": "2026-02",
+   "search": ""
   },
   {
    "repo": "deepbeepmeep/Wan2GP",
@@ -3361,7 +3581,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9236,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai flux flux2 generative-ai hunyuan-video ltx-2 ltx-video qwen tts video wan"
   },
   {
    "repo": "NVIDIA/garak",
@@ -3376,7 +3597,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9142,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai llm-evaluation llm-security security-scanners vulnerability-assessment"
   },
   {
    "repo": "studio-dots-ai/dots.ocr",
@@ -3391,7 +3613,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9104,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "MervinPraison/PraisonAI",
@@ -3406,7 +3629,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9030,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents ai ai-agent-framework ai-agent-sdk ai-agents ai-agents-framework ai-agents-sdk ai-framwork aiagent aiagentframework aiagents aiagentsframework framework hermes hermes-agent multi-agent multi-agent-system multi-agents multi-ai-agents openclaw"
   },
   {
    "repo": "jianchang512/clone-voice",
@@ -3421,7 +3645,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 8986,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "clonevoice speech-analysis sts tts voice-assistant"
   },
   {
    "repo": "heyform/heyform",
@@ -3436,7 +3661,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 8965,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "form quiz survey"
   },
   {
    "repo": "WangRongsheng/awesome-LLM-resources",
@@ -3451,7 +3677,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 8932,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "awesome-list book course large-language-models llama llm mistral openai qwen rag retrieval-augmented-generation webui"
   },
   {
    "repo": "JimmyLv/awesome-nano-banana",
@@ -3466,7 +3693,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 8815,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": "chatgpt flux-kontext gemini-2-5-flash-image gpt-4o grok nano-banana"
   },
   {
    "repo": "dair-ai/ML-Papers-Explained",
@@ -3481,7 +3709,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 8597,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": ""
   },
   {
    "repo": "boson-ai/higgs-audio",
@@ -3496,7 +3725,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 8346,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "zilliztech/deep-searcher",
@@ -3511,7 +3741,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 8259,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "agent agentic-rag claude deep-research deepseek deepseek-r1 grok grok3 llama4 llm milvus openai qwen3 rag reasoning-models vector-database zilliz"
   },
   {
    "repo": "jamez-bondos/awesome-gpt4o-images",
@@ -3526,7 +3757,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 8144,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": "ai-art ai-image-examples anime-ai-art awesome-list cartoon-style curated-collection generative-art ghibli-style gpt-4o gpt-image-1 image-generation openai prompt-engineering prompts text-to-image"
   },
   {
    "repo": "anthropics/claude-agent-sdk-python",
@@ -3541,7 +3773,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 8056,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "NVIDIA/Isaac-GR00T",
@@ -3556,7 +3789,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 8028,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "ai-dynamo/dynamo",
@@ -3571,7 +3805,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 7994,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "diffusion disaggregated-serving kubernetes llm-inference omni routing-engine rust sglang tensorrt-llm vllm"
   },
   {
    "repo": "NirDiamant/Prompt_Engineering",
@@ -3586,7 +3821,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 7837,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai chain-of-thought chatgpt claude few-shot-learning genai generative-ai gpt in-context-learning langchain llm llms machine-learning openai prompt-engineering prompting python tutorials"
   },
   {
    "repo": "PleasePrompto/notebooklm-skill",
@@ -3601,7 +3837,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7762,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": ""
   },
   {
    "repo": "2FastLabs/agent-squad",
@@ -3616,7 +3853,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Swift",
    "stars": 7756,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-ai agents ai-agents ai-agents-framework anthropic anthropic-claude aws aws-bedrock aws-cdk aws-lambda chatbot framework generative-ai machine-learning openai openaiapi orchestrator python serverless typescript"
   },
   {
    "repo": "microsoft/TinyTroupe",
@@ -3631,7 +3869,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 7563,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "1weiho/open-slide",
@@ -3646,7 +3885,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 7471,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent react slides"
   },
   {
    "repo": "guardrails-ai/guardrails",
@@ -3661,7 +3901,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7372,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai foundation-model gpt-3 llm openai"
   },
   {
    "repo": "algorithmicsuperintelligence/openevolve",
@@ -3676,7 +3917,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7336,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "alpha-evolve alphacode alphaevolve coding-agent deepmind deepmind-lab discovery distributed-evolutionary-algorithms evolutionary-algorithms evolutionary-computation genetic-algorithm genetic-algorithms iterative-methods iterative-refinement llm-engineering llm-ensemble llm-inference openevolve optimize"
   },
   {
    "repo": "zhouxiaoka/autoclip",
@@ -3691,7 +3933,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7250,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-agents ai-tools ai-video ai-video-editor auto auto-highlight highlight llm video video-editing video-processing videos"
   },
   {
    "repo": "Zyphra/Zonos",
@@ -3706,7 +3949,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7244,
-   "pushed": "2025-03"
+   "pushed": "2025-03",
+   "search": ""
   },
   {
    "repo": "Cocoon-AI/architecture-diagram-generator",
@@ -3721,7 +3965,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 7173,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "kyegomez/swarms",
@@ -3736,7 +3981,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7148,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-ai agentic-workflow agents ai artificial-intelligence chatgpt claude-code gpt4all huggingface langchain langchain-python machine-learning multi-agent-systems prompt-engineering prompt-toolkit prompting swarms tree-of-thoughts"
   },
   {
    "repo": "deanpeters/Product-Manager-Skills",
@@ -3751,7 +3997,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 6884,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-agents ai-product-management claude-skills pm-frameworks product-management"
   },
   {
    "repo": "fleetdm/fleet",
@@ -3766,7 +4013,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Go",
    "stars": 6822,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "binary-authorization configuration-management device-management gitops ios linux macos mdm open-source orchestration osquery patching powershell scripting security software-management telemetry vulnerability-management"
   },
   {
    "repo": "linkedin/Liger-Kernel",
@@ -3781,7 +4029,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6606,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "finetuning gemma2 hacktoberfest llama llama3 llm-training llms mistral phi3 triton triton-kernels"
   },
   {
    "repo": "mesop-dev/mesop",
@@ -3796,7 +4045,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6586,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "airweave-ai/airweave",
@@ -3811,7 +4061,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6565,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "agent-infrastructure ai ai-agents ai-infrastructure api context-retrieval data-connectors developer-tools enterprise-data information-retrieval integration llm open-source rag retrieval retrieval-augmented-generation sdk search search-api semantic-search"
   },
   {
    "repo": "jeinlee1991/chinese-llm-benchmark",
@@ -3826,7 +4077,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 6428,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-ai artificial-intelligence llm-agent llm-evaluation"
   },
   {
    "repo": "lavague-ai/LaVague",
@@ -3841,7 +4093,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6389,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": "ai browser large-action-model llm oss rag"
   },
   {
    "repo": "nickscamara/open-deep-research",
@@ -3856,7 +4109,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 6284,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": ""
   },
   {
    "repo": "nlweb-ai/NLWeb",
@@ -3871,7 +4125,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6254,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "Tencent/AI-Infra-Guard",
@@ -3886,7 +4141,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6187,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent agent-security agentic-ai ai-infra ai-red-teaming ai-safety ai-security llm llm-evaluation llm-jailbreak llm-security mcp-scan openclaw-security prompt-injection prompt-security scanner security security-tools skill-scanner vulnerability"
   },
   {
    "repo": "ChrisWiles/claude-code-showcase",
@@ -3901,7 +4157,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 6062,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": ""
   },
   {
    "repo": "microsoft/Webwright",
@@ -3916,7 +4173,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5960,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "MadcowD/ell",
@@ -3931,7 +4189,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5859,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": "ai prompt-engineering"
   },
   {
    "repo": "SamuelSchmidgall/AgentLaboratory",
@@ -3946,7 +4205,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5833,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "tvytlx/ai-agent-deep-dive",
@@ -3961,7 +4221,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5828,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "kenn-io/agentsview",
@@ -3976,7 +4237,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Go",
    "stars": 5808,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "shibing624/MedicalGPT",
@@ -3991,7 +4253,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5794,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "chatgpt dpo gpt llama llm medical medicalgpt"
   },
   {
    "repo": "gosom/google-maps-scraper",
@@ -4006,7 +4269,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Go",
    "stars": 5766,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent-skills claude-skills codex-skills distributed-scraper distributed-scraping golang google-maps google-maps-scraping web-scraper web-scraping"
   },
   {
    "repo": "unslothai/notebooks",
@@ -4021,7 +4285,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 5666,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "unsloth"
   },
   {
    "repo": "ngxson/smolvlm-realtime-webcam",
@@ -4036,7 +4301,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 5572,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": ""
   },
   {
    "repo": "modstart-lib/aigcpanel",
@@ -4051,7 +4317,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 5529,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai aigc cosyvoice fishspeech latentsync musetalk sparktts wav2lip"
   },
   {
    "repo": "OHF-Voice/piper1-gpl",
@@ -4066,7 +4333,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C++",
    "stars": 5503,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "business-science/ai-data-science-team",
@@ -4081,7 +4349,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5405,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": "agents ai ai-engineer ai-engineering copilot data-science data-scientist generative-ai gpt machine-learning ml-engineer ml-engineering openai"
   },
   {
    "repo": "PeterGriffinJin/Search-R1",
@@ -4096,7 +4365,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 5388,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": ""
   },
   {
    "repo": "nICEnnnnnnnLee/BilibiliDown",
@@ -4111,7 +4381,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Java",
    "stars": 5269,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "bilibili cookie download-videos java video-downloader"
   },
   {
    "repo": "jina-ai/node-DeepResearch",
@@ -4126,7 +4397,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 5224,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "deepresearch deepsearch"
   },
   {
    "repo": "braedonsaunders/codeflow",
@@ -4141,7 +4413,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 5172,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "architecture browser-based code-analysis codebase-visualization d3js dependency-graph developer-tools github-api single-file visualization"
   },
   {
    "repo": "54yyyu/zotero-mcp",
@@ -4156,7 +4429,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4951,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "claude mcp semantic-search zotero"
   },
   {
    "repo": "going-doer/Paper2Code",
@@ -4171,7 +4445,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4944,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "getzep/zep",
@@ -4186,7 +4461,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4897,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai knowledge-graphs language-model llm"
   },
   {
    "repo": "Anil-matcha/AI-Youtube-Shorts-Generator",
@@ -4201,7 +4477,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4893,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "2short-ai-alternative ai-clip-generator ai-clipping auto-clip auto-crop highlight-detection klap-alternative llm open-source opus-clip-alternative reels shorts-maker submagic-alternative tiktok vertical-video video-editing vidyo-ai-alternative viral-clips whisper youtube-shorts"
   },
   {
    "repo": "PennyroyalTea/gibberlink",
@@ -4216,7 +4493,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 4890,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": ""
   },
   {
    "repo": "PKUFlyingPig/Self-learning-Computer-Science",
@@ -4231,7 +4509,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 4865,
-   "pushed": "2023-02"
+   "pushed": "2023-02",
+   "search": ""
   },
   {
    "repo": "openai/simple-evals",
@@ -4246,7 +4525,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4627,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "PrimeIntellect-ai/verifiers",
@@ -4261,7 +4541,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4599,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "AndrewStetsenko/tech-jobs-with-relocation",
@@ -4276,7 +4557,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 4531,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "abroad hiring job-search jobsearch overseas relocate relocation"
   },
   {
    "repo": "npubird/KnowledgeGraphCourse",
@@ -4291,7 +4573,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 4474,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "open-webui/mcpo",
@@ -4306,7 +4589,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4365,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "mcp mcp-server mcp-to-openapi open-webui openapi"
   },
   {
    "repo": "run-llama/llama_cloud_services",
@@ -4321,7 +4605,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 4266,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "document document-parser document-parsing docx-to-markdown parsing pdf pdf-document-processor pdf-to-excel pdf-to-json pdf-to-markdown pdf-to-text ppt-to-json ppt-to-markdown pptx structured-data tables"
   },
   {
    "repo": "algorithmicsuperintelligence/optillm",
@@ -4336,7 +4621,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4262,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "agent agentic-ai agentic-framework agentic-workflow agents api-gateway chain-of-thought genai large-language-models llm llm-inference llmapi mixture-of-experts moa monte-carlo-tree-search openai openai-api optimization prompt-engineering proxy-server"
   },
   {
    "repo": "mongodb-developer/GenAI-Showcase",
@@ -4351,7 +4637,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 4261,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agents artificial-intelligence atlas generative-ai jupyter-notebook llms mongodb python rag"
   },
   {
    "repo": "build-with-groq/g1",
@@ -4366,7 +4653,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4170,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": "managed-by-terraform"
   },
   {
    "repo": "browser-use/workflow-use",
@@ -4381,7 +4669,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4165,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "browser-automation browser-use-box rpa telegram-automation"
   },
   {
    "repo": "bragai/bRAG-langchain",
@@ -4396,7 +4685,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 4156,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agentic-rag ai chatbot llm machine-learning python rag retrieval-augmented-generation"
   },
   {
    "repo": "km1994/nlp_paper_study",
@@ -4411,7 +4701,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C++",
    "stars": 4031,
-   "pushed": "2023-08"
+   "pushed": "2023-08",
+   "search": "attention bert entity-recognition gcn relation-extraction"
   },
   {
    "repo": "microsoft/PromptWizard",
@@ -4426,7 +4717,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4009,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": ""
   },
   {
    "repo": "google-gemma/cookbook",
@@ -4441,7 +4733,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 3993,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "codegemma gemma paligemma recurrentgemma"
   },
   {
    "repo": "gusye1234/nano-graphrag",
@@ -4456,7 +4749,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3985,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": "gpt gpt-4o graphrag learning-by-doing llm rag"
   },
   {
    "repo": "googleapis/python-genai",
@@ -4471,7 +4765,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3967,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "yuruotong1/autoMate",
@@ -4486,7 +4781,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3953,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agent ai computeruse deepseek manus ollama omniparser openai openmanus response rpa"
   },
   {
    "repo": "Pimzino/claude-code-spec-workflow",
@@ -4501,7 +4797,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 3855,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "mhagiwara/100-nlp-papers",
@@ -4516,7 +4813,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 3849,
-   "pushed": "2021-07"
+   "pushed": "2021-07",
+   "search": ""
   },
   {
    "repo": "predibase/lorax",
@@ -4531,7 +4829,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3828,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "fine-tuning gpt llama llm llm-inference llm-serving llmops lora model-serving pytorch transformers"
   },
   {
    "repo": "SandAI-org/MAGI-1",
@@ -4546,7 +4845,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3782,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "autoregressive diffusion-models video-generation"
   },
   {
    "repo": "THUDM/AgentBench",
@@ -4561,7 +4861,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3717,
-   "pushed": "2026-02"
+   "pushed": "2026-02",
+   "search": "chatgpt gpt-4 llm llm-agent"
   },
   {
    "repo": "gotalab/cc-sdd",
@@ -4576,7 +4877,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 3658,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "agent-skills claude-code codex cursor gemini-cli github-copilot kiro opencode sdd spec-driven-development steering subagents"
   },
   {
    "repo": "NExT-GPT/NExT-GPT",
@@ -4591,7 +4893,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3635,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": "chatgpt foundation-models gpt-4 instruction-tuning large-language-models llm mllm multi-modal-chatgpt multimodal visual-language-learning"
   },
   {
    "repo": "RUC-NLPIR/FlashRAG",
@@ -4606,7 +4909,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3566,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "benchmark datasets large-language-models retrieval-augmented-generation"
   },
   {
    "repo": "humanlayer/skills",
@@ -4621,7 +4925,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 3558,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "Soul-AILab/SoulX-Podcast",
@@ -4636,7 +4941,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3546,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "QwenLM/Qwen3-ASR",
@@ -4651,7 +4957,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3488,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "MiniMax-AI/MiniMax-01",
@@ -4666,7 +4973,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3466,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": "large-language-models llm llms minimax-text-01 minimax-vl-01 vision-language-model vlm"
   },
   {
    "repo": "DSXiangLi/DecryptPrompt",
@@ -4681,7 +4989,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 3438,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "aigc chain-of-thought chatgpt demonstration few-shot-learning in-context-learning instruction-tuning llm llm-agent papers prompt prompt-engineering prompt-tuning zero-shot-learning"
   },
   {
    "repo": "agentscope-ai/ReMe",
@@ -4696,7 +5005,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3434,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent ai-agents dsh-plugin memory memoryscope rag reme"
   },
   {
    "repo": "yandex/perforator",
@@ -4711,7 +5021,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C++",
    "stars": 3424,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "continuous-profiling ebpf flamegraph performance performance-tools profiling"
   },
   {
    "repo": "MIT-LCP/mimic-code",
@@ -4726,7 +5037,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 3364,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "critical-care icu mimic-iii physionet"
   },
   {
    "repo": "cloudflare/security-audit-skill",
@@ -4741,7 +5053,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 3248,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "NVIDIA/skills",
@@ -4756,7 +5069,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3238,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills agentic-ai ai-agents claude-code codex coding-agents cuda developer-tools llm omniverse physical-ai rag robotics simulation"
   },
   {
    "repo": "hefengxian/my-ielts",
@@ -4771,7 +5085,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Vue",
    "stars": 3205,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ielts ielts-exam ielts-listening ielts-notes ielts-reading ielts-speaking ielts-writing"
   },
   {
    "repo": "google-agentic-commerce/AP2",
@@ -4786,7 +5101,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3175,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "chenyme/Chenyme-AAVT",
@@ -4801,7 +5117,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3128,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": "faster-whisper gpt-4 gpt-4o speech-recognition video-translation whisper"
   },
   {
    "repo": "axcore/tartube",
@@ -4816,7 +5133,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3111,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "LeeJunHyun/Image_Segmentation",
@@ -4831,7 +5149,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3101,
-   "pushed": "2023-06"
+   "pushed": "2023-06",
+   "search": ""
   },
   {
    "repo": "ridgerchu/matmulfreellm",
@@ -4846,7 +5165,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3090,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "large-language-model linear-transformer llm"
   },
   {
    "repo": "decodingai-magazine/second-brain-ai-assistant-course",
@@ -4861,7 +5181,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 3080,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "agents ai-systems data-engineering fine-tuning huggingface llm llmops mlops openai python rag"
   },
   {
    "repo": "Tramac/awesome-semantic-segmentation-pytorch",
@@ -4876,7 +5197,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3070,
-   "pushed": "2023-01"
+   "pushed": "2023-01",
+   "search": "pytorch semantic-segmentation"
   },
   {
    "repo": "presmihaylov/booknotes",
@@ -4891,7 +5213,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Java",
    "stars": 3063,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "booknotes books"
   },
   {
    "repo": "echohive42/AI-reads-books-page-by-page",
@@ -4906,7 +5229,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3058,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "mahlernim/google-timeline-visualizer",
@@ -4921,7 +5245,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Kotlin",
    "stars": 2980,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "NVIDIA/NeMo-Retriever",
@@ -4936,7 +5261,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2977,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "zjunlp/EasyEdit",
@@ -4951,7 +5277,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 2914,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "artificial-intelligence baichuan chatgpt cknowedit easyedit easyedit2 efficient gpt knowedit knowledge-editing knowlm large-language-models llama mmedit model-editing natural-language-processing safeedit tool trustworthy-ai unlearning"
   },
   {
    "repo": "memodb-io/memobase",
@@ -4966,7 +5293,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2888,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": "ai-companion ai-memory chatgpt llm-application llm-memory long-term-memory memory rag retrieval user-memory"
   },
   {
    "repo": "thepersonalaicompany/amurex",
@@ -4981,7 +5309,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 2871,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": "ai chrome-extension copilot meetings transcriptions"
   },
   {
    "repo": "mshumer/OpenDeepResearcher",
@@ -4996,7 +5325,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 2795,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": ""
   },
   {
    "repo": "huggingface/cookbook",
@@ -5011,7 +5341,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 2727,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "underlines/awesome-ml",
@@ -5026,7 +5357,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2722,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "openai/privacy-filter",
@@ -5041,7 +5373,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2686,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "bytedance/InfiniteYou",
@@ -5056,7 +5389,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2686,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "diffusers diffusion diffusion-transformer dit face flux iccv2025 identity-preserving image-editing image-generation personalization pytorch research text-to-image"
   },
   {
    "repo": "RManLuo/Awesome-LLM-KG",
@@ -5071,7 +5405,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2614,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": "awsome chatgpt gpt-4 kg knowledge-graph language-model large-language-model llm survey"
   },
   {
    "repo": "miantiao-me/hacker-podcast",
@@ -5086,7 +5421,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 2576,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai ai-agent ai-workflow cloudflare cloudflare-workers cloudflare-workflows hacker-news nextjs"
   },
   {
    "repo": "mbzuai-oryx/Awesome-LLM-Post-training",
@@ -5101,7 +5437,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2541,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "fine large-language-models post-training reasoning reinforcement-learning scaling"
   },
   {
    "repo": "alecm20/story-flicks",
@@ -5116,7 +5453,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2530,
-   "pushed": "2025-03"
+   "pushed": "2025-03",
+   "search": "ai-video ai-video-generator chatgpt moviepy openai python shortvideo story-generation"
   },
   {
    "repo": "harry0703/AudioNotes",
@@ -5131,7 +5469,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2494,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai asr funasr ollama python qwen2 whisper"
   },
   {
    "repo": "microsoft/PIKE-RAG",
@@ -5146,7 +5485,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2480,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": "domain-specific industrial-ai knowledge-extraction rag"
   },
   {
    "repo": "landing-ai/ade-cli",
@@ -5161,7 +5501,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2410,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agentic-document-extraction cli document-extraction document-parsing ocr pdf"
   },
   {
    "repo": "LichAmnesia/GPT-Prompt-Hub",
@@ -5176,7 +5517,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2394,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "agentuniverse-ai/agentUniverse",
@@ -5191,7 +5533,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2351,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "agent ai ai-agents autonomous awesome awesome-list llm multi-agent python"
   },
   {
    "repo": "jennyzzt/dgm",
@@ -5206,7 +5549,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2292,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "baturyilmaz/wordpecker-app",
@@ -5221,7 +5565,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 2255,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "zjukg/KG-LLM-Papers",
@@ -5236,7 +5581,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2228,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "awesome awesome-kg awesome-llm awsome-list commonsense gpt knowledge knowledge-graph language-models large-language-models llm nlp paper-list prompt survey"
   },
   {
    "repo": "btahir/open-deep-research",
@@ -5251,7 +5597,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 2141,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "PKU-YuanGroup/LLaVA-CoT",
@@ -5266,7 +5613,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2132,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "openmedlab/Awesome-Medical-Dataset",
@@ -5281,7 +5629,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2116,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": ""
   },
   {
    "repo": "QwenLM/Qwen2-Audio",
@@ -5296,7 +5645,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2098,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "Hao0321/video-autopilot-kit",
@@ -5311,7 +5661,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2072,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "capcut content-creation creator-tools ffmpeg python shorts video-automation youtube"
   },
   {
    "repo": "ammaarreshi/Gemini-Search",
@@ -5326,7 +5677,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 2068,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": ""
   },
   {
    "repo": "WenjieDu/PyPOTS",
@@ -5341,7 +5693,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2057,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "anomaly-detection classification clustering data-analysis data-mining data-science deep-learning forecasting generation imputation machine-learning missing-values neural-networks pytorch time-series"
   },
   {
    "repo": "amazon-science/auto-cot",
@@ -5356,7 +5709,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 2048,
-   "pushed": "2024-03"
+   "pushed": "2024-03",
+   "search": "chain-of-thought gpt-3 gpt3-prompts gpt3-resources large-language-models prompt-engineering reasoning"
   },
   {
    "repo": "AI-in-Health/MedLLMsPracticalGuide",
@@ -5371,7 +5725,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2042,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "ai-in-medicine clinical-ai large-language-models medical-large-language-models survey"
   },
   {
    "repo": "elayadesign/ai-design-skills",
@@ -5386,7 +5741,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 2028,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "HKUDS/MiniRAG",
@@ -5401,7 +5757,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 2010,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "large-language-models rag retrieval-augmented-generation"
   },
   {
    "repo": "shcherbak-ai/contextgem",
@@ -5416,7 +5773,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1998,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai autoprompting contract-analysis data-extraction document-intelligence generative-ai legaltech llm llm-extraction llm-framework llm-pipeline llms nlp prompt-engineering text-analysis unstructured-data"
   },
   {
    "repo": "win4r/AISuperDomain",
@@ -5431,7 +5789,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "C#",
    "stars": 1995,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "autogpt autogpt-no-paid-api chatgpt chatgpt-app chatgpt-bot chatgpt-plugins chatgpt4 claude claude3 freegpt gemini gpt-5 gpt5 llama2 openai openai-api stable stable-diffusion stable-diffusion-webui"
   },
   {
    "repo": "showlab/computer_use_ootb",
@@ -5446,7 +5805,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1958,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": ""
   },
   {
    "repo": "ayangweb/Awesome-BongoCat",
@@ -5461,7 +5821,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1957,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "awesome-bongo-cat awesome-bongocat bongo-cat bongocat"
   },
   {
    "repo": "geshan/au-companies-providing-work-visa-sponsorship",
@@ -5476,7 +5837,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1905,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "australia australian-companies hacktoberfest hacktoberfest2023 relocation tech visa visa-sponsorship"
   },
   {
    "repo": "Mathews-Tom/Agentic-Design-Patterns",
@@ -5491,7 +5853,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1839,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "onestardao/WFGY",
@@ -5506,7 +5869,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 1786,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "ai-agents alignment debugging evaluation graphrag hallucination information-retrieval knowledge-graph llm rag reasoning retrieval-augmented-generation"
   },
   {
    "repo": "wwbin2017/bailing",
@@ -5521,7 +5885,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1764,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "ai asr chatgpt chattts deepseek funasr gpt-4o llm openai openclaw tts voice-assistant"
   },
   {
    "repo": "lotus-data/lotus",
@@ -5536,7 +5901,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1667,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "agentic-data-processing ai-data-processing data llm llm-data-processing llm-document-processing pandas python semantic-operators semantic-search unstructured-data"
   },
   {
    "repo": "bytedance/pasa",
@@ -5551,7 +5917,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1658,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": "research"
   },
   {
    "repo": "lizhe2004/Awesome-LLM-RAG-Application",
@@ -5566,7 +5933,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1654,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "tomasonjo/blogs",
@@ -5581,7 +5949,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 1647,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": "data-science graph graph-algorithms neo4j"
   },
   {
    "repo": "meta-llama/synthetic-data-kit",
@@ -5596,7 +5965,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1634,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "data generation llm python synthetic"
   },
   {
    "repo": "NVIDIA/RULER",
@@ -5611,7 +5981,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1611,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "AlibabaResearch/DAMO-ConvAI",
@@ -5626,7 +5997,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1594,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "conversational-ai deep-learning dialog natural-language-processing"
   },
   {
    "repo": "AkariAsai/OpenScholar",
@@ -5641,7 +6013,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1593,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "Google-Health/medgemma",
@@ -5656,7 +6029,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 1587,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "afx-team/petercat",
@@ -5671,7 +6045,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 1495,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": "ai assistant assistant-chat-bots assistants github-apps llm rag react"
   },
   {
    "repo": "octotools/octotools",
@@ -5686,7 +6061,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1488,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "agentic-framework agents complex-reasoning large-language-models llms tool-augmented"
   },
   {
    "repo": "KalyanKS-NLP/rag-zero-to-hero-guide",
@@ -5701,7 +6077,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 1418,
-   "pushed": "2025-03"
+   "pushed": "2025-03",
+   "search": "ai-engineer generative-ai large-language-models llm-engineer llm-rag llms retrieval-augmented-generation"
   },
   {
    "repo": "truongduy2611/app-store-preflight-skills",
@@ -5716,7 +6093,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1359,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "ChatPRD/lennys-podcast-transcripts",
@@ -5731,7 +6109,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 1357,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": ""
   },
   {
    "repo": "jxzhangjhu/Awesome-LLM-RAG",
@@ -5746,7 +6125,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1347,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "embeddings large-language-models llm rag rag-embeddings retrieval-augmented-generation retrieval-information"
   },
   {
    "repo": "xianshang33/llm-paper-daily",
@@ -5761,7 +6141,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1327,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent chatgpt large-language-models llm rag"
   },
   {
    "repo": "voidful/hung-yi-lee-skill",
@@ -5776,7 +6157,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 1277,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "claude explainability fable5 hung-yi-lee skills"
   },
   {
    "repo": "sail-sg/understand-r1-zero",
@@ -5791,7 +6173,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1275,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "llm r1-zero reasoning rl"
   },
   {
    "repo": "stair-lab/kg-gen",
@@ -5806,7 +6189,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1267,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "benchmark knowledge-graph llm"
   },
   {
    "repo": "tsinghua-fib-lab/AgentSociety",
@@ -5821,7 +6205,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1264,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent agent-based-modeling agentsociety2 ai-assistants ai-for-science ai-social-scientist harness-engineering multi-agents simulation social-simulation"
   },
   {
    "repo": "FoloUp/FoloUp",
@@ -5836,7 +6221,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 1255,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "hiring interviewing recruiting voice-ai-agents webapp"
   },
   {
    "repo": "doggy8088/github-copilot-configs",
@@ -5851,7 +6237,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1244,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": "github-copilot github-copilot-chat"
   },
   {
    "repo": "SakanaAI/self-adaptive-llms",
@@ -5866,7 +6253,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1225,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": ""
   },
   {
    "repo": "aTrainTranscription/aTrain",
@@ -5881,7 +6269,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1207,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "nishuzumi/gemini-teacher",
@@ -5896,7 +6285,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1200,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "googlecolab/google-colab-cli",
@@ -5911,7 +6301,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1172,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "vec2text/vec2text",
@@ -5926,7 +6317,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1137,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "op7418/guizang-material-illustration",
@@ -5941,7 +6333,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 1117,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "agent chart-visualization chinese claude-code codex data-visualization explainer illustration image-generation material-illustration skill social-media"
   },
   {
    "repo": "rasbt/LLM-workshop-2024",
@@ -5956,7 +6349,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 1114,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": "large-language-models llm pytorch"
   },
   {
    "repo": "TheAiSingularity/graphrag-local-ollama",
@@ -5971,7 +6365,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 1107,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "StreetLamb/tribe",
@@ -5986,7 +6381,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 1084,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "agent-based-framework agent-oriented-programming agentic agentic-agi ai ai-tools chat chatbot gpt gpt-35-turbo gpt-4 gpt-4o langchain-python langgraph llm-agent llm-framework llms low-code no-code open-source"
   },
   {
    "repo": "IAAR-Shanghai/SurveyX",
@@ -6001,7 +6397,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TeX",
    "stars": 990,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": "ai4research automated-survey-generation autosurvey deep-research large-language-models literature-search literature-synthesis llm nlp"
   },
   {
    "repo": "senstella/parakeet-mlx",
@@ -6016,7 +6413,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 977,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "DreambigOu/ELI5",
@@ -6031,7 +6429,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 965,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "ai-skill anthropic claude claude-code claude-skill education eli5 explain-like-im-5 llm prompt-engineering"
   },
   {
    "repo": "Raymondhou0917/speak-human-tw",
@@ -6046,7 +6445,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 947,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-skills ai-writing claude-code codex cursor humanizer prompt-engineering traditional-chinese writing-tools zh-tw"
   },
   {
    "repo": "BaranziniLab/KG_RAG",
@@ -6061,7 +6461,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 946,
-   "pushed": "2024-11"
+   "pushed": "2024-11",
+   "search": "bert-models bioinformatics bioinformatics-algorithms biomedical-applications biomedical-informatics context-aware gpt gpt35turbo gpt4 knowledge-base knowledge-graph large-language-models llama llama2 llm prompt-engineering prompt-tuning rag retrieval-augmented-generation sentence-transformers"
   },
   {
    "repo": "osanseviero/InstantCoder",
@@ -6076,7 +6477,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 935,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": ""
   },
   {
    "repo": "Thytu/Agentarium",
@@ -6091,7 +6493,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 934,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "ImprintLab/Medical-SAM2",
@@ -6106,7 +6509,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 930,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": "deep-learning medical medical-imaging segment-anything segment-anything-2 segment-anything-model segmentation"
   },
   {
    "repo": "Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
@@ -6121,7 +6525,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 887,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "claude-ai claude-skills compliance csrd data-privacy dpdpa-2023 eu-ai-act fedramp gdpr governance grc hipaa iso27001 iso27701 iso42001 nist-csf pci-dss risk security soc2"
   },
   {
    "repo": "andysingal/llm-course",
@@ -6136,7 +6541,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 885,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "MobinX/awesome-mcp-list",
@@ -6151,7 +6557,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 880,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "karthikvenkatesan-eaton/Autogen_GraphRAG_Ollama",
@@ -6166,7 +6573,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 849,
-   "pushed": "2024-07"
+   "pushed": "2024-07",
+   "search": ""
   },
   {
    "repo": "kevintsai1202/Humanizer-zh-TW",
@@ -6181,7 +6589,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 836,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "ImprintLab/Medical-Graph-RAG",
@@ -6196,7 +6605,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 830,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "deep-learning graph-rag large-language-model large-language-models machine-learning medical retrieval-augmented-generation"
   },
   {
    "repo": "OpenBMB/IoA",
@@ -6211,7 +6621,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 829,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "agent ai genai ioa llm"
   },
   {
    "repo": "mostly-ai/mostlyai",
@@ -6226,7 +6637,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 798,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "differential-privacy generative-ai machine-learning privacy-enhancing-technologies synthetic-data synthetic-data-generation synthetic-data-generator"
   },
   {
    "repo": "poteto/how",
@@ -6241,7 +6653,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 789,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "DataoceanAI/Dolphin",
@@ -6256,7 +6669,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 787,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "TheAgentCompany/TheAgentCompany",
@@ -6271,7 +6685,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 775,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "agent ai ai-benchmark ai-research benchmark llm"
   },
   {
    "repo": "line/line-bot-mcp-server",
@@ -6286,7 +6701,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 775,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "line linebot mcp mcp-server"
   },
   {
    "repo": "arpit20adlakha/Computer-Science-Papers-For-System-Design",
@@ -6301,7 +6717,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 768,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "gabriben/awesome-generative-information-retrieval",
@@ -6316,7 +6733,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 729,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "ai chatgpt deep-learning generative-ai information-retrieval machine-learning nlp"
   },
   {
    "repo": "shams-imran/books",
@@ -6331,7 +6749,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 697,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "caspianmoon/memoripy",
@@ -6346,7 +6765,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 694,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "ai llm memory memory-management"
   },
   {
    "repo": "ai-boost/awesome-a2a",
@@ -6361,7 +6781,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 684,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "a2a a2a-cli a2a-mcp a2a-protocol a2a-server agent agent2agent mcp"
   },
   {
    "repo": "dswh/ai-engineer-roadmap",
@@ -6376,7 +6797,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 674,
-   "pushed": "2024-06"
+   "pushed": "2024-06",
+   "search": ""
   },
   {
    "repo": "cxcscmu/Craw4LLM",
@@ -6391,7 +6813,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 664,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": "crawler crawling large-language-models llm pre-training pretraining web-crawler web-crawling"
   },
   {
    "repo": "6tail/lunar-python",
@@ -6406,7 +6829,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 654,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": "calendar lunar solar"
   },
   {
    "repo": "LennysNewsletter/lennys-newsletterpodcastdata",
@@ -6421,7 +6845,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 653,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "mims-harvard/TxAgent",
@@ -6436,7 +6861,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 653,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": "agents precision-medicine reasoning-agent reasoning-language-models therapeutics tool-use"
   },
   {
    "repo": "SpursGoZmy/Awesome-Tabular-LLMs",
@@ -6451,7 +6877,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 635,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "chrishutchinson/claude-receipts",
@@ -6466,7 +6893,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 629,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "claude claude-code receipt-printer vibe-coding"
   },
   {
    "repo": "Wang-ML-Lab/llm-continual-learning-survey",
@@ -6481,7 +6909,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 562,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": "continual-learning large-language-model llm"
   },
   {
    "repo": "oxbshw/Open-Workflow-Library",
@@ -6496,7 +6925,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 552,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": "ai-agents ai-agents-automation ai-agents-framework automation automation-framework llm n8n n8n-workflow open-source prompt-to-workflow workflow-automation workflow-generator workflow-repair workflow-validation"
   },
   {
    "repo": "deepset-ai/haystack-cookbook",
@@ -6511,7 +6941,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 547,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic agentic-ai agents ai ai-tools genai genai-usecases haystack-ai python rag"
   },
   {
    "repo": "imelnyk/ArxivPapers",
@@ -6526,7 +6957,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 544,
-   "pushed": "2024-04"
+   "pushed": "2024-04",
+   "search": ""
   },
   {
    "repo": "sadransh/awsome-list-of-cv-and-resume-templetes",
@@ -6541,7 +6973,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 538,
-   "pushed": "2022-01"
+   "pushed": "2022-01",
+   "search": "cover-letter cv cv-template latex latex-template resume templete"
   },
   {
    "repo": "Jaycheng1103/chatgpt-video-editing-skills",
@@ -6556,7 +6989,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Shell",
    "stars": 524,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "agent-skills elevenlabs ffmpeg hyperframes traditional-chinese video-editing"
   },
   {
    "repo": "xiyuanzh/awesome-llm-time-series",
@@ -6571,7 +7005,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 521,
-   "pushed": "2024-07"
+   "pushed": "2024-07",
+   "search": ""
   },
   {
    "repo": "ZongqianLi/ReasonGraph",
@@ -6586,7 +7021,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 516,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "amanchadha/coursera-machine-learning-engineering-for-prod-mlops-specialization",
@@ -6601,7 +7037,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 498,
-   "pushed": "2023-11"
+   "pushed": "2023-11",
+   "search": ""
   },
   {
    "repo": "zjunlp/OmniThink",
@@ -6616,7 +7053,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 486,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "artificial-intelligence deepseek-r1 deepseek-v3 generation gpt gpt4o information-seeking knowledge-augmented-generation large-language-models machine-writing natural-language-processing news-generation omnithink qwen qwen2-5 report-generation retrieval-augmented-generation slow-thinking"
   },
   {
    "repo": "iamarunbrahma/vision-parse",
@@ -6631,7 +7069,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 481,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": "document-parser pdf-parser pdf-to-markdown text-extraction"
   },
   {
    "repo": "run-llama/multi-agent-concierge",
@@ -6646,7 +7085,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 445,
-   "pushed": "2025-01"
+   "pushed": "2025-01",
+   "search": ""
   },
   {
    "repo": "johnnyhwu/Awesome-LLM-Tabular",
@@ -6661,7 +7101,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 429,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "awesome large-language-models tabular-data"
   },
   {
    "repo": "NVIDIA/Star-Attention",
@@ -6676,7 +7117,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 392,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": "attention-mechanism large-language-models llm-inference"
   },
   {
    "repo": "Agent-Threat-Rule/agent-threat-rules",
@@ -6691,7 +7133,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 388,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agent-security agent-threat-rules ai-security garak llm-security mcp-security owasp owasp-agentic prompt-injection sigma-rules threat-detection"
   },
   {
    "repo": "ywchiu/largitdata",
@@ -6706,7 +7149,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 387,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": ""
   },
   {
    "repo": "frutik/Awesome-RAG",
@@ -6721,7 +7165,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 381,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "rag rag-evaluation rag-implementation"
   },
   {
    "repo": "taesiri/ArXivQA",
@@ -6736,7 +7181,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 380,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "arxiv arxiv-daily arxiv-dataset arxiv-papers arxiv-preprint automated-qa claude claude2 gpt gpt-4 llama llama2 llm question-answering"
   },
   {
    "repo": "Kenton-GMI/sakura-crossing",
@@ -6751,7 +7197,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 369,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "adobe-research/dynasaur",
@@ -6766,7 +7213,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 359,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "agents agi ai llm nlp"
   },
   {
    "repo": "SamuelSchmidgall/AgentClinic",
@@ -6781,7 +7229,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 352,
-   "pushed": "2024-12"
+   "pushed": "2024-12",
+   "search": ""
   },
   {
    "repo": "lucy-cxy/oss-investment-scorecard",
@@ -6796,7 +7245,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 340,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "shangshang-wang/Tina",
@@ -6811,7 +7261,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 337,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM",
@@ -6826,7 +7277,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 333,
-   "pushed": "2024-06"
+   "pushed": "2024-06",
+   "search": ""
   },
   {
    "repo": "hubeiqiao/IELTS-Speaking-Simulator",
@@ -6841,7 +7293,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 332,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "chrischoy/WhisperChain",
@@ -6856,7 +7309,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 332,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": ""
   },
   {
    "repo": "patrickloeber/workshop-build-with-gemini",
@@ -6871,7 +7325,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 321,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": ""
   },
   {
    "repo": "stanfordmlgroup/MedAgentBench",
@@ -6886,7 +7341,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 321,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": "agent benchmark medical"
   },
   {
    "repo": "WTFAcademy/WTF-Langchain",
@@ -6901,7 +7357,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 315,
-   "pushed": "2023-11"
+   "pushed": "2023-11",
+   "search": ""
   },
   {
    "repo": "PromptEngineer48/MemGPT-AutoGEN-LLM",
@@ -6916,7 +7373,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 314,
-   "pushed": "2023-11"
+   "pushed": "2023-11",
+   "search": "autogen localllm memgpt"
   },
   {
    "repo": "notoriouslab/doc-cleaner",
@@ -6931,7 +7389,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 310,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "apple-keynote apple-numbers bank-statement epub iwork pdf python"
   },
   {
    "repo": "mtkresearch/MR-Models",
@@ -6946,7 +7405,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 295,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "llm"
   },
   {
    "repo": "SNOWTEAM2023/MedRAG",
@@ -6961,7 +7421,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 291,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "paid-tw/skills",
@@ -6976,7 +7437,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "PHP",
    "stars": 277,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": "payment-integration payments skills taiwan"
   },
   {
    "repo": "suzgunmirac/dynamic-cheatsheet",
@@ -6991,7 +7453,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 276,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "knowsuchagency/promptic",
@@ -7006,7 +7469,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 274,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "ai llms python utility"
   },
   {
    "repo": "Jiaqi-Chen-00/ImBD",
@@ -7021,7 +7485,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 264,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": "ai-content-detector ai-safety llm-detection mechine-text-detection"
   },
   {
    "repo": "patrickloeber/llm-data-scrapers",
@@ -7036,7 +7501,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 248,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": ""
   },
   {
    "repo": "AS-AIGC/TranscriptHub",
@@ -7051,7 +7517,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 245,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "ictnlp/FlexRAG",
@@ -7066,7 +7533,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 241,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "llms nlp rag"
   },
   {
    "repo": "yc-oss/api",
@@ -7081,7 +7549,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 230,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "api json rest-api typescript y-combinator"
   },
   {
    "repo": "BotchetDig/workout-gate",
@@ -7096,7 +7565,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 221,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "zhpmatrix/PaperReading",
@@ -7111,7 +7581,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 215,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "paper-reading paper-weekly"
   },
   {
    "repo": "GAIR-NLP/cognition-engineering",
@@ -7126,7 +7597,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 214,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "backtrue/sbir-grants",
@@ -7141,7 +7613,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 212,
-   "pushed": "2026-03"
+   "pushed": "2026-03",
+   "search": ""
   },
   {
    "repo": "cyesuta/Code-Guardian-Aegis",
@@ -7156,7 +7629,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 210,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "getzep/zep-python",
@@ -7171,7 +7645,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 208,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "glutanimate/wordlist-medicalterms-en",
@@ -7186,7 +7661,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 205,
-   "pushed": "2021-06"
+   "pushed": "2021-06",
+   "search": ""
   },
   {
    "repo": "YHPeter/Awesome-RAG-Evaluation",
@@ -7201,7 +7677,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TeX",
    "stars": 199,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "CryptoAILab/JailbreakEval",
@@ -7216,7 +7693,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 196,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": "llm-jailbreaks llm-safety"
   },
   {
    "repo": "LibertFan/AI_Hospital",
@@ -7231,7 +7709,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 195,
-   "pushed": "2024-09"
+   "pushed": "2024-09",
+   "search": ""
   },
   {
    "repo": "PCL-Voice/PengChengStarling",
@@ -7246,7 +7725,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 190,
-   "pushed": "2025-03"
+   "pushed": "2025-03",
+   "search": ""
   },
   {
    "repo": "ybq22/supervisor",
@@ -7261,7 +7741,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 179,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "Penny777btc/lenny-podcast-chinese",
@@ -7276,7 +7757,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 179,
-   "pushed": "2026-01"
+   "pushed": "2026-01",
+   "search": ""
   },
   {
    "repo": "nczz/ownscribe",
@@ -7291,7 +7773,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 177,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "LingyiChen-AI/boris-prompts",
@@ -7306,7 +7789,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 162,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "FreedomIntelligence/Chain-of-Diagnosis",
@@ -7321,7 +7805,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 162,
-   "pushed": "2024-09"
+   "pushed": "2024-09",
+   "search": ""
   },
   {
    "repo": "whanxueyu/demo-collection",
@@ -7336,7 +7821,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 155,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": "bigscreen cesium css3 gis orc vr"
   },
   {
    "repo": "apachecn/stanford-cs183-notes",
@@ -7351,7 +7837,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 153,
-   "pushed": "2022-07"
+   "pushed": "2022-07",
+   "search": ""
   },
   {
    "repo": "thepersonalaicompany/amurex-backend",
@@ -7366,7 +7853,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 147,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "geniusrise/awesome-healthcare-datasets",
@@ -7381,7 +7869,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 144,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "awesome-list biomedical clinical datasets healthcare imaging omics"
   },
   {
    "repo": "hanifabd/voice-activity-detection-vad-realtime",
@@ -7396,7 +7885,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 114,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": "live-transcript machine-learning realtime-transcribe speech speech-processing speech-recognition speech-to-text voice voice-assistant voice-bot web-service websockets"
   },
   {
    "repo": "chrschy/fact-finder",
@@ -7411,7 +7901,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 114,
-   "pushed": "2024-08"
+   "pushed": "2024-08",
+   "search": ""
   },
   {
    "repo": "dongxiangjue/Awesome-LLM-Self-Improvement",
@@ -7426,7 +7917,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 110,
-   "pushed": "2024-12"
+   "pushed": "2024-12",
+   "search": ""
   },
   {
    "repo": "zou-group/sirius",
@@ -7441,7 +7933,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 110,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": "finetuning llm multiagent reasoning self-improving"
   },
   {
    "repo": "ai-twinkle/Eval",
@@ -7456,7 +7949,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 109,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "eval evaluation llm"
   },
   {
    "repo": "doggy8088/gemini-api-cookbook",
@@ -7471,7 +7965,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 105,
-   "pushed": "2024-12"
+   "pushed": "2024-12",
+   "search": "gemini-api generative-ai google-ai"
   },
   {
    "repo": "drpwchen/lecture-to-notes",
@@ -7486,7 +7981,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 101,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "claude-code faster-whisper lecture-notes note-taking obsidian ocr transcription whisper"
   },
   {
    "repo": "MFYDev/odoo-expert",
@@ -7501,7 +7997,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 98,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": "chatbot documentation embeddings openai rag retrieval-augmented-generation"
   },
   {
    "repo": "deepbeepmeep/Cosmos1GP",
@@ -7516,7 +8013,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 92,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": ""
   },
   {
    "repo": "mtkresearch/generative-fusion-decoding",
@@ -7531,7 +8029,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 87,
-   "pushed": "2025-07"
+   "pushed": "2025-07",
+   "search": ""
   },
   {
    "repo": "MIBlue119/claude-code-harness-blog",
@@ -7546,7 +8045,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "MDX",
    "stars": 85,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "stream-bench/stream-bench",
@@ -7561,7 +8061,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 85,
-   "pushed": "2024-10"
+   "pushed": "2024-10",
+   "search": ""
   },
   {
    "repo": "wolfhong/LunarCalendar",
@@ -7576,7 +8077,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 82,
-   "pushed": "2024-05"
+   "pushed": "2024-05",
+   "search": "24-solar-terms chinese-festivals festival lunar-calendar lunar-solar-converter lunisolar-calendar solar-calendar"
   },
   {
    "repo": "kcchien/model-thinking",
@@ -7591,7 +8093,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 81,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "sorosora/arcade-statusline",
@@ -7606,7 +8109,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 81,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": "bash claude cli statusline terminal"
   },
   {
    "repo": "LLMSELECTOR/LLMSELECTOR",
@@ -7621,7 +8125,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 81,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "Ruisi-Lu/academic-literature-mining-skill",
@@ -7636,7 +8141,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Rust",
    "stars": 80,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "ithiria894/claude-code-buddy-reroll",
@@ -7651,7 +8157,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 76,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "qianlima-lab/awesome-lifelong-learning-methods-for-llm",
@@ -7666,7 +8173,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 72,
-   "pushed": "2025-05"
+   "pushed": "2025-05",
+   "search": "continual-learning incremental-learning large-language-models lifelong-learning pretrained-language-model"
   },
   {
    "repo": "doggy8088/awesome-generative-ai-guide",
@@ -7681,7 +8189,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 72,
-   "pushed": "2024-07"
+   "pushed": "2024-07",
+   "search": ""
   },
   {
    "repo": "ai-builders-group/build-production-ai-agents",
@@ -7696,7 +8205,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 67,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "jordan-cutler/tech-work-terms",
@@ -7711,7 +8221,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 64,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "pipecat-ai/voice-ai-primer-web",
@@ -7726,7 +8237,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 61,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "stuser/Awesome_TC_Datasets",
@@ -7741,7 +8253,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 56,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "Ernyoke/certified-gcp-cloud-engineer",
@@ -7756,7 +8269,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 54,
-   "pushed": "2023-05"
+   "pushed": "2023-05",
+   "search": ""
   },
   {
    "repo": "craig7351/zombie-survivors",
@@ -7771,7 +8285,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 53,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "Winston774/ai-music-channel-starter",
@@ -7786,7 +8301,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 53,
-   "pushed": "2026-05"
+   "pushed": "2026-05",
+   "search": ""
   },
   {
    "repo": "Farzad-R/Finetune-LLAVA-NEXT",
@@ -7801,7 +8317,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 41,
-   "pushed": "2024-11"
+   "pushed": "2024-11",
+   "search": ""
   },
   {
    "repo": "https-deeplearning-ai/sc-agent-governance",
@@ -7816,7 +8333,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 35,
-   "pushed": "2026-06"
+   "pushed": "2026-06",
+   "search": ""
   },
   {
    "repo": "envy-ai/Wan2.1-quantized",
@@ -7831,7 +8349,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 34,
-   "pushed": "2025-02"
+   "pushed": "2025-02",
+   "search": ""
   },
   {
    "repo": "isomoes-video/md2video",
@@ -7846,7 +8365,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 32,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": "agentic-ai mcp skills"
   },
   {
    "repo": "TGoldsack1/Corpora_for_Lay_Summarisation",
@@ -7861,7 +8381,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 28,
-   "pushed": "2024-05"
+   "pushed": "2024-05",
+   "search": ""
   },
   {
    "repo": "peiwenshen/MIT-6.5840-Labs-Notes-Spring-2024",
@@ -7876,7 +8397,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 27,
-   "pushed": "2025-10"
+   "pushed": "2025-10",
+   "search": ""
   },
   {
    "repo": "LiuYuWei/llm-colab-application",
@@ -7891,7 +8413,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 27,
-   "pushed": "2025-12"
+   "pushed": "2025-12",
+   "search": ""
   },
   {
    "repo": "univanxx/3mdbench",
@@ -7906,7 +8429,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 24,
-   "pushed": "2025-09"
+   "pushed": "2025-09",
+   "search": ""
   },
   {
    "repo": "pcwu2022/ntufood",
@@ -7921,7 +8445,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 24,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": ""
   },
   {
    "repo": "HighCWu/flux-4bit",
@@ -7936,7 +8461,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 23,
-   "pushed": "2024-08"
+   "pushed": "2024-08",
+   "search": ""
   },
   {
    "repo": "craig7351/fake-whiteout-survival",
@@ -7951,7 +8477,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 22,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "babylonjs cloudflare-pages game idle-game tower-defense typescript vue webgl"
   },
   {
    "repo": "myyang19770915/MOSS-ASR",
@@ -7966,7 +8493,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 20,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "AIAnytime/Qwen2-VL-Fine-Tuning",
@@ -7981,7 +8509,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 19,
-   "pushed": "2024-09"
+   "pushed": "2024-09",
+   "search": ""
   },
   {
    "repo": "Jakevin/o1-like-prompt",
@@ -7996,7 +8525,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 19,
-   "pushed": "2024-09"
+   "pushed": "2024-09",
+   "search": ""
   },
   {
    "repo": "jobright-ai/2026-Account-New-Grad",
@@ -8011,7 +8541,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 15,
-   "pushed": "2026-09"
+   "pushed": "2026-09",
+   "search": ""
   },
   {
    "repo": "yazelin/line-sticker-studio",
@@ -8026,7 +8557,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 13,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": ""
   },
   {
    "repo": "jimmyliao/linebot",
@@ -8041,7 +8573,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 13,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "ocftw/ssd",
@@ -8056,7 +8589,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 12,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "cso security security-guide self-defense"
   },
   {
    "repo": "ChihchengHsieh/Multimodal-Medical-Diagnosis-System",
@@ -8071,7 +8605,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 11,
-   "pushed": "2022-03"
+   "pushed": "2022-03",
+   "search": ""
   },
   {
    "repo": "StevenWang82/local-ai-automation-pakage",
@@ -8086,7 +8621,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 10,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "som-shahlab/opt-paradox",
@@ -8101,7 +8637,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 9,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": ""
   },
   {
    "repo": "DanielSun94/conversational_diagnosis",
@@ -8116,7 +8653,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 8,
-   "pushed": "2024-07"
+   "pushed": "2024-07",
+   "search": ""
   },
   {
    "repo": "appier-research/streambench-final-project",
@@ -8131,7 +8669,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 7,
-   "pushed": "2024-12"
+   "pushed": "2024-12",
+   "search": ""
   },
   {
    "repo": "TGoldsack1/BioLaySumm2024-evaluation_scripts",
@@ -8146,7 +8685,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 6,
-   "pushed": "2024-02"
+   "pushed": "2024-02",
+   "search": ""
   },
   {
    "repo": "ww-jermaine/Knowlege-Graphs-for-RAG",
@@ -8161,7 +8701,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 6,
-   "pushed": "2024-03"
+   "pushed": "2024-03",
+   "search": ""
   },
   {
    "repo": "HECTA-UoM/PLABA-MU",
@@ -8176,7 +8717,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 6,
-   "pushed": "2025-08"
+   "pushed": "2025-08",
+   "search": ""
   },
   {
    "repo": "matt-ye/Toutour",
@@ -8191,7 +8733,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "HTML",
    "stars": 4,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "accessibility claude-skill onboarding playwright product-tour spotlight"
   },
   {
    "repo": "LiuYuWei/google-adk-gemini-file-search-agent",
@@ -8206,7 +8749,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4,
-   "pushed": "2025-11"
+   "pushed": "2025-11",
+   "search": ""
   },
   {
    "repo": "Tcc0403/glows-workshop",
@@ -8221,7 +8765,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 4,
-   "pushed": "2025-04"
+   "pushed": "2025-04",
+   "search": ""
   },
   {
    "repo": "nullxjx/transformers-online-inference",
@@ -8236,7 +8781,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 4,
-   "pushed": "2024-09"
+   "pushed": "2024-09",
+   "search": ""
   },
   {
    "repo": "mlibrary/medical-dictionary",
@@ -8251,7 +8797,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 4,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "craig7351/angry-baseball",
@@ -8266,7 +8813,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "JavaScript",
    "stars": 3,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": ""
   },
   {
    "repo": "kevin801221/amazing-github-repos-everyday",
@@ -8281,7 +8829,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "—",
    "stars": 3,
-   "pushed": "2026-07"
+   "pushed": "2026-07",
+   "search": "ai-agents github news startup"
   },
   {
    "repo": "attal-kush/PLABA",
@@ -8296,7 +8845,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Python",
    "stars": 3,
-   "pushed": "2023-03"
+   "pushed": "2023-03",
+   "search": ""
   },
   {
    "repo": "yazelin/ai-chant-magic",
@@ -8311,7 +8861,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 2,
-   "pushed": "2026-08"
+   "pushed": "2026-08",
+   "search": "co-op multiplayer-game phaser speech-recognition voice-control web-speech-api websocket"
   },
   {
    "repo": "panguinchiu/lumi-health",
@@ -8326,7 +8877,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "TypeScript",
    "stars": 1,
-   "pushed": "2026-04"
+   "pushed": "2026-04",
+   "search": ""
   },
   {
    "repo": "EchoChan14/n8n_recruitment",
@@ -8341,7 +8893,8 @@ window.SITE_PAGE_DATA = {
    },
    "lang": "Jupyter Notebook",
    "stars": 1,
-   "pushed": "2025-06"
+   "pushed": "2025-06",
+   "search": ""
   }
  ]
 };

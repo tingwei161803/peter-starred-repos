@@ -39,6 +39,26 @@
       return '<header class="page-head"><h1>' + esc(t(p.title)) + "</h1>" + sub + "</header>";
     }
 
+    /* ---------- 搜尋用的文字 ----------
+       把一個欄位值攤成可搜尋的字串:字串、數字、`{en, zh}` 雙語物件、陣列都吃。
+       **雙語物件會把兩個語言都收進去**,這是刻意的 —— 原本的搜尋只比對當前語言
+       (`t(v)`),於是在中文頁打 `frontend` 會一筆都找不到,即使那個字就在同一列的
+       英文描述裡。GitHub 的原始描述與 topics 幾乎都是英文,而看中文頁的人照樣會
+       用英文關鍵字找工具,所以兩邊都要搜。 */
+    function flatten(v) {
+      if (v == null) return "";
+      if (typeof v === "string" || typeof v === "number") return String(v);
+      if (Array.isArray(v)) return v.map(flatten).join(" ");
+      if (typeof v === "object") {
+        var out = [];
+        for (var k in v) {
+          if (Object.prototype.hasOwnProperty.call(v, k)) out.push(flatten(v[k]));
+        }
+        return out.join(" ");
+      }
+      return "";
+    }
+
     /* ---------- field 版型的共用片段 ----------
        renderer(初始畫面)與 wire(點擊後重畫)都呼叫這兩個函式,而不是各寫一份 ——
        兩份實作只要有一點不一樣,prerender 存進靜態檔的初始畫面就會跟瀏覽器重畫的
@@ -447,11 +467,15 @@
         var chips = [].slice.call(pageEl.querySelectorAll(".chip"));
         var st = { q: "", cat: "" };
 
-        function matches(item) {
+        /* 同上:兩個語言 + tags(tags 已含語言與 topics)都要搜,不只當前語言。 */
+        var hays = (p.items || []).map(function (item) {
+          return [flatten(item.title), flatten(item.summary), flatten(item.overview),
+                  flatten(item.tags), flatten(item.search)].join(" ").toLowerCase();
+        });
+        function matches(item, idx) {
           if (st.cat && item.category !== st.cat) return false;
           if (!st.q) return true;
-          var hay = (t(item.title) + " " + t(item.summary) + " " + (item.tags || []).join(" ")).toLowerCase();
-          return hay.indexOf(st.q) !== -1;
+          return hays[idx].indexOf(st.q) !== -1;
         }
         function paint() {
           var rows = (p.items || []).filter(matches);
@@ -576,13 +600,23 @@
         var st = { q: "", filters: {}, sortKey: null, dir: 1 };
 
         function cellText(row, c) { var v = row[c.key]; return typeof v === "object" ? t(v) : String(v == null ? "" : v); }
-        function rowMatches(row) {
+
+        /* 每列的搜尋字串:所有欄位的**兩個語言** + 畫面上不顯示的 topics。
+           進頁面時算一次 —— 五百多列 × 每次按鍵重算是白花的。
+           篩選(chips)仍然只比對當前語言的顯示文字,那是精確比對、不是搜尋。 */
+        var haystacks = (p.rows || []).map(function (row) {
+          var parts = cols.map(function (c) { return flatten(row[c.key]); });
+          parts.push(flatten(row.search));   // 畫面上不顯示的 topics
+          return parts.join(" ").toLowerCase();
+        });
+
+        function rowMatches(row, idx) {
           for (var i = 0; i < filterCols.length; i++) {
             var c = filterCols[i], want = st.filters[c.key];
             if (want && cellText(row, c) !== want) return false;
           }
           if (!st.q) return true;
-          return cols.some(function (c) { return cellText(row, c).toLowerCase().indexOf(st.q) !== -1; });
+          return haystacks[idx].indexOf(st.q) !== -1;
         }
         function paintHead() {
           thead.innerHTML = "<tr>" + cols.map(function (c) {
@@ -602,7 +636,7 @@
         function paint() {
           paintHead();
           var col = cols.filter(function (c) { return c.key === st.sortKey; })[0];
-          var rows = (p.rows || []).filter(rowMatches).slice();
+          var rows = (p.rows || []).filter(rowMatches).slice();   // filter 會把 index 傳給 rowMatches
           if (col) {
             rows.sort(function (a, b) {
               var va = a[col.key], vb = b[col.key];

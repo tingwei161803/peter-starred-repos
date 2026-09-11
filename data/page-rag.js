@@ -21,6 +21,7 @@ window.SITE_PAGE_DATA = {
     "en": "Python tool for converting files and office documents to Markdown.",
     "zh": "把 Office 文件、PDF、圖片等各種檔案轉成 Markdown 的 Python 工具,常拿來當 LLM 的前處理。"
    },
+   "search": "autogen autogen-extension langchain markdown microsoft-office openai pdf",
    "url": "https://github.com/microsoft/markitdown",
    "homepage": "",
    "meta": {
@@ -49,6 +50,7 @@ window.SITE_PAGE_DATA = {
     "en": "The context API to search, scrape, and interact with the web at scale. 🔥",
     "zh": "給 AI 用的網頁抓取與搜尋 API:大規模爬取網站並轉成 LLM 好讀的格式。"
    },
+   "search": "ai ai-agents ai-crawler ai-scraping ai-search crawler data-extraction html-to-markdown llm markdown scraper scraping web-crawler web-data web-data-extraction web-scraper web-scraping web-search webscraping",
    "url": "https://github.com/firecrawl/firecrawl",
    "homepage": "https://firecrawl.dev",
    "meta": {
@@ -77,6 +79,7 @@ window.SITE_PAGE_DATA = {
     "en": "The Memory Layer for AI Agents - Drop-in memory infrastructure for AI agents and apps. Context that persists. Built for production.",
     "zh": "AI Agent 的記憶層:即插即用的長期記憶基礎設施,讓對話脈絡跨 session 留下來。"
    },
+   "search": "agentic-memory agentic-memory-system agents ai ai-agents chatgpt genai llm long-term-memory memory memory-management python rag state-management",
    "url": "https://github.com/mem0ai/mem0",
    "homepage": "https://mem0.ai",
    "meta": {
@@ -105,6 +108,7 @@ window.SITE_PAGE_DATA = {
     "en": "LlamaIndex is the leading document agent and OCR platform",
     "zh": "文件 agent 與 OCR 平台,把各種格式的資料接進 LLM,是 RAG 生態最主流的框架之一。"
    },
+   "search": "agents application data fine-tuning framework llamaindex llm multi-agents rag vector-database",
    "url": "https://github.com/run-llama/llama_index",
    "homepage": "https://developers.llamaindex.ai",
    "meta": {
@@ -133,6 +137,7 @@ window.SITE_PAGE_DATA = {
     "en": "Build resilient agents.",
     "zh": "LangChain 團隊的 agent 編排框架,用圖(graph)描述流程,強調可控、可中斷、能從錯誤中復原。"
    },
+   "search": "agents ai ai-agents chatgpt deepagents enterprise framework gemini generative-ai langchain langgraph llm multiagent open-source openai pydantic python rag",
    "url": "https://github.com/langchain-ai/langgraph",
    "homepage": "https://docs.langchain.com/oss/python/langgraph/",
    "meta": {
@@ -161,6 +166,7 @@ window.SITE_PAGE_DATA = {
     "en": "[EMNLP2025] LightRAG: Simple and Fast Retrieval-Augmented Generation",
     "zh": "簡單又快的 RAG 框架,結合知識圖譜與向量檢索,是 GraphRAG 的輕量替代方案。"
    },
+   "search": "docling genai gpt graphrag knowledge-graph large-language-models llm mineru rag ragas retrieval-augmented-generation",
    "url": "https://github.com/HKUDS/LightRAG",
    "homepage": "https://arxiv.org/abs/2410.05779",
    "meta": {
@@ -189,6 +195,7 @@ window.SITE_PAGE_DATA = {
     "en": "A modular graph-based Retrieval-Augmented Generation (RAG) system",
     "zh": "微軟的圖譜式 RAG 系統,先把文件建成知識圖譜再檢索,擅長回答需要全域理解的問題。"
    },
+   "search": "gpt gpt-4 gpt4 graphrag llm llms rag",
    "url": "https://github.com/microsoft/graphrag",
    "homepage": "https://microsoft.github.io/graphrag/",
    "meta": {
@@ -217,6 +224,7 @@ window.SITE_PAGE_DATA = {
     "en": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
     "zh": "不用向量資料庫的 RAG:改用推理式的文件索引,像人翻目錄一樣定位到正確段落。"
    },
+   "search": "agentic-ai agents ai ai-agents context-engineering information-retrieval llm rag reasoning retrieval retrieval-augmented-generation vector-database",
    "url": "https://github.com/VectifyAI/PageIndex",
    "homepage": "https://pageindex.ai",
    "meta": {
@@ -245,6 +253,7 @@ window.SITE_PAGE_DATA = {
     "en": "Build Real-Time Knowledge Graphs for AI Agents",
     "zh": "給 AI agent 用的即時知識圖譜,會隨時間累積事實並處理事實的新舊衝突。"
    },
+   "search": "agents graph llms rag",
    "url": "https://github.com/getzep/graphiti",
    "homepage": "https://help.getzep.com/graphiti",
    "meta": {
@@ -273,6 +282,7 @@ window.SITE_PAGE_DATA = {
     "en": "This repository showcases various advanced techniques for Retrieval-Augmented Generation (RAG) systems. Each technique has a detailed notebook tutorial.",
     "zh": "各種進階 RAG 技巧的示範,每一招都附一份可跑的 notebook 教學。"
    },
+   "search": "agentic-rag ai embeddings generative-ai gpt langchain llama-index llm llms machine-learning nlp openai python rag retrieval-augmented-generation semantic-search tutorials vector-database",
    "url": "https://github.com/NirDiamant/RAG_Techniques",
    "homepage": "https://diamant-ai.com",
    "meta": {
@@ -301,6 +311,7 @@ window.SITE_PAGE_DATA = {
     "en": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
     "zh": "極快又可擴展的記憶與脈絡引擎,可完全本機執行,定位是 AI 時代的 Memory API。"
    },
+   "search": "agent-memory ai-memory cloudflare-kv cloudflare-pages cloudflare-workers drizzle-orm memory postgres remix tailwindcss typescript vite",
    "url": "https://github.com/supermemoryai/supermemory",
    "homepage": "https://supermemory.ai/docs",
    "meta": {
@@ -328,6 +339,7 @@ window.SITE_PAGE_DATA = {
     "en": "\"RAG-Anything: All-in-One RAG Framework\"",
     "zh": "一站式的多模態 RAG 框架,文字、表格、圖片、公式都能一起檢索。"
    },
+   "search": "multi-modal-rag retrieval-augmented-generation",
    "url": "https://github.com/HKUDS/RAG-Anything",
    "homepage": "http://arxiv.org/abs/2510.12323",
    "meta": {
@@ -356,6 +368,7 @@ window.SITE_PAGE_DATA = {
     "en": "Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.",
     "zh": "LLM 應用的除錯、評估與監控平台,完整追蹤 RAG 與 agentic workflow 的每一步。"
    },
+   "search": "evaluation hacktoberfest hacktoberfest2025 langchain llama-index llm llm-evaluation llm-observability llmops open-source openai playground prompt-engineering",
    "url": "https://github.com/comet-ml/opik",
    "homepage": "https://www.comet.com/docs/opik/",
    "meta": {
@@ -384,6 +397,7 @@ window.SITE_PAGE_DATA = {
     "en": "How Python does AI. Agents, realtime voice, image generation, embeddings. Every model, every interface, typed end to end.",
     "zh": "Pydantic 團隊做的 agent 框架,型別安全從頭貫穿到尾,支援所有模型與即時語音。"
    },
+   "search": "agent-framework genai harness harness-engineering llm pydantic python",
    "url": "https://github.com/pydantic/pydantic-ai",
    "homepage": "https://pydantic.dev/pydantic-ai",
    "meta": {
@@ -412,6 +426,7 @@ window.SITE_PAGE_DATA = {
     "en": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding.",
     "zh": "開源的文件 ETL:把 PDF、Word、簡報等複雜文件轉成給語言模型用的乾淨結構化資料。"
    },
+   "search": "data-pipelines deep-learning document-image-analysis document-image-processing document-parser document-parsing docx donut information-retrieval langchain llm machine-learning ml natural-language-processing nlp ocr pdf pdf-to-json pdf-to-text preprocessing",
    "url": "https://github.com/Unstructured-IO/unstructured",
    "homepage": "https://www.unstructured.io/",
    "meta": {
@@ -440,6 +455,7 @@ window.SITE_PAGE_DATA = {
     "en": "Pocket Flow: 100-line LLM framework. Let Agents build Agents!",
     "zh": "只有 100 行的極簡 LLM 框架,核心理念是讓 agent 自己蓋 agent。"
    },
+   "search": "agentic-ai agentic-framework agentic-workflow agents ai-framework ai-frameworks aiagent aiagents artificial-intelligence flow-based-programming flow-engineering large-language-model large-language-models llm-agent llm-framework pocket-flow pocketflow retrieval-augmented-generation workflow workflow-orchestration",
    "url": "https://github.com/The-Pocket/PocketFlow",
    "homepage": "https://the-pocket.github.io/PocketFlow/",
    "meta": {
@@ -468,6 +484,7 @@ window.SITE_PAGE_DATA = {
     "en": "X-AnyLabeling: A lightweight, efficient, and unified cross-platform desktop application for annotating text, image, video, and multimodal data, combining versatile built-in tools with state-of-the-art AI models and flexible multi-format export.",
     "zh": "跨平台的資料標註桌面工具,文字、圖片、影片、多模態都能標,內建 SAM 等自動標註模型。"
    },
+   "search": "artificial-intelligence clip computer-vision deep-learning groundingdino image-annotation-tool image-classification image-labeling-tool image-matting instance-segmentation machine-learning object-detection ocr onnxruntime paddlepaddle pose-estimation rotated-object-detection sam vision-language-model yolo",
    "url": "https://github.com/CVHub520/X-AnyLabeling",
    "homepage": "https://xanylabeling.com",
    "meta": {
@@ -493,6 +510,7 @@ window.SITE_PAGE_DATA = {
     "en": "\"Context engineering is the delicate art and science of filling the context window with just the right information for the next step.\" — Andrej Karpathy. A frontier, first-principles handbook inspired by Karpathy and 3Blue1Brown for moving beyond prompt engineering to the wider discipline of context design, orchestration, and optimization.",
     "zh": "從第一性原理出發的脈絡工程教材:如何把剛剛好的資訊填進脈絡視窗。"
    },
+   "search": "",
    "url": "https://github.com/jasontang-ai/Context-Engineering",
    "homepage": "https://deepwiki.com/davidkimai/Context-Engineering",
    "meta": {
@@ -521,6 +539,7 @@ window.SITE_PAGE_DATA = {
     "en": "PraisonAI 🦞 — Hire a 24/7 AI Workforce. Stop writing boilerplate and start shipping autonomous self-improving agents that research, plan, code, and execute tasks. Deployed in 5 lines of code with built-in memory, RAG, and support for 100+ LLMs.",
     "zh": "多 agent 框架,主打 5 行程式部署會自我改進的 agent 團隊,研究、規劃、寫程式、執行一條龍。"
    },
+   "search": "agents ai ai-agent-framework ai-agent-sdk ai-agents ai-agents-framework ai-agents-sdk ai-framwork aiagent aiagentframework aiagents aiagentsframework framework hermes hermes-agent multi-agent multi-agent-system multi-agents multi-ai-agents openclaw",
    "url": "https://github.com/MervinPraison/PraisonAI",
    "homepage": "https://praison.ai/docs",
    "meta": {
@@ -548,6 +567,7 @@ window.SITE_PAGE_DATA = {
     "en": "🧑‍🚀 全世界最好的LLM资料总结（多模态生成、Agent、辅助编程、AI审稿、数据处理、模型训练、模型推理、o1 模型、MCP、小语言模型、视觉语言模型） | Summary of the world's best LLM resources.",
     "zh": "全世界最好的 LLM 資料總整理:多模態、Agent、輔助編程、資料處理、訓練、推論、MCP 全涵蓋。"
    },
+   "search": "awesome-list book course large-language-models llama llm mistral openai qwen rag retrieval-augmented-generation webui",
    "url": "https://github.com/WangRongsheng/awesome-LLM-resources",
    "homepage": "",
    "meta": {
@@ -576,6 +596,7 @@ window.SITE_PAGE_DATA = {
     "en": "Large Action Model framework to develop AI Web Agents",
     "zh": "大型行動模型(Large Action Model)框架,用來開發會操作網頁的 AI agent。"
    },
+   "search": "ai browser large-action-model llm oss rag",
    "url": "https://github.com/lavague-ai/LaVague",
    "homepage": "https://docs.lavague.ai/en/latest/",
    "meta": {
@@ -601,6 +622,7 @@ window.SITE_PAGE_DATA = {
     "en": "Main reference implementation for NLWeb, implemented in Python.",
     "zh": "NLWeb 的參考實作:讓任何網站都能加上自然語言查詢介面。"
    },
+   "search": "",
    "url": "https://github.com/nlweb-ai/NLWeb",
    "homepage": "",
    "meta": {
@@ -627,6 +649,7 @@ window.SITE_PAGE_DATA = {
     "en": "250+ Fine-tuning & RL Notebooks for text, vision, audio, embedding, TTS models.",
     "zh": "250+ 份微調與強化學習的 notebook,文字、視覺、語音、embedding、TTS 模型都有。"
    },
+   "search": "unsloth",
    "url": "https://github.com/unslothai/notebooks",
    "homepage": "https://unsloth.ai/docs",
    "meta": {
@@ -652,6 +675,7 @@ window.SITE_PAGE_DATA = {
     "en": "Search-R1: An Efficient, Scalable RL Training Framework for Reasoning & Search Engine Calling interleaved LLM based on veRL",
     "zh": "用強化學習訓練 LLM 邊推理邊呼叫搜尋引擎的框架。"
    },
+   "search": "",
    "url": "https://github.com/PeterGriffinJin/Search-R1",
    "homepage": "https://arxiv.org/pdf/2503.09516",
    "meta": {
@@ -680,6 +704,7 @@ window.SITE_PAGE_DATA = {
     "en": "Knowledge Agents and Management in the Cloud",
     "zh": "LlamaIndex 的雲端文件解析與知識管理服務,PDF、DOCX 轉 Markdown 品質很好。"
    },
+   "search": "document document-parser document-parsing docx-to-markdown parsing pdf pdf-document-processor pdf-to-excel pdf-to-json pdf-to-markdown pdf-to-text ppt-to-json ppt-to-markdown pptx structured-data tables",
    "url": "https://github.com/run-llama/llama_cloud_services",
    "homepage": "https://cloud.llamaindex.ai",
    "meta": {
@@ -708,6 +733,7 @@ window.SITE_PAGE_DATA = {
     "en": "MongoDB's Generative AI Showcase: an exhaustive collection of examples and sample applications covering Retrieval-Augmented Generation (RAG), AI agents, and industry-specific use cases.",
     "zh": "MongoDB 的生成式 AI 範例大全,RAG、AI agent 與各產業應用案例都有。"
    },
+   "search": "agents artificial-intelligence atlas generative-ai jupyter-notebook llms mongodb python rag",
    "url": "https://github.com/mongodb-developer/GenAI-Showcase",
    "homepage": "https://www.mongodb.com/cloud/atlas/register",
    "meta": {
@@ -736,6 +762,7 @@ window.SITE_PAGE_DATA = {
     "en": "Everything you need to know to build your own RAG application",
     "zh": "從零建立自己 RAG 應用需要知道的一切,用 LangChain 逐步實作。"
    },
+   "search": "agentic-rag ai chatbot llm machine-learning python rag retrieval-augmented-generation",
    "url": "https://github.com/bragai/bRAG-langchain",
    "homepage": "https://bragai.dev",
    "meta": {
@@ -764,6 +791,7 @@ window.SITE_PAGE_DATA = {
     "en": "A simple, easy-to-hack GraphRAG implementation",
     "zh": "簡單好改的 GraphRAG 極簡實作,想搞懂圖譜式 RAG 原理從這份讀起。"
    },
+   "search": "gpt gpt-4o graphrag learning-by-doing llm rag",
    "url": "https://github.com/gusye1234/nano-graphrag",
    "homepage": "",
    "meta": {
@@ -792,6 +820,7 @@ window.SITE_PAGE_DATA = {
     "en": "⚡FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource)",
     "zh": "高效率的 RAG 研究工具箱,內建多種主流方法與標準資料集方便比較。"
    },
+   "search": "benchmark datasets large-language-models retrieval-augmented-generation",
    "url": "https://github.com/RUC-NLPIR/FlashRAG",
    "homepage": "https://arxiv.org/abs/2405.13576",
    "meta": {
@@ -820,6 +849,7 @@ window.SITE_PAGE_DATA = {
     "en": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
     "zh": "Agent 的記憶管理套件,負責記住、整理與精煉長期經驗。"
    },
+   "search": "agent ai-agents dsh-plugin memory memoryscope rag reme",
    "url": "https://github.com/agentscope-ai/ReMe",
    "homepage": "https://reme.agentscope.io/",
    "meta": {
@@ -848,6 +878,7 @@ window.SITE_PAGE_DATA = {
     "en": "Learn to build your Second Brain AI assistant with LLMs, agents, RAG, fine-tuning, LLMOps and AI systems techniques.",
     "zh": "動手蓋一個第二大腦 AI 助理的課程,串起 LLM、agent、RAG、微調與 LLMOps。"
    },
+   "search": "agents ai-systems data-engineering fine-tuning huggingface llm llmops mlops openai python rag",
    "url": "https://github.com/decodingai-magazine/second-brain-ai-assistant-course",
    "homepage": "https://decodingml.substack.com/p/build-your-second-brain-ai-assistant",
    "meta": {
@@ -873,6 +904,7 @@ window.SITE_PAGE_DATA = {
     "en": "AI reads books: Page-by-Page PDF Knowledge Extractor & Summarizer. script performs an intelligent page-by-page analysis of PDF books, methodically extracting knowledge points and generating progressive summaries at specified intervals",
     "zh": "讓 AI 逐頁讀完 PDF 書並抽出知識點,產生漸進式的摘要。"
    },
+   "search": "",
    "url": "https://github.com/echohive42/AI-reads-books-page-by-page",
    "homepage": "https://www.echohive.ai/",
    "meta": {
@@ -898,6 +930,7 @@ window.SITE_PAGE_DATA = {
     "en": "NeMo Retriever Library is a scalable, performance-oriented document content and metadata extraction microservice. NeMo Retriever Library uses specialized NVIDIA NIM microservices to find, contextualize, and extract text, tables, charts and images that you can use in downstream generative applications.",
     "zh": "NVIDIA 的文件內容與中繼資料抽取微服務,為 RAG 管線做高效前處理。"
    },
+   "search": "",
    "url": "https://github.com/NVIDIA/NeMo-Retriever",
    "homepage": "https://nvidia.github.io/NeMo-Retriever/",
    "meta": {
@@ -926,6 +959,7 @@ window.SITE_PAGE_DATA = {
     "en": "User Profile-Based Long-Term Memory for AI Chatbot Applications.",
     "zh": "以使用者輪廓為核心的長期記憶服務,讓 AI 聊天機器人記得每個使用者的偏好。"
    },
+   "search": "ai-companion ai-memory chatgpt llm-application llm-memory long-term-memory memory rag retrieval user-memory",
    "url": "https://github.com/memodb-io/memobase",
    "homepage": "https://memobase.io",
    "meta": {
@@ -953,6 +987,7 @@ window.SITE_PAGE_DATA = {
     "en": "Awesome papers about unifying LLMs and KGs",
     "zh": "整合大語言模型與知識圖譜的論文精選清單。"
    },
+   "search": "awsome chatgpt gpt-4 kg knowledge-graph language-model large-language-model llm survey",
    "url": "https://github.com/RManLuo/Awesome-LLM-KG",
    "homepage": "",
    "meta": {
@@ -981,6 +1016,7 @@ window.SITE_PAGE_DATA = {
     "en": "PIKE-RAG: sPecIalized KnowledgE and Rationale Augmented Generation",
     "zh": "微軟針對產業知識設計的 RAG:強調專業知識抽取與推理鏈,適合領域深度問答。"
    },
+   "search": "domain-specific industrial-ai knowledge-extraction rag",
    "url": "https://github.com/microsoft/PIKE-RAG",
    "homepage": "https://arxiv.org/abs/2501.11551",
    "meta": {
@@ -1008,6 +1044,7 @@ window.SITE_PAGE_DATA = {
     "en": "[Paper List] Papers integrating knowledge graphs (KGs) and large language models (LLMs)",
     "zh": "整合知識圖譜與大語言模型的論文清單,持續更新。"
    },
+   "search": "awesome awesome-kg awesome-llm awsome-list commonsense gpt knowledge knowledge-graph language-models large-language-models llm nlp paper-list prompt survey",
    "url": "https://github.com/zjukg/KG-LLM-Papers",
    "homepage": "",
    "meta": {
@@ -1033,6 +1070,7 @@ window.SITE_PAGE_DATA = {
     "en": "Perplexity style AI Search engine clone built with Gemini 2.0 Flash and Grounding",
     "zh": "用 Gemini 2.0 Flash 加 Grounding 做的 Perplexity 風格 AI 搜尋引擎複刻。"
    },
+   "search": "",
    "url": "https://github.com/ammaarreshi/Gemini-Search",
    "homepage": "",
    "meta": {
@@ -1061,6 +1099,7 @@ window.SITE_PAGE_DATA = {
     "en": "[ACL2026] \"MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models\"",
     "zh": "用小型開源模型也能跑得動的極簡 RAG,把 RAG 的門檻壓到最低。"
    },
+   "search": "large-language-models rag retrieval-augmented-generation",
    "url": "https://github.com/HKUDS/MiniRAG",
    "homepage": "https://arxiv.org/abs/2501.06713",
    "meta": {
@@ -1089,6 +1128,7 @@ window.SITE_PAGE_DATA = {
     "en": "ContextGem: Effortless LLM extraction from documents",
     "zh": "從文件中輕鬆抽取結構化資訊的框架,自動生成提示詞,適合合約與文件分析。"
    },
+   "search": "ai autoprompting contract-analysis data-extraction document-intelligence generative-ai legaltech llm llm-extraction llm-framework llm-pipeline llms nlp prompt-engineering text-analysis unstructured-data",
    "url": "https://github.com/shcherbak-ai/contextgem",
    "homepage": "https://contextgem.dev/",
    "meta": {
@@ -1117,6 +1157,7 @@ window.SITE_PAGE_DATA = {
     "en": "WFGY is heading toward WFGY 5.0 Polaris Protocol, a major open-source release for AI reasoning, RAG, agents, and real-world workflows. Includes Problem Map, Global Debug Card, WFGY 4.0, and the CFV Easter Egg.",
     "zh": "AI 推理、RAG 與 agent 的除錯協定,附問題地圖與全域除錯卡,專治幻覺與對齊失準。"
    },
+   "search": "ai-agents alignment debugging evaluation graphrag hallucination information-retrieval knowledge-graph llm rag reasoning retrieval-augmented-generation",
    "url": "https://github.com/onestardao/WFGY",
    "homepage": "https://github.com/onestardao/WFGY",
    "meta": {
@@ -1145,6 +1186,7 @@ window.SITE_PAGE_DATA = {
     "en": "Optimized Agentic and LLM Bulk Processing Over Your Data",
     "zh": "在你自己的資料上做大量 LLM 批次處理的最佳化引擎,像寫 SQL 一樣寫語意運算。"
    },
+   "search": "agentic-data-processing ai-data-processing data llm llm-data-processing llm-document-processing pandas python semantic-operators semantic-search unstructured-data",
    "url": "https://github.com/lotus-data/lotus",
    "homepage": "https://lotus-data.github.io",
    "meta": {
@@ -1168,6 +1210,7 @@ window.SITE_PAGE_DATA = {
     "en": "the resources about the application based on LLM with RAG pattern",
     "zh": "以 RAG 模式為基礎的 LLM 應用資源整理。"
    },
+   "search": "",
    "url": "https://github.com/lizhe2004/Awesome-LLM-RAG-Application",
    "homepage": "",
    "meta": {
@@ -1193,6 +1236,7 @@ window.SITE_PAGE_DATA = {
     "en": "This repository includes the official implementation of OpenScholar: Synthesizing Scientific Literature with Retrieval-augmented LMs.",
     "zh": "用檢索增強的語言模型合成科學文獻,自動回答需要引用大量論文的研究問題。"
    },
+   "search": "",
    "url": "https://github.com/AkariAsai/OpenScholar",
    "homepage": "https://open-scholar.allen.ai/",
    "meta": {
@@ -1221,6 +1265,7 @@ window.SITE_PAGE_DATA = {
     "en": "Comprehensive guide to learn RAG from basics to advanced.",
     "zh": "RAG 從入門到進階的完整學習指南。"
    },
+   "search": "ai-engineer generative-ai large-language-models llm-engineer llm-rag llms retrieval-augmented-generation",
    "url": "https://github.com/KalyanKS-NLP/rag-zero-to-hero-guide",
    "homepage": "https://x.com/kalyan_kpl",
    "meta": {
@@ -1248,6 +1293,7 @@ window.SITE_PAGE_DATA = {
     "en": "Awesome-LLM-RAG: a curated list of advanced retrieval augmented generation (RAG) in Large Language Models",
     "zh": "進階 RAG 技術的論文精選清單。"
    },
+   "search": "embeddings large-language-models llm rag rag-embeddings retrieval-augmented-generation retrieval-information",
    "url": "https://github.com/jxzhangjhu/Awesome-LLM-RAG",
    "homepage": "",
    "meta": {
@@ -1276,6 +1322,7 @@ window.SITE_PAGE_DATA = {
     "en": "Daily updated LLM papers.        每日更新 LLM 相关的论文，欢迎订阅 👏   喜欢的话动动你的小手 🌟 一个",
     "zh": "每日更新的 LLM 論文摘要,涵蓋 agent、RAG 等主題。"
    },
+   "search": "agent chatgpt large-language-models llm rag",
    "url": "https://github.com/xianshang33/llm-paper-daily",
    "homepage": "",
    "meta": {
@@ -1304,6 +1351,7 @@ window.SITE_PAGE_DATA = {
     "en": "[NeurIPS '25] Knowledge Graph Generation from Any Text",
     "zh": "從任意文字自動生成知識圖譜的工具(NeurIPS 2025)。"
    },
+   "search": "benchmark knowledge-graph llm",
    "url": "https://github.com/stair-lab/kg-gen",
    "homepage": "https://kg-gen.org",
    "meta": {
@@ -1329,6 +1377,7 @@ window.SITE_PAGE_DATA = {
     "en": "utilities for decoding deep representations (like sentence embeddings) back to text",
     "zh": "把句子向量還原回原文的工具,證明 embedding 並不是安全的匿名化手段。"
    },
+   "search": "",
    "url": "https://github.com/vec2text/vec2text",
    "homepage": "",
    "meta": {
@@ -1354,6 +1403,7 @@ window.SITE_PAGE_DATA = {
     "en": "Local models support for Microsoft's graphrag using ollama (llama3, mistral, gemma2 phi3)- LLM & Embedding extraction",
     "zh": "讓微軟 GraphRAG 改用 Ollama 本機模型跑,不必付 API 費用。"
    },
+   "search": "",
    "url": "https://github.com/TheAiSingularity/graphrag-local-ollama",
    "homepage": "",
    "meta": {
@@ -1382,6 +1432,7 @@ window.SITE_PAGE_DATA = {
     "en": "Empower Large Language Models (LLM) using Knowledge Graph based Retrieval-Augmented Generation (KG-RAG) for knowledge intensive tasks",
     "zh": "用生醫知識圖譜強化 LLM 的檢索增強生成,處理知識密集的醫學問題。"
    },
+   "search": "bert-models bioinformatics bioinformatics-algorithms biomedical-applications biomedical-informatics context-aware gpt gpt35turbo gpt4 knowledge-base knowledge-graph large-language-models llama llama2 llm prompt-engineering prompt-tuning rag retrieval-augmented-generation sentence-transformers",
    "url": "https://github.com/BaranziniLab/KG_RAG",
    "homepage": "",
    "meta": {
@@ -1407,6 +1458,7 @@ window.SITE_PAGE_DATA = {
     "en": "Microsoft's GraphRAG + AutoGen + Ollama + Chainlit = Fully Local & Free Multi-Agent RAG Superbot",
     "zh": "GraphRAG + AutoGen + Ollama + Chainlit 組成的全本機免費多 agent RAG 機器人。"
    },
+   "search": "",
    "url": "https://github.com/karthikvenkatesan-eaton/Autogen_GraphRAG_Ollama",
    "homepage": "",
    "meta": {
@@ -1435,6 +1487,7 @@ window.SITE_PAGE_DATA = {
     "en": "A Graph RAG System for Evidenced-based Medical Information Retrieval  [ACL 2025]",
     "zh": "以圖譜 RAG 做實證醫學資訊檢索,答案可追溯到文獻證據(ACL 2025)。"
    },
+   "search": "deep-learning graph-rag large-language-model large-language-models machine-learning medical retrieval-augmented-generation",
    "url": "https://github.com/ImprintLab/Medical-Graph-RAG",
    "homepage": "https://arxiv.org/html/2408.04187v1",
    "meta": {
@@ -1463,6 +1516,7 @@ window.SITE_PAGE_DATA = {
     "en": "Evidence-first local memory for AI agents with temporal versions, admission policies, citations, explainable recall, MCP, and audit tooling.",
     "zh": "證據優先的本機 agent 記憶:有時間版本、准入政策、引用來源與可解釋的回想,並附稽核工具。"
    },
+   "search": "ai llm memory memory-management",
    "url": "https://github.com/caspianmoon/memoripy",
    "homepage": "",
    "meta": {
@@ -1491,6 +1545,7 @@ window.SITE_PAGE_DATA = {
     "en": "👩🏻‍🍳 A collection of example notebooks using Haystack",
     "zh": "Haystack 的範例 notebook 合集,各種 agentic 與 RAG 用法都有示範。"
    },
+   "search": "agentic agentic-ai agents ai ai-tools genai genai-usecases haystack-ai python rag",
    "url": "https://github.com/deepset-ai/haystack-cookbook",
    "homepage": "https://haystack.deepset.ai/cookbook",
    "meta": {
@@ -1519,6 +1574,7 @@ window.SITE_PAGE_DATA = {
     "en": "[EMNLP 2025]  OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking",
     "zh": "透過「思考」擴展機器寫作的知識邊界,讓長文生成不再只是拼湊檢索片段(EMNLP 2025)。"
    },
+   "search": "artificial-intelligence deepseek-r1 deepseek-v3 generation gpt gpt4o information-seeking knowledge-augmented-generation large-language-models machine-writing natural-language-processing news-generation omnithink qwen qwen2-5 report-generation retrieval-augmented-generation slow-thinking",
    "url": "https://github.com/zjunlp/OmniThink",
    "homepage": "https://zjunlp.github.io/project/OmniThink/",
    "meta": {
@@ -1547,6 +1603,7 @@ window.SITE_PAGE_DATA = {
     "en": "Parse PDFs into markdown using Vision LLMs",
     "zh": "用視覺 LLM 把 PDF 轉成 Markdown,版面與表格保留得比純文字抽取好。"
    },
+   "search": "document-parser pdf-parser pdf-to-markdown text-extraction",
    "url": "https://github.com/iamarunbrahma/vision-parse",
    "homepage": "",
    "meta": {
@@ -1575,6 +1632,7 @@ window.SITE_PAGE_DATA = {
     "en": "RAG 相關資源、實作與評估方法的精選清單。",
     "zh": "RAG 相關資源、實作與評估方法的精選清單。"
    },
+   "search": "rag rag-evaluation rag-implementation",
    "url": "https://github.com/frutik/Awesome-RAG",
    "homepage": "",
    "meta": {
@@ -1603,6 +1661,7 @@ window.SITE_PAGE_DATA = {
     "en": "日常文件轉 Markdown —— 涵蓋 PDF、Office、Apple Keynote／Numbers、EPUB 電子書等 16 種格式。中文友好、表格保留、隱私優先、全程本地。",
     "zh": "把日常文件轉成 Markdown,涵蓋 PDF、Office、Keynote、Numbers、EPUB 等 16 種格式,中文友善且全程本機。"
    },
+   "search": "apple-keynote apple-numbers bank-statement epub iwork pdf python",
    "url": "https://github.com/notoriouslab/doc-cleaner",
    "homepage": "https://notoriouslab.github.io/doc-cleaner/",
    "meta": {
@@ -1628,6 +1687,7 @@ window.SITE_PAGE_DATA = {
     "en": "醫療領域的檢索增強生成研究專案。",
     "zh": "醫療領域的檢索增強生成研究專案。"
    },
+   "search": "",
    "url": "https://github.com/SNOWTEAM2023/MedRAG",
    "homepage": "",
    "meta": {
@@ -1656,6 +1716,7 @@ window.SITE_PAGE_DATA = {
     "en": "FlexRAG: A RAG Framework for Information Retrieval and Generation.",
     "zh": "彈性的 RAG 框架,把資訊檢索與生成拆成可替換的模組。"
    },
+   "search": "llms nlp rag",
    "url": "https://github.com/ictnlp/FlexRAG",
    "homepage": "https://flexrag.readthedocs.io/en/latest",
    "meta": {
@@ -1681,6 +1742,7 @@ window.SITE_PAGE_DATA = {
     "en": "Build Agents That Recall What Matters.  Systematically engineer relevant context from chat history & business data. (Python Client)",
     "zh": "Zep 的 Python 客戶端,從聊天記錄與商業資料中系統性地組出相關脈絡給 agent。"
    },
+   "search": "",
    "url": "https://github.com/getzep/zep-python",
    "homepage": "https://help.getzep.com",
    "meta": {
@@ -1706,6 +1768,7 @@ window.SITE_PAGE_DATA = {
     "en": "The official repository for the paper: Evaluation of Retrieval-Augmented Generation: A Survey.",
     "zh": "RAG 評估方法綜述論文的官方倉庫,整理各種評估指標。"
    },
+   "search": "",
    "url": "https://github.com/YHPeter/Awesome-RAG-Evaluation",
    "homepage": "",
    "meta": {
@@ -1731,6 +1794,7 @@ window.SITE_PAGE_DATA = {
     "en": "用知識圖譜替 LLM 的回答找事實依據的實驗性專案。",
     "zh": "用知識圖譜替 LLM 的回答找事實依據的實驗性專案。"
    },
+   "search": "",
    "url": "https://github.com/chrschy/fact-finder",
    "homepage": "",
    "meta": {
@@ -1759,6 +1823,7 @@ window.SITE_PAGE_DATA = {
     "en": "RAG-powered documentation assistant that converts, processes, and provides semantic search capabilities for Odoo's technical documentation. Supports multiple Odoo versions with an interactive chat interface powered by LLM models.",
     "zh": "用 RAG 打造的 Odoo 技術文件助理,支援多版本並提供語意搜尋。"
    },
+   "search": "chatbot documentation embeddings openai rag retrieval-augmented-generation",
    "url": "https://github.com/MFYDev/odoo-expert",
    "homepage": "https://fanyangmeng.blog/introducing-odoo-expert/",
    "meta": {
@@ -1784,6 +1849,7 @@ window.SITE_PAGE_DATA = {
     "en": "用知識圖譜做 RAG 的教學 notebook。",
     "zh": "用知識圖譜做 RAG 的教學 notebook。"
    },
+   "search": "",
    "url": "https://github.com/ww-jermaine/Knowlege-Graphs-for-RAG",
    "homepage": "",
    "meta": {

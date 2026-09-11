@@ -21,6 +21,7 @@ window.SITE_PAGE_DATA = {
     "en": "Master programming by recreating your favorite technologies from scratch.",
     "zh": "從零手刻你熟悉的技術:自己寫一個 Git、Docker、資料庫、編譯器。用重造輪子的方式真正搞懂原理。"
    },
+   "search": "awesome-list free programming tutorial-code tutorial-exercises tutorials",
    "url": "https://github.com/codecrafters-io/build-your-own-x",
    "homepage": "https://codecrafters.io",
    "meta": {
@@ -48,6 +49,7 @@ window.SITE_PAGE_DATA = {
     "en": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
     "zh": "所有 awesome 清單的總目錄,幾乎每個技術主題都能在這裡找到一份社群精選書籤。"
    },
+   "search": "awesome awesome-list lists resources unicorns",
    "url": "https://github.com/sindresorhus/awesome",
    "homepage": "",
    "meta": {
@@ -76,6 +78,7 @@ window.SITE_PAGE_DATA = {
     "en": "A collective list of free APIs",
     "zh": "免費公開 API 大全,依用途分類(天氣、金融、圖片…),做 side project 找資料源的第一站。"
    },
+   "search": "api apis dataset development free list lists open-source public public-api public-apis resources software",
    "url": "https://github.com/public-apis/public-apis",
    "homepage": "https://APILayer.com/?utm_source=Github&utm_medium=Referral&utm_campaign=Public-apis-repo",
    "meta": {
@@ -104,6 +107,7 @@ window.SITE_PAGE_DATA = {
     "en": ":books: Freely available programming books",
     "zh": "免費程式設計電子書與課程清單,多語言版本,涵蓋幾乎所有語言與領域。"
    },
+   "search": "books education hacktoberfest list resource",
    "url": "https://github.com/EbookFoundation/free-programming-books",
    "homepage": "https://ebookfoundation.github.io/free-programming-books/",
    "meta": {
@@ -132,6 +136,7 @@ window.SITE_PAGE_DATA = {
     "en": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
     "zh": "系統設計面試聖經:如何設計大規模系統,含圖解、案例與 Anki 記憶卡。"
    },
+   "search": "design design-patterns design-system development interview interview-practice interview-questions programming python system web web-application webapp",
    "url": "https://github.com/donnemartin/system-design-primer",
    "homepage": "",
    "meta": {
@@ -160,6 +165,7 @@ window.SITE_PAGE_DATA = {
     "en": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
     "zh": "互動式開發者學習路線圖,前端、後端、DevOps 等各條路該學什麼一目了然。"
    },
+   "search": "angular-roadmap backend-roadmap blockchain-roadmap computer-science dba-roadmap developer-roadmap devops-roadmap frontend-roadmap go-roadmap java-roadmap javascript-roadmap nodejs-roadmap python-roadmap qa-roadmap react-roadmap roadmap software-architect-roadmap vue-roadmap",
    "url": "https://github.com/nilbuild/developer-roadmap",
    "homepage": "https://roadmap.sh",
    "meta": {
@@ -187,6 +193,7 @@ window.SITE_PAGE_DATA = {
     "en": "A complete computer science study plan to become a software engineer.",
     "zh": "一份完整的自學電腦科學計畫,目標是準備好去當軟體工程師。"
    },
+   "search": "algorithm algorithms coding-interview coding-interviews computer-science data-structures interview interview-prep interview-preparation programming-interviews software-engineering study-plan",
    "url": "https://github.com/jwasham/coding-interview-university",
    "homepage": "",
    "meta": {
@@ -215,6 +222,7 @@ window.SITE_PAGE_DATA = {
     "en": "All Algorithms implemented in Python",
     "zh": "用 Python 實作所有經典演算法的教學倉庫,適合邊讀邊練資料結構與演算法。"
    },
+   "search": "algorithm algorithm-competitions algorithms-implemented algos community-driven education hacktoberfest interview learn practice python searches sorting-algorithms sorts",
    "url": "https://github.com/TheAlgorithms/Python",
    "homepage": "https://thealgorithms.github.io/Python/",
    "meta": {
@@ -243,6 +251,7 @@ window.SITE_PAGE_DATA = {
     "en": "Free domain registration and practical DNS learning resources for everyone.",
     "zh": "免費網域註冊與 DNS 實作學習資源,適合想練習自架站台但不想先花錢買網域的人。"
    },
+   "search": "digitalplat dns dns-tutorial documentation domain domain-platform domain-registration domainname domains education free free-domain freedomain internet-infrastructure nameserver",
    "url": "https://github.com/DigitalPlatDev/FreeDomain",
    "homepage": "https://domain.digitalplat.org",
    "meta": {
@@ -271,6 +280,7 @@ window.SITE_PAGE_DATA = {
     "en": "21 Lessons, Get Started Building with Generative AI",
     "zh": "微軟官方的生成式 AI 入門課,21 堂課從零開始帶你動手做。"
    },
+   "search": "ai azure chatgpt dall-e generative-ai generativeai gpt language-model llms microsoft-for-beginners openai prompt-engineering semantic-search transformers",
    "url": "https://github.com/microsoft/generative-ai-for-beginners",
    "homepage": "",
    "meta": {
@@ -299,6 +309,7 @@ window.SITE_PAGE_DATA = {
     "en": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
     "zh": "macOS 高品質軟體精選清單,依類別整理,找 Mac 工具很好用。"
    },
+   "search": "app apple application apps awesome awesome-list awesome-lists awesome-mac desktop-app desktop-application desktop-apps list mac mac-osx macos macos-app macos-apps macosx software",
    "url": "https://github.com/jaywcjlove/awesome-mac",
    "homepage": "https://git.io/macx",
    "meta": {
@@ -326,6 +337,7 @@ window.SITE_PAGE_DATA = {
     "en": "Programmer's guide about how to cook at home.",
     "zh": "工程師寫給工程師的家常菜食譜,把做菜寫成可執行的步驟文件。"
    },
+   "search": "chinese cookbook cooking dishes recipes",
    "url": "https://github.com/Anduin2017/HowToCook",
    "homepage": "https://howtocook.aiursoft.com",
    "meta": {
@@ -353,6 +365,7 @@ window.SITE_PAGE_DATA = {
     "en": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
     "zh": "用圖解和白話解釋複雜系統,系統設計面試的視覺化速成教材。"
    },
+   "search": "aws cloud-computing coding-interviews computer-science interview-questions software-architecture software-development software-engineering system-design system-design-interview",
    "url": "https://github.com/ByteByteGoHq/system-design-101",
    "homepage": "https://bytebytego.com/guides",
    "meta": {
@@ -380,6 +393,7 @@ window.SITE_PAGE_DATA = {
     "en": "Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.",
     "zh": "從入門到實作的 LLM 課程,附學習路線圖與可直接跑的 Colab notebook。"
    },
+   "search": "course large-language-models llm machine-learning roadmap",
    "url": "https://github.com/mlabonne/llm-course",
    "homepage": "https://mlabonne.github.io/blog/",
    "meta": {
@@ -408,6 +422,7 @@ window.SITE_PAGE_DATA = {
     "en": "🐙 Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents.",
     "zh": "提示工程的權威指南,涵蓋 prompt engineering、context engineering、RAG 與 AI Agent 的論文、教材與範例。"
    },
+   "search": "agent agents ai-agents chatgpt deep-learning generative-ai language-model llms openai prompt-engineering rag",
    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
    "homepage": "https://www.promptingguide.ai/",
    "meta": {
@@ -433,6 +448,7 @@ window.SITE_PAGE_DATA = {
     "en": "计算机自学指南",
     "zh": "電腦科學自學指南,整理各大名校公開課的修課順序與心得。"
    },
+   "search": "",
    "url": "https://github.com/PKUFlyingPig/cs-self-learning",
    "homepage": "https://csdiy.wiki",
    "meta": {
@@ -460,6 +476,7 @@ window.SITE_PAGE_DATA = {
     "en": "The Patterns of Scalable, Reliable, and Performant Large-Scale Systems",
     "zh": "可擴展、高可用、高效能大型系統的設計模式與真實案例集。"
    },
+   "search": "architecture awesome awesome-list backend big-data computer-science design-patterns devops distributed-systems interview interview-practice interview-questions lists machine-learning programming resources scalability system system-design web-development",
    "url": "https://github.com/binhnguyennus/awesome-scalability",
    "homepage": "",
    "meta": {
@@ -487,6 +504,7 @@ window.SITE_PAGE_DATA = {
     "en": "Learn how to design systems at scale and prepare for system design interviews",
     "zh": "系統設計學習與面試準備資料,從基礎概念到分散式系統實務。"
    },
+   "search": "architecture distributed-systems engineering interview interview-preparation microservices scalability system-design system-design-interview tech",
    "url": "https://github.com/karanpratapsingh/system-design",
    "homepage": "https://leanpub.com/systemdesign",
    "meta": {
@@ -515,6 +533,7 @@ window.SITE_PAGE_DATA = {
     "en": "Learn System Design concepts and prepare for interviews using free resources.",
     "zh": "用免費資源學系統設計並準備面試,概念到實例都整理好了。"
    },
+   "search": "awesome backend computer-science distributed-systems high-level-design hld interview interview-questions scalability system-design",
    "url": "https://github.com/ashishps1/awesome-system-design-resources",
    "homepage": "https://algomaster.io",
    "meta": {
@@ -543,6 +562,7 @@ window.SITE_PAGE_DATA = {
     "en": "A curated list of engineering blogs",
     "zh": "各家公司工程部落格的精選清單,想追業界實作經驗從這裡開始。"
    },
+   "search": "engineering-blogs lists programming-blogs software-development tech",
    "url": "https://github.com/kilimchoi/engineering-blogs",
    "homepage": "",
    "meta": {
@@ -568,6 +588,7 @@ window.SITE_PAGE_DATA = {
     "en": "LLM101n: Let's build a Storyteller",
     "zh": "Karpathy 的課程:從零蓋一個會說故事的 LLM,把整條技術棧從頭走一遍。"
    },
+   "search": "",
    "url": "https://github.com/karpathy/LLM101n",
    "homepage": "",
    "meta": {
@@ -596,6 +617,7 @@ window.SITE_PAGE_DATA = {
     "en": "An AI prompt optimizer for writing better prompts and getting better AI results.",
     "zh": "AI 提示詞最佳化工具,幫你把隨手寫的 prompt 改寫成效果更好的版本。"
    },
+   "search": "ai-prompts ai-tools llm prompt prompt-engineering prompt-optimization prompt-optimizer prompt-testing prompt-toolkit prompt-tuning",
    "url": "https://github.com/linshenkx/prompt-optimizer",
    "homepage": "https://prompt.always200.com",
    "meta": {
@@ -624,6 +646,7 @@ window.SITE_PAGE_DATA = {
     "en": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
     "zh": "生成式 AI 的一站式資源庫:研究更新、面試題庫、notebook 全都有。"
    },
+   "search": "awesome awesome-list generative-ai interview-questions large-language-models llms notebook-jupyter vision-and-language",
    "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide",
    "homepage": "https://www.linkedin.com/in/areganti/",
    "meta": {
@@ -652,6 +675,7 @@ window.SITE_PAGE_DATA = {
     "en": "Official code repo for the O'Reilly Book - \"Hands-On Large Language Models\"",
     "zh": "O'Reilly《Hands-On Large Language Models》一書的官方程式碼,圖解導向。"
    },
+   "search": "artificial-intelligence book large-language-models llm llms oreilly oreilly-books",
    "url": "https://github.com/HandsOnLLM/Hands-On-Large-Language-Models",
    "homepage": "https://www.llm-book.com/",
    "meta": {
@@ -679,6 +703,7 @@ window.SITE_PAGE_DATA = {
     "en": "面向开发者的 LLM 入门教程，吴恩达大模型系列课程中文版",
     "zh": "吳恩達 LLM 系列課程的中文版,面向開發者的入門教程。"
    },
+   "search": "cookbook llm",
    "url": "https://github.com/datawhalechina/llm-cookbook",
    "homepage": "https://datawhalechina.github.io/llm-cookbook/",
    "meta": {
@@ -707,6 +732,7 @@ window.SITE_PAGE_DATA = {
     "en": "《Designing Data-Intensive Application》DDIA 第一版 / 第二版 中文翻译",
     "zh": "《資料密集型應用系統設計》(DDIA) 的中文翻譯,後端工程師必讀經典。"
    },
+   "search": "book database ddia distributed-systems",
    "url": "https://github.com/Vonng/ddia",
    "homepage": "https://ddia.vonng.com",
    "meta": {
@@ -734,6 +760,7 @@ window.SITE_PAGE_DATA = {
     "en": "These are the best resources for System Design on the Internet",
     "zh": "系統設計最好的網路資源整理,涵蓋快取、容錯、擴展性。"
    },
+   "search": "cache fault-tolerance scalability system-design",
    "url": "https://github.com/InterviewReady/system-design-resources",
    "homepage": "https://interviewready.io",
    "meta": {
@@ -757,6 +784,7 @@ window.SITE_PAGE_DATA = {
     "en": "ai副业赚钱大集合，教你如何利用ai做一些副业项目，赚取更多额外收益。The Ultimate Guide to Making Money with AI Side Hustles: Learn how to leverage AI for some cool side gigs and rake in some extra cash. Check out the English version for more insights.",
     "zh": "用 AI 做副業賺錢的方法大集合,把各種變現路徑整理成可執行的清單。"
    },
+   "search": "",
    "url": "https://github.com/bleedline/aimoneyhunter",
    "homepage": "",
    "meta": {
@@ -784,6 +812,7 @@ window.SITE_PAGE_DATA = {
     "en": "A collection of full time roles in SWE, Quant, and PM for new grads.",
     "zh": "軟體、量化與產品經理的新鮮人職缺整理,即時更新投遞連結。"
    },
+   "search": "applications coderquad college fulltime hacktoberfest jobs newgrad position posting university",
    "url": "https://github.com/SimplifyJobs/New-Grad-Positions",
    "homepage": "https://swelist.com/",
    "meta": {
@@ -812,6 +841,7 @@ window.SITE_PAGE_DATA = {
     "en": "AISystem 主要是指AI系统，包括AI芯片、AI编译器、AI推理和训练框架等AI全栈底层技术",
     "zh": "AI 系統全棧底層技術教材:AI 晶片、編譯器、推論與訓練框架。"
    },
+   "search": "ai aiinfra aisys dlsys mlsys",
    "url": "https://github.com/Infrasys-AI/AISystem",
    "homepage": "https://infrasys-ai.github.io/aisystem-docs/",
    "meta": {
@@ -839,6 +869,7 @@ window.SITE_PAGE_DATA = {
     "en": "Examples and guides for using the Gemini API",
     "zh": "Gemini API 的官方範例與指南,想快速上手直接照著跑。"
    },
+   "search": "gemini gemini-api",
    "url": "https://github.com/google-gemini/cookbook",
    "homepage": "https://ai.google.dev/gemini-api/docs",
    "meta": {
@@ -864,6 +895,7 @@ window.SITE_PAGE_DATA = {
     "en": "[WIP] Resources for AI engineers. Also contains supporting materials for the book AI Engineering (Chip Huyen, 2025)",
     "zh": "Chip Huyen《AI Engineering》一書的配套資源,給 AI 工程師的實務參考。"
    },
+   "search": "",
    "url": "https://github.com/chiphuyen/aie-book",
    "homepage": "",
    "meta": {
@@ -891,6 +923,7 @@ window.SITE_PAGE_DATA = {
     "en": "Chinese copywriting guidelines for better written communication／中文文案排版指北",
     "zh": "中文文案排版指南:中英混排的空格、標點、全半形規則,寫技術文件必備。"
    },
+   "search": "chinese chinese-simplified chinese-traditional copywriting css documentation guideline leancloud markdown",
    "url": "https://github.com/sparanoid/chinese-copywriting-guidelines",
    "homepage": "",
    "meta": {
@@ -916,6 +949,7 @@ window.SITE_PAGE_DATA = {
     "en": "llama3 implementation one matrix multiplication at a time",
     "zh": "一次一個矩陣乘法,把 Llama 3 從頭實作出來,適合逐行讀懂模型。"
    },
+   "search": "",
    "url": "https://github.com/naklecha/llama3-from-scratch",
    "homepage": "",
    "meta": {
@@ -939,6 +973,7 @@ window.SITE_PAGE_DATA = {
     "en": "This repository contains a curated collection of 300+ case studies from over 80 companies, detailing practical applications and insights into machine learning (ML) system design. The contents are organized to help you easily find relevant case studies based on industry or specific ML use cases.",
     "zh": "80+ 家公司的 300+ 個 ML 系統設計案例,看真實世界怎麼把模型落地。"
    },
+   "search": "",
    "url": "https://github.com/Engineer1999/A-Curated-List-of-ML-System-Design-Case-Studies",
    "homepage": "",
    "meta": {
@@ -966,6 +1001,7 @@ window.SITE_PAGE_DATA = {
     "en": "A curated list of  120+ LLM libraries category wise.",
     "zh": "120+ 個 LLM 相關函式庫的分類清單,依用途查工具很快。"
    },
+   "search": "ai-engineer generative-ai large-language-models llm-engineer llms",
    "url": "https://github.com/KalyanKS-NLP/llm-engineer-toolkit",
    "homepage": "https://www.linkedin.com/in/kalyanksnlp/",
    "meta": {
@@ -989,6 +1025,7 @@ window.SITE_PAGE_DATA = {
     "en": "分享一些好用的 Dify DSL 工作流程，自用、学习两相宜。 Sharing some Dify workflows.",
     "zh": "好用的 Dify DSL 工作流分享,自用或學習都適合。"
    },
+   "search": "",
    "url": "https://github.com/svcvit/Awesome-Dify-Workflow",
    "homepage": "",
    "meta": {
@@ -1012,6 +1049,7 @@ window.SITE_PAGE_DATA = {
     "en": "Explanation to key concepts in ML",
     "zh": "把機器學習關鍵概念與重要論文用白話解釋清楚。"
    },
+   "search": "",
    "url": "https://github.com/dair-ai/ML-Papers-Explained",
    "homepage": "",
    "meta": {
@@ -1035,6 +1073,7 @@ window.SITE_PAGE_DATA = {
     "en": "the resources I use to learn computer science in my spare time",
     "zh": "作者自學電腦科學實際用過的資源整理,附修課順序建議。"
    },
+   "search": "",
    "url": "https://github.com/PKUFlyingPig/Self-learning-Computer-Science",
    "homepage": "",
    "meta": {
@@ -1062,6 +1101,7 @@ window.SITE_PAGE_DATA = {
     "en": "All-in-one guide to getting a tech job abroad 🌎",
     "zh": "海外技術職缺與搬遷指南,整理願意贊助簽證的公司與求職流程。"
    },
+   "search": "abroad hiring job-search jobsearch overseas relocate relocation",
    "url": "https://github.com/AndrewStetsenko/tech-jobs-with-relocation",
    "homepage": "https://relocateme.substack.com/",
    "meta": {
@@ -1085,6 +1125,7 @@ window.SITE_PAGE_DATA = {
     "en": "东南大学《知识图谱》研究生课程",
     "zh": "東南大學《知識圖譜》研究所課程的完整教材與投影片。"
    },
+   "search": "",
    "url": "https://github.com/npubird/KnowledgeGraphCourse",
    "homepage": "",
    "meta": {
@@ -1113,6 +1154,7 @@ window.SITE_PAGE_DATA = {
     "en": "该仓库主要记录 NLP 算法工程师相关的顶会论文研读笔记",
     "zh": "NLP 演算法工程師的頂會論文研讀筆記,涵蓋 attention、BERT、實體辨識、關係抽取。"
    },
+   "search": "attention bert entity-recognition gcn relation-extraction",
    "url": "https://github.com/km1994/nlp_paper_study",
    "homepage": "",
    "meta": {
@@ -1141,6 +1183,7 @@ window.SITE_PAGE_DATA = {
     "en": "A collection of guides and examples for the Gemma open models from Google.",
     "zh": "Google Gemma 開放模型的官方指南與範例集。"
    },
+   "search": "codegemma gemma paligemma recurrentgemma",
    "url": "https://github.com/google-gemma/cookbook",
    "homepage": "https://ai.google.dev/gemma/",
    "meta": {
@@ -1164,6 +1207,7 @@ window.SITE_PAGE_DATA = {
     "en": "100 Must-Read NLP Papers",
     "zh": "NLP 領域 100 篇必讀論文清單,入門到經典一次補齊。"
    },
+   "search": "",
    "url": "https://github.com/mhagiwara/100-nlp-papers",
    "homepage": "http://masatohagiwara.net/100-nlp-papers/",
    "meta": {
@@ -1192,6 +1236,7 @@ window.SITE_PAGE_DATA = {
     "en": "MIMIC Code Repository: Code shared by the research community for the MIMIC family of databases",
     "zh": "MIMIC 重症醫療資料庫的官方程式碼庫,研究社群共用的資料處理與分析腳本。"
    },
+   "search": "critical-care icu mimic-iii physionet",
    "url": "https://github.com/MIT-LCP/mimic-code",
    "homepage": "https://mimic.mit.edu",
    "meta": {
@@ -1220,6 +1265,7 @@ window.SITE_PAGE_DATA = {
     "en": "雅思词汇真经、雅思语法、听力 179、阅读 538  同义替换等。Everything during preparing for my IELTS exam.",
     "zh": "作者準備雅思考試的完整資料:單字、文法、聽力 179、閱讀 538 與同義替換整理。"
    },
+   "search": "ielts ielts-exam ielts-listening ielts-notes ielts-reading ielts-speaking ielts-writing",
    "url": "https://github.com/hefengxian/my-ielts",
    "homepage": "https://hefengxian.github.io/my-ielts/",
    "meta": {
@@ -1247,6 +1293,7 @@ window.SITE_PAGE_DATA = {
     "en": "A collection of my book notes on various subjects, mainly computer science",
     "zh": "作者的讀書筆記集,以電腦科學為主,一本書一份濃縮重點。"
    },
+   "search": "booknotes books",
    "url": "https://github.com/presmihaylov/booknotes",
    "homepage": "",
    "meta": {
@@ -1272,6 +1319,7 @@ window.SITE_PAGE_DATA = {
     "en": "Open-source AI cookbook",
     "zh": "Hugging Face 的開源 AI 食譜,各種實務任務的可跑範例。"
    },
+   "search": "",
    "url": "https://github.com/huggingface/cookbook",
    "homepage": "https://huggingface.co/learn/cookbook",
    "meta": {
@@ -1295,6 +1343,7 @@ window.SITE_PAGE_DATA = {
     "en": "Curated list of useful LLM / Analytics / Datascience resources",
     "zh": "LLM、分析與資料科學資源的精選清單,更新頻繁、分類清楚。"
    },
+   "search": "",
    "url": "https://github.com/underlines/awesome-ml",
    "homepage": "",
    "meta": {
@@ -1323,6 +1372,7 @@ window.SITE_PAGE_DATA = {
     "en": "Awesome Reasoning LLM Tutorial/Survey/Guide",
     "zh": "推理型 LLM 後訓練的教學、綜述與指南彙整,強化學習與 scaling 都有。"
    },
+   "search": "fine large-language-models post-training reasoning reinforcement-learning scaling",
    "url": "https://github.com/mbzuai-oryx/Awesome-LLM-Post-training",
    "homepage": "",
    "meta": {
@@ -1346,6 +1396,7 @@ window.SITE_PAGE_DATA = {
     "en": "GPT-Prompt-Hub is an open-source community-driven repository dedicated to the collection, sharing, and refinement of custom GPT prompts",
     "zh": "社群共同蒐集、分享與打磨自訂 GPT 提示詞的開源倉庫。"
    },
+   "search": "",
    "url": "https://github.com/LichAmnesia/GPT-Prompt-Hub",
    "homepage": "",
    "meta": {
@@ -1369,6 +1420,7 @@ window.SITE_PAGE_DATA = {
     "en": "Collection of awesome medical dataset resources.",
     "zh": "醫療領域資料集資源的精選清單。"
    },
+   "search": "",
    "url": "https://github.com/openmedlab/Awesome-Medical-Dataset",
    "homepage": "",
    "meta": {
@@ -1397,6 +1449,7 @@ window.SITE_PAGE_DATA = {
     "en": "Official implementation for \"Automatic Chain of Thought Prompting in Large Language Models\" (stay tuned & more will be updated)",
     "zh": "自動思考鏈提示的官方實作:讓模型自己生成推理範例,不必人工寫 few-shot。"
    },
+   "search": "chain-of-thought gpt-3 gpt3-prompts gpt3-resources large-language-models prompt-engineering reasoning",
    "url": "https://github.com/amazon-science/auto-cot",
    "homepage": "https://arxiv.org/abs/2210.03493",
    "meta": {
@@ -1424,6 +1477,7 @@ window.SITE_PAGE_DATA = {
     "en": "[Nature Reviews Bioengineering🔥] Application of Large Language Models in Medicine.  A curated list of practical guide resources of Medical LLMs (Medical LLMs Tree, Tables, and Papers)",
     "zh": "醫療大語言模型的實務指南,含模型演化樹、比較表與論文清單(Nature Reviews Bioengineering)。"
    },
+   "search": "ai-in-medicine clinical-ai large-language-models medical-large-language-models survey",
    "url": "https://github.com/AI-in-Health/MedLLMsPracticalGuide",
    "homepage": "https://arxiv.org/abs/2311.05112",
    "meta": {
@@ -1451,6 +1505,7 @@ window.SITE_PAGE_DATA = {
     "en": "Australian companies that provide work visa (and/or relocation) to their employees (mainly tech).",
     "zh": "願意提供工作簽證或搬遷補助的澳洲科技公司清單。"
    },
+   "search": "australia australian-companies hacktoberfest hacktoberfest2023 relocation tech visa visa-sponsorship",
    "url": "https://github.com/geshan/au-companies-providing-work-visa-sponsorship",
    "homepage": "https://bit.ly/au-tech-jobs-sp",
    "meta": {
@@ -1477,6 +1532,7 @@ window.SITE_PAGE_DATA = {
     "en": "PaSa -- an advanced paper search agent powered by large language models. It can autonomously make a series of decisions, including invoking search tools, reading papers, and selecting relevant references, to ultimately obtain comprehensive and accurate results for complex scholarly queries.",
     "zh": "字節跳動的論文搜尋 agent,會自主決定搜什麼、讀哪篇、選哪些納入結果。"
    },
+   "search": "research",
    "url": "https://github.com/bytedance/pasa",
    "homepage": "",
    "meta": {
@@ -1505,6 +1561,7 @@ window.SITE_PAGE_DATA = {
     "en": "Jupyter notebooks that support my graph data science blog posts at https://bratanic-tomaz.medium.com/",
     "zh": "作者圖資料科學部落格文章的配套 notebook,主要用 Neo4j 做圖分析。"
    },
+   "search": "data-science graph graph-algorithms neo4j",
    "url": "https://github.com/tomasonjo/blogs",
    "homepage": "",
    "meta": {
@@ -1530,6 +1587,7 @@ window.SITE_PAGE_DATA = {
     "en": "Transcripts from Lenny's Podcast",
     "zh": "Lenny's Podcast 的逐字稿整理,產品經理圈最常被引用的節目。"
    },
+   "search": "",
    "url": "https://github.com/ChatPRD/lennys-podcast-transcripts",
    "homepage": "",
    "meta": {
@@ -1558,6 +1616,7 @@ window.SITE_PAGE_DATA = {
     "en": "A 4-hour coding workshop to understand how LLMs are implemented and used",
     "zh": "四小時的實作工作坊,從頭理解 LLM 怎麼實作與使用。"
    },
+   "search": "large-language-models llm pytorch",
    "url": "https://github.com/rasbt/LLM-workshop-2024",
    "homepage": "",
    "meta": {
@@ -1583,6 +1642,7 @@ window.SITE_PAGE_DATA = {
     "en": "作者整理的 LLM 課程 notebook 集。",
     "zh": "作者整理的 LLM 課程 notebook 集。"
    },
+   "search": "",
    "url": "https://github.com/andysingal/llm-course",
    "homepage": "",
    "meta": {
@@ -1606,6 +1666,7 @@ window.SITE_PAGE_DATA = {
     "en": "系統設計必讀的電腦科學經典論文清單。",
     "zh": "系統設計必讀的電腦科學經典論文清單。"
    },
+   "search": "",
    "url": "https://github.com/arpit20adlakha/Computer-Science-Papers-For-System-Design",
    "homepage": "",
    "meta": {
@@ -1633,6 +1694,7 @@ window.SITE_PAGE_DATA = {
     "en": "生成式資訊檢索的論文與資源精選清單。",
     "zh": "生成式資訊檢索的論文與資源精選清單。"
    },
+   "search": "ai chatgpt deep-learning generative-ai information-retrieval machine-learning nlp",
    "url": "https://github.com/gabriben/awesome-generative-information-retrieval",
    "homepage": "",
    "meta": {
@@ -1656,6 +1718,7 @@ window.SITE_PAGE_DATA = {
     "en": "作者蒐集的電子書合集。",
     "zh": "作者蒐集的電子書合集。"
    },
+   "search": "",
    "url": "https://github.com/shams-imran/books",
    "homepage": "",
    "meta": {
@@ -1679,6 +1742,7 @@ window.SITE_PAGE_DATA = {
     "en": "A roadmap describing the required skills, learning resources and sample tools to become an AI Engineer",
     "zh": "成為 AI 工程師的學習路線圖,列出該具備的技能、學習資源與代表性工具。"
    },
+   "search": "",
    "url": "https://github.com/dswh/ai-engineer-roadmap",
    "homepage": "https://youtu.be/br8u4JwXMBU",
    "meta": {
@@ -1702,6 +1766,7 @@ window.SITE_PAGE_DATA = {
     "en": "Public free starter pack for Lenny's Podcast transcripts and Lenny's Newsletter posts, in AI-friendly markdown.",
     "zh": "Lenny's Podcast 逐字稿與電子報文章的免費起手包,已轉成 AI 好讀的 Markdown。"
    },
+   "search": "",
    "url": "https://github.com/LennysNewsletter/lennys-newsletterpodcastdata",
    "homepage": "https://www.lennysdata.com",
    "meta": {
@@ -1725,6 +1790,7 @@ window.SITE_PAGE_DATA = {
     "en": "We collect papers about \"large language models (LLM) for table-related tasks\", e.g., using LLM for Table QA task. “表格+LLM”相关论文整理",
     "zh": "「表格 + LLM」相關論文整理,例如用大模型做表格問答。"
    },
+   "search": "",
    "url": "https://github.com/SpursGoZmy/Awesome-Tabular-LLMs",
    "homepage": "",
    "meta": {
@@ -1752,6 +1818,7 @@ window.SITE_PAGE_DATA = {
     "en": "a collection of cv and resume styles",
     "zh": "履歷與 CV 版型的精選集,多數是 LaTeX 模板。"
    },
+   "search": "cover-letter cv cv-template latex latex-template resume templete",
    "url": "https://github.com/sadransh/awsome-list-of-cv-and-resume-templetes",
    "homepage": "",
    "meta": {
@@ -1775,6 +1842,7 @@ window.SITE_PAGE_DATA = {
     "en": "tracking papers, datasets, and models of \"large language model (LLM) for time series\"",
     "zh": "追蹤「LLM 用於時間序列」的論文、資料集與模型。"
    },
+   "search": "",
    "url": "https://github.com/xiyuanzh/awesome-llm-time-series",
    "homepage": "",
    "meta": {
@@ -1800,6 +1868,7 @@ window.SITE_PAGE_DATA = {
     "en": "Programming assignments and quizzes from all courses within the Machine Learning Engineering for Production (MLOps) specialization offered by deeplearning.ai",
     "zh": "deeplearning.ai MLOps 專項課程的所有作業與測驗解答。"
    },
+   "search": "",
    "url": "https://github.com/amanchadha/coursera-machine-learning-engineering-for-prod-mlops-specialization",
    "homepage": "",
    "meta": {
@@ -1827,6 +1896,7 @@ window.SITE_PAGE_DATA = {
     "en": "Awesome-LLM-Tabular: a curated list of Large Language Model applied to Tabular Data",
     "zh": "大語言模型應用在表格資料上的論文精選清單。"
    },
+   "search": "awesome large-language-models tabular-data",
    "url": "https://github.com/johnnyhwu/Awesome-LLM-Tabular",
    "homepage": "",
    "meta": {
@@ -1852,6 +1922,7 @@ window.SITE_PAGE_DATA = {
     "en": "LargitData Course Material",
     "zh": "LargitData 課程教材,中文的資料科學與機器學習實作。"
    },
+   "search": "",
    "url": "https://github.com/ywchiu/largitdata",
    "homepage": "",
    "meta": {
@@ -1875,6 +1946,7 @@ window.SITE_PAGE_DATA = {
     "en": "A structured 5-dimension scoring framework for evaluating open-source AI projects from a VC investment perspective. Maintained by Lucy Chen, EIR at Zoo Capital (Singapore, $2B+ AUM).",
     "zh": "從創投視角評估開源 AI 專案的五維度計分框架。"
    },
+   "search": "",
    "url": "https://github.com/lucy-cxy/oss-investment-scorecard",
    "homepage": "",
    "meta": {
@@ -1898,6 +1970,7 @@ window.SITE_PAGE_DATA = {
     "en": "A curated list of popular Datasets, Models and Papers for LLMs in Medical/Healthcare",
     "zh": "醫療與健康照護領域的 LLM 資料集、模型與論文精選。"
    },
+   "search": "",
    "url": "https://github.com/onejune2018/Awesome-Medical-Healthcare-Dataset-For-LLM",
    "homepage": "",
    "meta": {
@@ -1923,6 +1996,7 @@ window.SITE_PAGE_DATA = {
     "en": "Workshop: Build with Gemini",
     "zh": "用 Gemini 開發的工作坊教材,適合快速上手實作。"
    },
+   "search": "",
    "url": "https://github.com/patrickloeber/workshop-build-with-gemini",
    "homepage": "",
    "meta": {
@@ -1948,6 +2022,7 @@ window.SITE_PAGE_DATA = {
     "en": "WTF Academy 的 LangChain 極簡中文入門教程。",
     "zh": "WTF Academy 的 LangChain 極簡中文入門教程。"
    },
+   "search": "",
    "url": "https://github.com/WTFAcademy/WTF-Langchain",
    "homepage": "",
    "meta": {
@@ -1973,6 +2048,7 @@ window.SITE_PAGE_DATA = {
     "en": "Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory",
     "zh": "測試時學習的動態小抄:讓模型把解過的題目經驗存下來,下次直接調用。"
    },
+   "search": "",
    "url": "https://github.com/suzgunmirac/dynamic-cheatsheet",
    "homepage": "https://arxiv.org/abs/2504.07952",
    "meta": {
@@ -1999,6 +2075,7 @@ window.SITE_PAGE_DATA = {
     "en": "每天阅读过的论文的简要笔记",
     "zh": "作者每天讀過論文的簡要筆記,長期累積的閱讀軌跡。"
    },
+   "search": "paper-reading paper-weekly",
    "url": "https://github.com/zhpmatrix/PaperReading",
    "homepage": "",
    "meta": {
@@ -2024,6 +2101,7 @@ window.SITE_PAGE_DATA = {
     "en": "Generative AI Act II: Test Time Scaling Drives Cognition Engineering",
     "zh": "生成式 AI 第二幕:主張測試時擴展(test-time scaling)正在驅動一種新的認知工程。"
    },
+   "search": "",
    "url": "https://github.com/GAIR-NLP/cognition-engineering",
    "homepage": "",
    "meta": {
@@ -2047,6 +2125,7 @@ window.SITE_PAGE_DATA = {
     "en": "Dictionary of English medical terms for LibreOffice/OpenOffice/Android/Word",
     "zh": "英文醫學術語字典,可掛進 LibreOffice、Word 等做拼字檢查。"
    },
+   "search": "",
    "url": "https://github.com/glutanimate/wordlist-medicalterms-en",
    "homepage": "",
    "meta": {
@@ -2070,6 +2149,7 @@ window.SITE_PAGE_DATA = {
     "en": "297 期 Lenny's Podcast 中文深度分析 + 双语逐字稿",
     "zh": "Lenny's Podcast 297 期的中文深度分析與雙語逐字稿。"
    },
+   "search": "",
    "url": "https://github.com/Penny777btc/lenny-podcast-chinese",
    "homepage": "",
    "meta": {
@@ -2093,6 +2173,7 @@ window.SITE_PAGE_DATA = {
     "en": "boris-prompts",
     "zh": "Boris 的提示詞收藏。"
    },
+   "search": "",
    "url": "https://github.com/LingyiChen-AI/boris-prompts",
    "homepage": "",
    "meta": {
@@ -2118,6 +2199,7 @@ window.SITE_PAGE_DATA = {
     "en": ":books: [译] 斯坦福 CS183 系列中文笔记",
     "zh": "史丹佛 CS183(Peter Thiel 創業課)系列的中文翻譯筆記。"
    },
+   "search": "",
    "url": "https://github.com/apachecn/stanford-cs183-notes",
    "homepage": "http://cs183.apachecn.org/",
    "meta": {
@@ -2145,6 +2227,7 @@ window.SITE_PAGE_DATA = {
     "en": "Healthcare and biomedical datasets, for AI/ML",
     "zh": "醫療與生醫領域的 AI/ML 資料集精選清單,含臨床與影像。"
    },
+   "search": "awesome-list biomedical clinical datasets healthcare imaging omics",
    "url": "https://github.com/geniusrise/awesome-healthcare-datasets",
    "homepage": "",
    "meta": {
@@ -2168,6 +2251,7 @@ window.SITE_PAGE_DATA = {
     "en": "A curated list of awesome LLM Inference-Time Self-Improvement (ITSI, pronounced \"itsy\") papers from our recent survey: A Survey on Large Language Model Inference-Time Self-Improvement.",
     "zh": "LLM 推論期自我改進(ITSI)的論文精選,出自作者的綜述研究。"
    },
+   "search": "",
    "url": "https://github.com/dongxiangjue/Awesome-LLM-Self-Improvement",
    "homepage": "",
    "meta": {
@@ -2196,6 +2280,7 @@ window.SITE_PAGE_DATA = {
     "en": "Gemini API 的指南和範例集合",
     "zh": "保哥整理的 Gemini API 中文指南與範例集。"
    },
+   "search": "gemini-api generative-ai google-ai",
    "url": "https://github.com/doggy8088/gemini-api-cookbook",
    "homepage": "",
    "meta": {
@@ -2223,6 +2308,7 @@ window.SITE_PAGE_DATA = {
     "en": "This repository collects awesome survey, resource, and paper for Lifelong Learning for Large Language Models. (Updated Regularly)",
     "zh": "大語言模型終身學習方法的綜述、資源與論文彙整,定期更新。"
    },
+   "search": "continual-learning incremental-learning large-language-models lifelong-learning pretrained-language-model",
    "url": "https://github.com/qianlima-lab/awesome-lifelong-learning-methods-for-llm",
    "homepage": "https://arxiv.org/abs/2406.06391",
    "meta": {
@@ -2246,6 +2332,7 @@ window.SITE_PAGE_DATA = {
     "en": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
     "zh": "保哥維護的生成式 AI 一站式資源庫,研究更新、面試題與 notebook。"
    },
+   "search": "",
    "url": "https://github.com/doggy8088/awesome-generative-ai-guide",
    "homepage": "https://www.linkedin.com/in/areganti/",
    "meta": {
@@ -2269,6 +2356,7 @@ window.SITE_PAGE_DATA = {
     "en": "All the funny things you'd only hear at work",
     "zh": "科技公司才聽得到的黑話大全,新人翻譯字典。"
    },
+   "search": "",
    "url": "https://github.com/jordan-cutler/tech-work-terms",
    "homepage": "",
    "meta": {
@@ -2294,6 +2382,7 @@ window.SITE_PAGE_DATA = {
     "en": "Pipecat 的語音 AI 入門教材網站原始碼。",
     "zh": "Pipecat 的語音 AI 入門教材網站原始碼。"
    },
+   "search": "",
    "url": "https://github.com/pipecat-ai/voice-ai-primer-web",
    "homepage": "https://voiceaiandvoiceagents.com/",
    "meta": {
@@ -2317,6 +2406,7 @@ window.SITE_PAGE_DATA = {
     "en": "Awesome Traditional Chinese Datasets",
     "zh": "繁體中文資料集的精選清單,做中文 NLP 很缺這種整理。"
    },
+   "search": "",
    "url": "https://github.com/stuser/Awesome_TC_Datasets",
    "homepage": "https://github.com/stuser/Awesome_TC_Datasets/blob/master/README.md",
    "meta": {
@@ -2340,6 +2430,7 @@ window.SITE_PAGE_DATA = {
     "en": "GCP 雲端工程師認證的準備筆記與資源。",
     "zh": "GCP 雲端工程師認證的準備筆記與資源。"
    },
+   "search": "",
    "url": "https://github.com/Ernyoke/certified-gcp-cloud-engineer",
    "homepage": "",
    "meta": {
@@ -2365,6 +2456,7 @@ window.SITE_PAGE_DATA = {
     "en": "deeplearning.ai 的 agent 治理課程教材。",
     "zh": "deeplearning.ai 的 agent 治理課程教材。"
    },
+   "search": "",
    "url": "https://github.com/https-deeplearning-ai/sc-agent-governance",
    "homepage": "",
    "meta": {
@@ -2388,6 +2480,7 @@ window.SITE_PAGE_DATA = {
     "en": "This repository contains the two datasets introduced in the paper \"Making Science Simple: Corpora for the Lay Summarisation of Scientific Literature\" accepted in EMNLP 2022.",
     "zh": "把科學文獻改寫成白話摘要的兩個資料集(EMNLP 2022)。"
    },
+   "search": "",
    "url": "https://github.com/TGoldsack1/Corpora_for_Lay_Summarisation",
    "homepage": "",
    "meta": {
@@ -2411,6 +2504,7 @@ window.SITE_PAGE_DATA = {
     "en": "I independently completed all five labs and wrote additional notes for Labs 1, 2, 3, and 5.",
     "zh": "MIT 6.5840 分散式系統五個 Lab 的完成紀錄與補充筆記。"
    },
+   "search": "",
    "url": "https://github.com/peiwenshen/MIT-6.5840-Labs-Notes-Spring-2024",
    "homepage": "",
    "meta": {
@@ -2434,6 +2528,7 @@ window.SITE_PAGE_DATA = {
     "en": "Collection of 2026 New Grad Jobs in Accounting and Finance!",
     "zh": "2026 年會計與財務領域的新鮮人職缺整理。"
    },
+   "search": "",
    "url": "https://github.com/jobright-ai/2026-Account-New-Grad",
    "homepage": "https://newgrad-jobs.com",
    "meta": {
@@ -2462,6 +2557,7 @@ window.SITE_PAGE_DATA = {
     "en": "Shield of Self-Defense 資安基礎防禦教材",
     "zh": "開放文化基金會的資安基礎防禦教材,面向一般人的數位自我保護。"
    },
+   "search": "cso security security-guide self-defense",
    "url": "https://github.com/ocftw/ssd",
    "homepage": "https://ssd.ocf.tw",
    "meta": {
@@ -2487,6 +2583,7 @@ window.SITE_PAGE_DATA = {
     "en": "plain language adaptation of biomedical abstract by Manchester United (MMU + UoM) researchers",
     "zh": "把生醫論文摘要改寫成白話的研究,曼徹斯特團隊的實作。"
    },
+   "search": "",
    "url": "https://github.com/HECTA-UoM/PLABA-MU",
    "homepage": "",
    "meta": {
@@ -2512,6 +2609,7 @@ window.SITE_PAGE_DATA = {
     "en": "GLOWS 工作坊的教材 notebook。",
     "zh": "GLOWS 工作坊的教材 notebook。"
    },
+   "search": "",
    "url": "https://github.com/Tcc0403/glows-workshop",
    "homepage": "",
    "meta": {
@@ -2537,6 +2635,7 @@ window.SITE_PAGE_DATA = {
     "en": "Plain language medical dictionary",
     "zh": "白話醫學詞典,把艱澀的醫學名詞翻成一般人看得懂的說法。"
    },
+   "search": "",
    "url": "https://github.com/mlibrary/medical-dictionary",
    "homepage": "",
    "meta": {
@@ -2564,6 +2663,7 @@ window.SITE_PAGE_DATA = {
     "en": "每天或隔幾天更新在 github 上面最受歡迎的一些 AI 項目。讓大家學習, 集中最新資訊。",
     "zh": "每隔幾天更新 GitHub 上最受歡迎的 AI 專案,集中最新資訊方便學習。"
    },
+   "search": "ai-agents github news startup",
    "url": "https://github.com/kevin801221/amazing-github-repos-everyday",
    "homepage": "",
    "meta": {
@@ -2589,6 +2689,7 @@ window.SITE_PAGE_DATA = {
     "en": "Repository for the code to the paper \"A Dataset for Plain Language Adaptation of Biomedical Abstracts\"",
     "zh": "生醫摘要白話改寫資料集論文的官方程式碼。"
    },
+   "search": "",
    "url": "https://github.com/attal-kush/PLABA",
    "homepage": "",
    "meta": {
