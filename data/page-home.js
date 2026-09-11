@@ -143,7 +143,7 @@ window.SITE_PAGE_DATA = {
       "href": "learning.html#ebookfoundation-free-programming-books",
       "stars": "396.3k",
       "what": {
-       "en": ":books: Freely available programming books",
+       "en": "📚 Freely available programming books",
        "zh": "免費程式設計電子書與課程清單,多語言版本,涵蓋幾乎所有語言與領域。"
       }
      },
@@ -493,7 +493,7 @@ window.SITE_PAGE_DATA = {
     "href": "learning.html#ebookfoundation-free-programming-books",
     "stars": "396.3k",
     "what": {
-     "en": ":books: Freely available programming books",
+     "en": "📚 Freely available programming books",
      "zh": "免費程式設計電子書與課程清單,多語言版本,涵蓋幾乎所有語言與領域。"
     }
    },

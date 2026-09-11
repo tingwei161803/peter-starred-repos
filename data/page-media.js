@@ -454,7 +454,7 @@ window.SITE_PAGE_DATA = {
     "zh": "BradyFU/Awesome-Multimodal-Large-Language-Models"
    },
    "summary": {
-    "en": ":sparkles::sparkles:Latest Advances on Multimodal Large Language Models",
+    "en": "✨✨Latest Advances on Multimodal Large Language Models",
     "zh": "多模態大模型的最新進展彙整,論文、榜單、資源持續更新。"
    },
    "tags": [
@@ -463,7 +463,7 @@ window.SITE_PAGE_DATA = {
     "instruction-following"
    ],
    "overview": {
-    "en": ":sparkles::sparkles:Latest Advances on Multimodal Large Language Models",
+    "en": "✨✨Latest Advances on Multimodal Large Language Models",
     "zh": "多模態大模型的最新進展彙整,論文、榜單、資源持續更新。"
    },
    "search": "chain-of-thought in-context-learning instruction-following instruction-tuning large-language-models large-vision-language-model large-vision-language-models multi-modality multimodal-chain-of-thought multimodal-in-context-learning multimodal-instruction-tuning multimodal-large-language-models visual-instruction-tuning",

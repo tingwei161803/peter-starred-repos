@@ -100,7 +100,7 @@ window.SITE_PAGE_DATA = {
    "repo": "EbookFoundation/free-programming-books",
    "url": "https://github.com/EbookFoundation/free-programming-books",
    "what": {
-    "en": ":books: Freely available programming books",
+    "en": "📚 Freely available programming books",
     "zh": "免費程式設計電子書與課程清單,多語言版本,涵蓋幾乎所有語言與領域。"
    },
    "cat": {
@@ -2532,7 +2532,7 @@ window.SITE_PAGE_DATA = {
    "repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
    "url": "https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models",
    "what": {
-    "en": ":sparkles::sparkles:Latest Advances on Multimodal Large Language Models",
+    "en": "✨✨Latest Advances on Multimodal Large Language Models",
     "zh": "多模態大模型的最新進展彙整,論文、榜單、資源持續更新。"
    },
    "cat": {
@@ -7828,7 +7828,7 @@ window.SITE_PAGE_DATA = {
    "repo": "apachecn/stanford-cs183-notes",
    "url": "https://github.com/apachecn/stanford-cs183-notes",
    "what": {
-    "en": ":books: [译] 斯坦福 CS183 系列中文笔记",
+    "en": "📚 [译] 斯坦福 CS183 系列中文笔记",
     "zh": "史丹佛 CS183(Peter Thiel 創業課)系列的中文翻譯筆記。"
    },
    "cat": {
