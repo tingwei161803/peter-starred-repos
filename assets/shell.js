@@ -28,9 +28,30 @@
   var PAGES = Array.isArray(window.SITE_PAGES) ? window.SITE_PAGES : [];
 
   /* ---------- chrome i18n (page content strings live in the data) ---------- */
+  /* 語言是固定的(一個 URL 一個語言),所以這裡不能出現「Close / 關閉」這種把
+     兩個語言擠在同一個字串裡的寫法 —— 讀屏會把斜線跟另一個語言一起念出來。
+     每個 key 兩個語言各一份,`ui()` 照 <html lang> 取。 */
   var I18N = {
-    en: { close: "Close", menu: "Pages", skip: "Skip to content" },
-    zh: { close: "關閉", menu: "頁面", skip: "跳到內容" }
+    en: {
+      close: "Close", menu: "Pages", skip: "Skip to content",
+      theme: "Switch between dark and light theme",
+      homeLink: "peteraim.com (opens in a new tab)",
+      linkedin: "LinkedIn (opens in a new tab)",
+      sortBy: "Sort by {label}",
+      barChart: "Bar chart", lineChart: "Line chart",
+      contents: "Contents", map: "Map", yes: "Yes", no: "No",
+      switchLang: "Switch to Traditional Chinese"
+    },
+    zh: {
+      close: "關閉", menu: "頁面", skip: "跳到內容",
+      theme: "切換深色與淺色主題",
+      homeLink: "peteraim.com(在新分頁開啟)",
+      linkedin: "LinkedIn(在新分頁開啟)",
+      sortBy: "依「{label}」排序",
+      barChart: "長條圖", lineChart: "折線圖",
+      contents: "目錄", map: "地圖", yes: "有", no: "沒有",
+      switchLang: "切換到英文版"
+    }
   };
 
   /* ---------- sandbox-safe localStorage ---------- */
@@ -62,7 +83,22 @@
     if (typeof obj === "string") return obj;
     return obj[state.lang] || obj.en || obj.zh || "";
   }
-  function ui(key) { return (I18N[state.lang] || I18N.en)[key]; }
+  /* 第二個參數是要代入的欄位,例如 ui("sortBy", {label: "星數"}) →「依「星數」排序」。
+     找不到 key 時退回英文那份再退回 key 本身 —— 回 undefined 會讓 aria-label
+     變成字串 "undefined",那比缺字串更糟(讀屏會真的念出來)。 */
+  function ui(key, vars) {
+    var s = (I18N[state.lang] || {})[key];
+    if (s == null) s = I18N.en[key];
+    if (s == null) return key;
+    if (vars) {
+      for (var k in vars) {
+        if (Object.prototype.hasOwnProperty.call(vars, k)) {
+          s = s.replace("{" + k + "}", vars[k]);
+        }
+      }
+    }
+    return s;
+  }
   function escapeHtml(s) {
     return String(s == null ? "" : s).replace(/[&<>"']/g, function (m) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[m];
@@ -124,7 +160,10 @@
       '<a class="icon-btn" id="langLink" href="' + escapeHtml(altHref()) + '"' +
         ' rel="alternate" hreflang="' + (zh ? "en" : "zh-Hant") + '"' +
         ' title="' + (zh ? "English" : "中文版") + '"' +
-        ' aria-label="' + (zh ? "English / 切換到英文版" : "中文版 / Switch to Traditional Chinese") + '">' +
+        /* aria-label 只用本頁的語言講(讀屏使用者聽的是本頁語言),
+           看得見的 title / 文字才用目標語言的自稱(English / 中)——
+           語言切換鈕用對方的自稱是慣例,不懂本頁語言的人也認得。 */
+        ' aria-label="' + escapeHtml(ui("switchLang")) + '">' +
         '<span class="material-symbols-rounded">translate</span>' +
         '<span class="icon-btn__txt">' + (zh ? "EN" : "中") + '</span>' +
       '</a>';
@@ -137,7 +176,7 @@
         '<div class="appbar__actions">' +
           starHtml +
           langHtml +
-          '<button class="icon-btn" id="themeToggle" type="button" title="Theme" aria-label="Toggle theme / 切換主題">' +
+          '<button class="icon-btn" id="themeToggle" type="button" title="' + escapeHtml(ui("theme")) + '" aria-label="' + escapeHtml(ui("theme")) + '">' +
             '<span class="material-symbols-rounded" id="themeIcon">dark_mode</span>' +
           '</button>' +
         '</div>' +
@@ -156,8 +195,8 @@
     footer.className = "footer";
     footer.innerHTML = '<p id="footerText"></p>' +
       '<div class="footer__links">' +
-        '<a class="icon-btn footer__link" href="https://www.peteraim.com" target="_blank" rel="noopener" title="Home" aria-label="Back to peteraim.com / 返回首頁"><span class="material-symbols-rounded">home</span></a>' +
-        '<a class="icon-btn footer__link" href="https://www.linkedin.com/in/ai-med/" target="_blank" rel="noopener" title="LinkedIn" aria-label="LinkedIn (opens in new tab)"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>' +
+        '<a class="icon-btn footer__link" href="https://www.peteraim.com" target="_blank" rel="noopener" title="peteraim.com" aria-label="' + escapeHtml(ui("homeLink")) + '"><span class="material-symbols-rounded">home</span></a>' +
+        '<a class="icon-btn footer__link" href="https://www.linkedin.com/in/ai-med/" target="_blank" rel="noopener" title="LinkedIn" aria-label="' + escapeHtml(ui("linkedin")) + '"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>' +
       '</div>';
     main.parentNode.insertBefore(footer, main.nextSibling);
 
@@ -169,7 +208,7 @@
     dialog.innerHTML =
       '<div class="dialog__bar">' +
         '<span class="dialog__spacer"></span>' +
-        '<button class="icon-btn" id="dialogClose" type="button" aria-label="Close / 關閉">' +
+        '<button class="icon-btn" id="dialogClose" type="button" aria-label="' + escapeHtml(ui("close")) + '">' +
           '<span class="material-symbols-rounded">close</span>' +
         '</button>' +
       '</div>' +

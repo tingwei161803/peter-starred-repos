@@ -28,7 +28,7 @@
     }
     var L = window.LDW;
 
-    var t = L.t, esc = L.escapeHtml, r = L.r;
+    var t = L.t, esc = L.escapeHtml, r = L.r, ui = L.ui;
     var pageEl = document.getElementById("page");
     var teardowns = [];   // observers / listeners to disconnect before each repaint
 
@@ -83,7 +83,10 @@
       '<a class="tops__more" href="' + esc(c ? c.href : F.allHref) + '">' + esc(label) + "</a>";
     }
 
-    function barChart(series, accent) {
+    /* label 是這張圖自己的標題(dashboard 的 figcaption 用的同一個字串)。
+       aria-label 只寫「長條圖」對讀屏使用者等於沒說 —— 頁面上可能有兩張圖,
+       要講是哪一張。沒給 label 就退回類型名。 */
+    function barChart(series, accent, label) {
       var W = 520, H = 240, padL = 16, padR = 16, padT = 16, padB = 44;
       var plotW = W - padL - padR, plotH = H - padT - padB;
       var max = Math.max.apply(null, series.map(function (d) { return d.value; }).concat([1]));
@@ -100,12 +103,13 @@
           '<text class="bar-value" x="' + r(x + bw / 2) + '" y="' + r(y - 6) + '" text-anchor="middle">' + val + "</text>" +
           '<text class="bar-label" x="' + r(x + bw / 2) + '" y="' + r(baseY + 18) + '" text-anchor="middle">' + label + "</text>";
       }).join("");
-      return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" preserveAspectRatio="xMidYMid meet" aria-label="bar chart">' +
+      var alt = label ? t(label) + " — " + ui("barChart") : ui("barChart");
+      return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" preserveAspectRatio="xMidYMid meet" aria-label="' + esc(alt) + '">' +
         '<line class="axis-line" x1="' + padL + '" y1="' + r(baseY) + '" x2="' + r(W - padR) + '" y2="' + r(baseY) + '" />' +
         bars + "</svg>";
     }
 
-    function lineChart(points) {
+    function lineChart(points, label) {
       var W = 520, H = 240, padL = 28, padR = 16, padT = 16, padB = 32;
       var plotW = W - padL - padR, plotH = H - padT - padB;
       var ys = points.map(function (d) { return d.y; });
@@ -133,7 +137,8 @@
           '" text-anchor="' + (i === 0 ? "start" : i === n - 1 ? "end" : "middle") + '">' +
           esc(String(pt.d.x)) + "</text>";
       }).join("");
-      return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" preserveAspectRatio="xMidYMid meet" aria-label="line chart">' +
+      var alt = label ? t(label) + " — " + ui("lineChart") : ui("lineChart");
+      return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" preserveAspectRatio="xMidYMid meet" aria-label="' + esc(alt) + '">' +
         '<path class="line-area" d="' + area + '" />' +
         '<path class="line-path" d="' + path + '" fill="none" />' + dots + labels + "</svg>";
     }
@@ -249,7 +254,7 @@
         return '<div class="reading-progress" id="readingProgress" aria-hidden="true"></div>' +
           head(p) +
           '<div class="article-layout">' +
-            '<nav class="toc" aria-label="Contents"><div class="toc__inner">' + toc + "</div></nav>" +
+            '<nav class="toc" aria-label="' + esc(ui("contents")) + '"><div class="toc__inner">' + toc + "</div></nav>" +
             '<div class="article-body prose">' + body + "</div>" +
           "</div>";
       },
@@ -268,9 +273,9 @@
             deltaHtml + "</div>";
         }).join("");
         var bars = p.bars ? '<figure class="panel" data-item><figcaption>' + esc(t(p.bars.title)) + "</figcaption>" +
-          '<div class="chart-wrap">' + barChart(p.bars.series || []) + "</div></figure>" : "";
+          '<div class="chart-wrap">' + barChart(p.bars.series || [], null, p.bars.title) + "</div></figure>" : "";
         var line = p.line ? '<figure class="panel" data-item><figcaption>' + esc(t(p.line.title)) + "</figcaption>" +
-          '<div class="chart-wrap">' + lineChart(p.line.points || []) + "</div></figure>" : "";
+          '<div class="chart-wrap">' + lineChart(p.line.points || [], p.line.title) + "</div></figure>" : "";
         var table = "";
         if (p.table) {
           var thead = (p.table.columns || []).map(function (c) { return "<th>" + esc(t(c.label)) + "</th>"; }).join("");
@@ -369,8 +374,8 @@
           var cells = plans.map(function (pl) {
             var v = f.values ? f.values[pl.key] : undefined;
             var cell;
-            if (v === true) cell = '<span class="cmp-yes material-symbols-rounded" aria-label="yes">check</span>';
-            else if (v === false || v == null) cell = '<span class="cmp-no" aria-label="no">—</span>';
+            if (v === true) cell = '<span class="cmp-yes material-symbols-rounded" aria-label="' + esc(ui("yes")) + '">check</span>';
+            else if (v === false || v == null) cell = '<span class="cmp-no" aria-label="' + esc(ui("no")) + '">—</span>';
             else cell = esc(t(v));
             return '<td class="' + (pl.highlight ? "cmp-col--hl" : "") + '">' + cell + "</td>";
           }).join("");
@@ -408,7 +413,9 @@
       map: function (p) {
         return head(p) +
           '<div class="map-layout">' +
-            '<div class="map-box" id="map" role="application" aria-label="Map"></div>' +
+            /* 不用 role="application" —— 它會叫讀屏切到應用程式模式、關掉瀏覽
+               模式的快速鍵,而這裡只是一張可平移的地圖,沒有自訂鍵盤協定。 */
+            '<div class="map-box" id="map" role="region" aria-label="' + esc(ui("map")) + '"></div>' +
             '<ul class="map-list" id="mapList"></ul>' +
           "</div>";
       }
@@ -621,8 +628,8 @@
         function paintHead() {
           thead.innerHTML = "<tr>" + cols.map(function (c) {
             var arrow = st.sortKey === c.key ? (st.dir > 0 ? " ▲" : " ▼") : "";
-            return '<th class="th-sort" data-key="' + esc(c.key) + '" role="button" tabindex="0" aria-label="Sort by ' +
-              esc(t(c.label)) + '">' + esc(t(c.label)) + esc(arrow) + "</th>";
+            return '<th class="th-sort" data-key="' + esc(c.key) + '" role="button" tabindex="0" aria-label="' +
+              esc(ui("sortBy", { label: t(c.label) })) + '">' + esc(t(c.label)) + esc(arrow) + "</th>";
           }).join("") + "</tr>";
           [].forEach.call(thead.querySelectorAll(".th-sort"), function (th) {
             th.addEventListener("click", function () { sortBy(th.dataset.key); });
