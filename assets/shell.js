@@ -68,6 +68,34 @@
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* ignore */ } }
 
+  /* ---------- GitHub 星數快取 ----------
+     未帶 token 的 api.github.com 限流是**每個 IP 每小時 60 次**。這個站有 11 個
+     根層頁面 × 2 個語言,而導覽是實體連結(每次換頁都是完整載入),原本每一次
+     載入都無條件打一次 —— 一個訪客逛十幾頁就吃掉四分之一額度,而同一個出口 IP
+     後面的人共用這個額度。被限流的人看到的星數永遠是「—」。
+
+     所以:成功的結果快取一小時,失敗(含 403 限流)退避十分鐘不重試。
+     星數這種東西不需要更即時。 */
+  var STAR_TTL = 3600e3;        // 成功後 1 小時內直接用快取
+  var STAR_BACKOFF = 600e3;     // 失敗後 10 分鐘內不再試
+
+  function starKey(repo) { return "stars:" + repo; }
+  function starRead(repo) {
+    try {
+      var raw = lsGet(starKey(repo));
+      if (!raw) return null;
+      var o = JSON.parse(raw);
+      return (o && typeof o.at === "number") ? o : null;
+    } catch (e) { return null; }   // 壞掉的 JSON 當成沒有快取
+  }
+  function starWrite(repo, o) {
+    o.at = Date.now();
+    try { lsSet(starKey(repo), JSON.stringify(o)); } catch (e) { /* ignore */ }
+  }
+  function starFmt(n) {
+    return n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
+  }
+
   /* ---------- global state ---------- */
   /* 語言由 URL 決定:root 是英文、zh-Hant/ 子目錄是中文鏡射,
      每份靜態檔的 <html lang> 就是它的語言 —— 不存 localStorage、不切換。 */
@@ -157,11 +185,19 @@
     appbar.className = "appbar";
     /* GitHub star button — only when SITE_META.repo is a filled "owner/name" */
     var repo = (META.repo || "").trim();
+    /* 數字直接用快取的值畫進 markup。原本先寫死一個「—」再等 fetch 回來換掉,
+       換頁時每次都會閃一下;而拿不到數字的時候那個「—」會一直留在畫面上,
+       看起來像壞了 —— 星星鈕本身是連到 repo 的連結,沒有數字它照樣有用,
+       所以拿不到就整個不顯示數字。 */
+    var cached = repo ? starRead(repo) : null;
+    var cachedN = (cached && typeof cached.n === "number") ? cached.n : null;
     var starHtml = (repo && repo.indexOf("{{") !== 0)
       ? '<a class="gh-star" id="ghStar" href="https://github.com/' + repo + '" target="_blank" rel="noopener" data-repo="' + repo + '">' +
           '<span class="material-symbols-rounded">star</span>' +
           '<span class="gh-star__label">Star</span>' +
-          '<span class="gh-star__count" id="ghStarCount">—</span>' +
+          '<span class="gh-star__count" id="ghStarCount"' + (cachedN === null ? ' hidden' : '') + '>' +
+            (cachedN === null ? '' : escapeHtml(starFmt(cachedN))) +
+          '</span>' +
         '</a>'
       : '';
     /* 語言切換是真連結(每個語言一個 URL),指向本頁在另一語言的雙生檔 */
@@ -320,22 +356,49 @@
      INIT
      ===================================================================== */
   /* ---------- GitHub star count (public API, no auth) ---------- */
+  function showStarCount(n) {
+    var c = document.getElementById("ghStarCount");
+    if (!c) return;
+    if (typeof n === "number") { c.textContent = starFmt(n); c.hidden = false; }
+    else { c.textContent = ""; c.hidden = true; }
+  }
+
   function loadStars() {
     var el = document.getElementById("ghStar");
     if (!el) return;
-    var r = el.dataset.repo;
-    if (!r || r.indexOf("{{") === 0) return;             // unfilled → skip
-    fetch("https://api.github.com/repos/" + r)
-      .then(function (res) { return res.ok ? res.json() : null; })
-      .then(function (j) {
-        var c = document.getElementById("ghStarCount");
-        if (c && j && typeof j.stargazers_count === "number") {
-          c.textContent = j.stargazers_count >= 1000
-            ? (j.stargazers_count / 1000).toFixed(1).replace(/\.0$/, "") + "k"
-            : String(j.stargazers_count);
-        }
+    var repo = el.dataset.repo;
+    if (!repo || repo.indexOf("{{") === 0) return;       // unfilled → skip
+
+    var c = starRead(repo);
+    var age = c ? Date.now() - c.at : Infinity;
+    /* 上一次失敗就用較短的退避,成功就用 TTL —— 兩個都沒過期就完全不發請求。
+       這是省下額度的關鍵:換頁不該再打一次。
+       判斷用 c.err 而不是「有沒有 n」,因為失敗時我們會把舊的 n 留著(見下面)。 */
+    if (c && age < (c.err ? STAR_BACKOFF : STAR_TTL)) return;
+
+    fetch("https://api.github.com/repos/" + repo,
+          { headers: { Accept: "application/vnd.github+json" } })
+      .then(function (res) {
+        /* fetch 對 HTTP 錯誤碼**不會** reject —— 403(限流)、404 都會走到這裡
+           而且 res.ok 是 false。不自己丟出來的話後面的 .catch 永遠不會執行,
+           失敗就不會被記進快取,下一頁又會再打一次。 */
+        if (!res.ok) throw new Error("HTTP " + res.status);
+        return res.json();
       })
-      .catch(function () { /* offline / rate-limited */ });
+      .then(function (j) {
+        if (!j || typeof j.stargazers_count !== "number") throw new Error("bad payload");
+        starWrite(repo, { n: j.stargazers_count });
+        showStarCount(j.stargazers_count);
+      })
+      .catch(function () {
+        /* 離線、限流、repo 改名都到這裡。
+           **舊的數字要留著** —— 只寫 {err:1} 會把之前抓到的數字覆蓋掉,
+           那麼「快取過期 + 剛好這次限流」就等於永久失去數字,之後每 10 分鐘
+           重試一次、每次都失敗、畫面一直空著。一個小時前的星數是完全堪用的。
+           (JSON.stringify 會把 undefined 的 key 丟掉,所以沒有舊值時不會寫 n。) */
+        starWrite(repo, { n: (c && typeof c.n === "number") ? c.n : undefined, err: 1 });
+        if (!c || typeof c.n !== "number") showStarCount(null);
+      });
   }
 
   function init() {
