@@ -1,0 +1,13 @@
+# 暫存 / 部署與隱私筆記 —— 不進版控
+tmp/
+
+# 本機工作指示,不公開
+CLAUDE.md
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
