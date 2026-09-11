@@ -40,7 +40,12 @@
       sortBy: "Sort by {label}",
       barChart: "Bar chart", lineChart: "Line chart",
       contents: "Contents", map: "Map", yes: "Yes", no: "No",
-      switchLang: "Switch to Traditional Chinese"
+      switchLang: "Switch to Traditional Chinese",
+      emptyQ: "Nothing matches \u201c{q}\u201d.",
+      emptyFilters: "Nothing matches the current filters.",
+      emptyBoth: "Nothing matches \u201c{q}\u201d under the current filters.",
+      emptyHint: "Try a shorter word \u2014 search covers repository names, the notes and GitHub topics, in both languages.",
+      emptyClear: "Clear search and filters"
     },
     zh: {
       close: "關閉", menu: "頁面", skip: "跳到內容",
@@ -50,7 +55,12 @@
       sortBy: "依「{label}」排序",
       barChart: "長條圖", lineChart: "折線圖",
       contents: "目錄", map: "地圖", yes: "有", no: "沒有",
-      switchLang: "切換到英文版"
+      switchLang: "切換到英文版",
+      emptyQ: "沒有符合「{q}」的項目。",
+      emptyFilters: "沒有符合目前篩選條件的項目。",
+      emptyBoth: "在目前的篩選條件下,沒有符合「{q}」的項目。",
+      emptyHint: "換個更短的關鍵字試試 —— 搜尋會比對 repo 名稱、說明與 GitHub topics,而且中英文一起搜。",
+      emptyClear: "清除搜尋與篩選"
     }
   };
 

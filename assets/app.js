@@ -86,6 +86,28 @@
     /* label 是這張圖自己的標題(dashboard 的 figcaption 用的同一個字串)。
        aria-label 只寫「長條圖」對讀屏使用者等於沒說 —— 頁面上可能有兩張圖,
        要講是哪一張。沒給 label 就退回類型名。 */
+    /* ---------- 搜尋 0 筆的空狀態 ----------
+       gallery 與 table 共用。原本 0 筆的時候內容區整個空掉,只剩 toolbar 底下
+       一行小字的 `.result-count` —— 總表更糟,畫面上是一排孤零零的表頭,看起來
+       像載入失敗而不是「沒找到」。
+
+       訊息要講**兩件事**:沒命中什麼、以及怎麼回去。特別是篩選與搜尋疊加的時候,
+       使用者很可能忘了自己還選著某個主題,以為是搜尋壞了,所以那個情況要單獨講。
+
+       刻意不加 role="status" / aria-live:`.result-count` 已經是 aria-live="polite"
+       且會播報筆數,這裡再加一個就會同一件事念兩遍。 */
+    function emptyState(q, hasFilters) {
+      var msg = q && hasFilters ? ui("emptyBoth", { q: q })
+              : q               ? ui("emptyQ", { q: q })
+              :                   ui("emptyFilters");
+      return '<div class="empty-state">' +
+        '<span class="material-symbols-rounded empty-state__icon" aria-hidden="true">search_off</span>' +
+        '<p class="empty-state__msg">' + esc(msg) + "</p>" +
+        '<p class="empty-state__hint">' + esc(ui("emptyHint")) + "</p>" +
+        '<button class="empty-state__btn" type="button" data-empty-clear>' + esc(ui("emptyClear")) + "</button>" +
+        "</div>";
+    }
+
     function barChart(series, accent, label) {
       var W = 520, H = 240, padL = 16, padR = 16, padT = 16, padB = 44;
       var plotW = W - padL - padR, plotH = H - padT - padB;
@@ -314,7 +336,8 @@
             '<div class="chips-stack" id="tableChips"></div>' +
           "</div>" +
           '<p class="result-count" id="resultCount" aria-live="polite"></p>' +
-          '<div class="table-wrap"><table class="data-table" id="dataTable"><thead></thead><tbody></tbody></table></div>';
+          '<div class="table-wrap" id="tableWrap"><table class="data-table" id="dataTable"><thead></thead><tbody></tbody></table></div>' +
+          '<div id="tableEmpty" hidden></div>';
       },
 
       /* ---- bento: asymmetric tile grid ---- */
@@ -484,8 +507,22 @@
           if (!st.q) return true;
           return hays[idx].indexOf(st.q) !== -1;
         }
+        function clearAll() {
+          st.q = ""; st.cat = "";
+          if (search) search.value = "";
+          chips.forEach(function (c) { c.classList.toggle("chip--active", !c.dataset.cat); });
+          paint();
+          if (search) search.focus();
+        }
         function paint() {
           var rows = (p.items || []).filter(matches);
+          if (!rows.length) {
+            grid.innerHTML = emptyState(st.q, !!st.cat);
+            var btn = grid.querySelector("[data-empty-clear]");
+            if (btn) btn.addEventListener("click", clearAll);
+            if (count) count.textContent = L.state.lang === "en" ? "0 result(s)" : "0 筆結果";
+            return;
+          }
           grid.innerHTML = rows.map(function (item) {
             var tags = (item.tags || []).map(function (g) { return '<span class="tag">' + esc(g) + "</span>"; }).join("");
             var meta = t(item.meta)
@@ -600,6 +637,8 @@
         var thead = table.querySelector("thead"), tbody = table.querySelector("tbody");
         var search = document.getElementById("search");
         var chipsBox = document.getElementById("tableChips");
+        var wrapEl = document.getElementById("tableWrap");
+        var emptyEl = document.getElementById("tableEmpty");
         var cols = p.columns || [];
         // 多軸篩選:scaffold 原本只吃第一個 filter 欄。559 筆資料光靠一個軸不夠用
         // ——「主題」跟「語言」要能同時收斂,才找得到「Python 寫的 RAG 工具」。
@@ -607,6 +646,24 @@
         var st = { q: "", filters: {}, sortKey: null, dir: 1 };
 
         function cellText(row, c) { var v = row[c.key]; return typeof v === "object" ? t(v) : String(v == null ? "" : v); }
+
+        function hasFilters() {
+          for (var k in st.filters) {
+            if (Object.prototype.hasOwnProperty.call(st.filters, k) && st.filters[k]) return true;
+          }
+          return false;
+        }
+        function clearAll() {
+          st.q = ""; st.filters = {};
+          if (search) search.value = "";
+          if (chipsBox) {
+            [].forEach.call(chipsBox.querySelectorAll(".chip"), function (c) {
+              c.classList.toggle("chip--active", !c.dataset.v);
+            });
+          }
+          paint();
+          if (search) search.focus();
+        }
 
         /* 每列的搜尋字串:所有欄位的**兩個語言** + 畫面上不顯示的 topics。
            進頁面時算一次 —— 五百多列 × 每次按鍵重算是白花的。
@@ -651,6 +708,32 @@
               return String(typeof va === "object" ? t(va) : va).localeCompare(String(typeof vb === "object" ? t(vb) : vb)) * st.dir;
             });
           }
+          /* 0 筆的時候把整張表藏起來,訊息放在表格**外面**。
+             不用 <td colspan> 的原因是 #dataTable 有 min-width:900px(六欄要
+             維持可讀寬度,靠 .table-wrap 橫向捲),那一列會繼承這個寬度 ——
+             375px 的螢幕上置中的訊息會被推到畫面外,得橫向捲才看得到。
+             而且「只剩一排孤零零的表頭」本身就是這個 issue 的抱怨,藏掉剛好。 */
+          if (!rows.length) {
+            /* 把上一次的列清掉。表格是藏起來的、使用者看不到,但留著陳舊的列
+               等於在 DOM 裡放一份跟畫面不符的資料 —— 之後任何查詢這張表的
+               程式都會拿到錯的東西。 */
+            tbody.innerHTML = "";
+            if (wrapEl) wrapEl.hidden = true;
+            if (emptyEl) {
+              emptyEl.hidden = false;
+              emptyEl.innerHTML = emptyState(st.q, hasFilters());
+              var btn = emptyEl.querySelector("[data-empty-clear]");
+              if (btn) btn.addEventListener("click", clearAll);
+            }
+            if (countEl) {
+              countEl.textContent = L.state.lang === "en"
+                ? "0 of " + (p.rows || []).length + " repositories"
+                : (p.rows || []).length + " 筆中的 0 筆";
+            }
+            return;
+          }
+          if (wrapEl) wrapEl.hidden = false;
+          if (emptyEl) { emptyEl.hidden = true; emptyEl.innerHTML = ""; }
           tbody.innerHTML = rows.map(function (row) {
             return "<tr data-item>" + cols.map(function (c) {
               // repo:顯示名稱、連結藏在後面。原本的 link 型別會把整串網址印出來,
