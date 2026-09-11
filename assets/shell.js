@@ -331,7 +331,13 @@
     lsSet("theme", state.theme);
   }
   function wire() {
-    document.getElementById("themeToggle").addEventListener("click", function () {
+    /* injectChrome() 在沒有 main#page 時會早退,那時候這顆鈕根本沒被建出來。
+       原本這裡直接 .addEventListener 就是 TypeError —— injectChrome 寫了早退
+       保護、顯然預期「可能沒有 #page」,但 wire() 沒有對等的保護,等於保護
+       只做了一半,而少的那一半會讓整個 shell 掛掉(主題、nav、footer 全沒)。 */
+    var toggle = document.getElementById("themeToggle");
+    if (!toggle) return;
+    toggle.addEventListener("click", function () {
       state.theme = state.theme === "dark" ? "light" : "dark";
       applyTheme();
     });

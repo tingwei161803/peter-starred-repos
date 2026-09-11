@@ -428,7 +428,7 @@ a { color:inherit; text-decoration:none; }
 /* =========================================================================
    本站增補樣式(scaffold 之外)
    —— 一個 repo 索引站需要的東西:卡片上的星數/更新時間、對話框裡的外連,
-      以及 559 筆總表要用的多軸篩選 chips。
+      以及 553 筆總表要用的多軸篩選 chips。
    ========================================================================= */
 
 /* 卡片的次要資訊列:★ 星數 · 語言 · 最後更新 —— 判斷「這東西還活著嗎」很吃這行 */
@@ -482,7 +482,7 @@ a { color:inherit; text-decoration:none; }
 #dataTable td:nth-child(5) { text-align: right; font-variant-numeric: tabular-nums; }
 #dataTable td:nth-child(6) { white-space: nowrap; }
 
-/* 559 列的表格,表頭捲掉就不知道在看哪一欄了。
+/* 553 列的表格,表頭捲掉就不知道在看哪一欄了。
    .data-table thead th 已經是 position:sticky,但 sticky 需要一個「會捲動的祖先」——
    .table-wrap 只有 overflow-x:auto 且沒有限高,所以捲動的是整個頁面,表頭跟著跑掉。
    給它限高就讓 sticky 真的生效,表格也變成一塊獨立的資料區。 */
@@ -507,7 +507,7 @@ a { color:inherit; text-decoration:none; }
 
    顏色都走 --k 這個「當前分類色」變數:.k-<key> 只做一件事,就是把 --k 指到該
    分類的色票。為什麼不像原型那樣把顏色 inline 寫在每個點上 —— inline style 的
-   優先權蓋過任何 CSS,深淺色切換就換不動了;而且 559 個點各帶一段 style,
+   優先權蓋過任何 CSS,深淺色切換就換不動了;而且 553 個點各帶一段 style,
    prerender 寫進靜態檔會多出三萬多個位元組。
    ========================================================================= */
 .k-coding   { --k:var(--c-coding);   }
