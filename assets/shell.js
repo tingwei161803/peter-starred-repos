@@ -46,6 +46,16 @@
     theme: lsGet("theme") || "dark"
   };
 
+  /* 這一頁的 <title> 是不是靜態檔自己帶的。
+     每個頁面的 <title> 都是手寫的(英文頁直接寫、中文雙生頁由 build_i18n.py
+     換上 data-zh),裡面有該頁專屬的說明與總數,而且**沒有任何腳本會重產它**。
+     所以 shell 不去覆蓋 —— 只有頁面根本沒給 <title> 時才組一個備援。
+     覆蓋掉的後果是首頁把兩個同義的名字串在一起:SITE_META.title 是站名、
+     首頁的 page.title 也是站名,中文版就變成「Peter 的 GitHub 收藏 ·
+     Peter 的 GitHub 收藏」。而且爬蟲第一波讀原始 HTML、第二波執行 JS,
+     同一個 URL 會拿到兩種標題。 */
+  var ownTitle = !!(document.title || "").trim();
+
   /* ---------- helpers shared with app.js ---------- */
   function t(obj) {
     if (obj == null) return "";
@@ -209,7 +219,9 @@
     var page = currentPage();
     var siteTitle = t(META.title);
     var pageTitle = page ? t(page.title) : "";
-    document.title = pageTitle ? pageTitle + " · " + siteTitle : siteTitle;
+    if (!ownTitle) {
+      document.title = pageTitle ? pageTitle + " · " + siteTitle : siteTitle;
+    }
 
     var brand = document.getElementById("brandName");
     if (brand) brand.textContent = siteTitle;
