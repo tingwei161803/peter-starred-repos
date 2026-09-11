@@ -837,6 +837,12 @@
     function animateCounters() {
       var els = [].slice.call(pageEl.querySelectorAll("[data-count]"));
       if (!els.length) return;
+      /* 開了「減少動態效果」就什麼都不做 —— 元素的文字本來就已經是最終值
+         (renderer 直接寫進去,count-up 只是進到畫面時的加分動畫),所以直接
+         return 就是正確結果。styles.css 的 @media 只擋得到 transition 與
+         animation,這裡是 requestAnimationFrame 手動跑的,擋不到。 */
+      if (window.matchMedia &&
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
       function run(el) {
         // data-count 可能帶單位後綴("14.6M"、"504.2k")。parseFloat 只吃前面的數字,
         // 後綴要自己留著補回去,否則動畫跑完 14.6M 會變成 14.6。

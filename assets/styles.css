@@ -32,6 +32,7 @@
 
   /* ---- 對映回 MD3 token 名稱(元件 CSS 透過這些名字吃色)---- */
   --primary:#9A8CFF; --on-primary:#15102E; --primary-container:#241C4A; --on-primary-container:#DCD5FF;
+  --focus:#B8ADFF;   /* 焦點環:比 --primary 再亮一階,才壓得過卡片的 --raise 底 */
   --secondary:#A8A8B4; --secondary-container:#1C1C25; --on-secondary-container:#EDEDF0;
   --tertiary:#4EA8F5; --tertiary-container:#122436;
   --background:var(--bg); --on-background:var(--fg); --surface:var(--bg);
@@ -57,6 +58,7 @@
   --c-rag:#1568C0; --c-llm:#B02878; --c-apps:#63636F;
 
   --primary:#5B4BD6; --on-primary:#FFFFFF; --primary-container:#E8E4FF; --on-primary-container:#1B1252;
+  --focus:#4536C4;   /* 白底上要壓暗,#9A8CFF 在 #FBFBFC 上只有 2.9:1 */
   --secondary:#5E5E6B; --secondary-container:#EFEFF4; --on-secondary-container:#111116;
   --tertiary:#1568C0; --tertiary-container:#E1EDFB;
   --surface-container-high:#F1F1F5; --surface-variant:#EDEDF2;
@@ -80,6 +82,30 @@ a { color:inherit; text-decoration:none; }
   padding:8px 14px; border-radius:var(--radius-lg);
 }
 .skip-link:focus { left:12px; }
+
+/* ---- 鍵盤焦點 ----
+   一組規則管全站,不逐個元件寫。
+
+   原本只有 `.search` 有自訂焦點環,`.card` 更糟 —— 它明確 `outline:none`,改用
+   「陰影 + 邊框位移 + 上移 2px」代替,但前兩個訊號在這套近黑配色上根本不存在:
+   `--elev-2` 是 `0 6px 20px rgba(0,0,0,.5)`,**黑底上疊黑色陰影等於沒有陰影**;
+   邊框只從 `#1E1E26` 位移到 `#2C2C36`,14 階的差異。實測 focus 前後的截圖肉眼
+   分辨不出來,而 `coding.html` 有 144 張 `tabindex="0"` 的卡片,七頁合計 553 張。
+   其餘元件則是吃瀏覽器預設的 `auto 1px #005FCC` —— 看得見,但 1px 太細、那個藍
+   跟這套配色也不搭。
+
+   用 `:focus-visible` 而不是 `:focus`:滑鼠點一下不該留下焦點環,鍵盤才要。
+   `outline-offset` 讓環落在元素外面的頁面底色上,不會被元素自己的背景吃掉。 */
+:focus-visible {
+  outline:2px solid var(--focus);
+  outline-offset:2px;
+  /* 刻意不設 border-radius —— outline 本來就會跟著元素自己的圓角走,
+     在這裡設等於 focus 的瞬間把卡片的 9px 圓角改成別的值,角會跳一下。 */
+}
+/* 表格的 <th> 貼著格線,外擴的環會被隔壁欄蓋住 —— 改成內縮。 */
+.th-sort:focus-visible { outline-offset:-3px; }
+/* `.search` 不用在這裡處理 —— 它已經有自己的 `:focus` 規則(2px primary、
+   offset 1px),而且排在後面、優先權相同,所以本來就贏過這組通用規則。 */
 
 /* ---- App bar ---- */
 .appbar { position:sticky; top:0; z-index:30; background:var(--surface-container); box-shadow:var(--elev-1); }
@@ -130,7 +156,7 @@ a { color:inherit; text-decoration:none; }
 .grid > * { min-width:0; }
 .card { background:var(--surface-container); border-radius:var(--radius); padding:20px; cursor:pointer;
   border:1px solid transparent; transition:box-shadow .18s,transform .18s,border-color .18s; display:flex; flex-direction:column; gap:10px; }
-.card:hover,.card:focus-visible { box-shadow:var(--elev-2); transform:translateY(-2px); border-color:var(--outline-variant); outline:none; }
+.card:hover,.card:focus-visible { box-shadow:var(--elev-2); transform:translateY(-2px); border-color:var(--outline-variant); }
 .card--nav .card__icon { font-size:28px; color:var(--primary); }
 .card__title { margin:0; font-size:1.05rem; font-weight:600; color:var(--on-surface); }
 .card__summary { margin:0; font-size:.9rem; line-height:1.5; color:var(--on-surface-variant); }
@@ -290,7 +316,7 @@ a { color:inherit; text-decoration:none; }
 .map-fallback { height:100%; display:flex; align-items:center; justify-content:center; color:var(--on-surface-variant); padding:20px; text-align:center; }
 .map-list { list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; max-height:460px; overflow:auto; }
 .place { display:flex; flex-direction:column; gap:3px; background:var(--surface-container); border:1px solid var(--outline-variant); border-radius:var(--radius-sm); padding:12px 14px; cursor:pointer; }
-.place:hover,.place:focus-visible { border-color:var(--primary); outline:none; }
+.place:hover,.place:focus-visible { border-color:var(--primary); }
 .place b { color:var(--on-surface); }
 .place span { font-size:.82rem; color:var(--on-surface-variant); }
 
@@ -336,7 +362,11 @@ a { color:inherit; text-decoration:none; }
 /* Respect reduced motion */
 @media (prefers-reduced-motion:reduce) {
   html { scroll-behavior:auto; }
-  * { transition:none !important; }
+  /* 偽元素也要 —— `*` 選不到 ::before / ::after。
+     另外 animation 跟 transition 是兩回事,只擋後者擋不到 keyframes。
+     `animateCounters()` 的數字跳動是 requestAnimationFrame 手動跑的,
+     CSS 完全擋不到,那個在 app.js 裡另外處理。 */
+  *,*::before,*::after { transition:none !important; animation:none !important; }
 }
 
 /* GitHub star button */
