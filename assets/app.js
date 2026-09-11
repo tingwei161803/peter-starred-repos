@@ -134,6 +134,17 @@
     function lineChart(points, label) {
       var W = 520, H = 240, padL = 28, padR = 16, padT = 16, padB = 32;
       var plotW = W - padL - padR, plotH = H - padT - padB;
+      var alt = label ? t(label) + " \u2014 " + ui("lineChart") : ui("lineChart");
+      /* 空資料回一張空的圖框。原本 area 那行會讀 xy[-1].x 而 xy 是空陣列 ——
+         TypeError 會讓 render() 整個停在 pageEl.innerHTML 的賦值之前,而這一頁
+         有 prerender:使用者看到的是靜態內容還留在畫面上、互動全死,**看起來
+         沒事**。呼叫點本來就是 lineChart(p.line.points || []),那個 `|| []`
+         就是餵空陣列進來的路徑。barChart 用 .concat([1]) 保護了 max,
+         這裡缺一個對等的保護。 */
+      if (!points.length) {
+        return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" preserveAspectRatio="xMidYMid meet" aria-label="' +
+          esc(alt) + '"></svg>';
+      }
       var ys = points.map(function (d) { return d.y; });
       var max = Math.max.apply(null, ys.concat([1])), min = Math.min.apply(null, ys.concat([0]));
       var span = (max - min) || 1, n = points.length || 1;
@@ -159,7 +170,6 @@
           '" text-anchor="' + (i === 0 ? "start" : i === n - 1 ? "end" : "middle") + '">' +
           esc(String(pt.d.x)) + "</text>";
       }).join("");
-      var alt = label ? t(label) + " — " + ui("lineChart") : ui("lineChart");
       return '<svg viewBox="0 0 ' + W + " " + H + '" role="img" preserveAspectRatio="xMidYMid meet" aria-label="' + esc(alt) + '">' +
         '<path class="line-area" d="' + area + '" />' +
         '<path class="line-path" d="' + path + '" fill="none" />' + dots + labels + "</svg>";
@@ -197,7 +207,7 @@
           }).join("");
 
         /* 點的顏色走 class(styles.css 的 .k-<key> 只設 --k),不用 inline style:
-           inline style 蓋得過 CSS,深淺色就切不動;559 段 style 也讓 prerender
+           inline style 蓋得過 CSS,深淺色就切不動;553 段 style 也讓 prerender
            產出的靜態檔白白多三萬多個位元組。 */
         var dots = "";
         for (var n = 0; n < total; n++) {
@@ -227,7 +237,7 @@
             '<p class="field-head__lede">' + esc(t(F.lede)) + "</p></header>" +
           '<div class="cat-tabs" id="catTabs">' + tabs + "</div>" +
           '<div class="readout" id="readout">' + fieldReadout(F, -1) + "</div>" +
-          /* 點陣是一張統計圖,不是 559 個可讀項目 —— 給整塊一個 role="img"
+          /* 點陣是一張統計圖,不是 553 個可讀項目 —— 給整塊一個 role="img"
              與一句摘要,讀屏就不用逐點念過去。 */
           '<div class="field" id="field" role="img" aria-label="' +
             esc(t(F.fieldAlt).replace("{n}", total)) + '">' + dots + "</div>" +
@@ -640,7 +650,7 @@
         var wrapEl = document.getElementById("tableWrap");
         var emptyEl = document.getElementById("tableEmpty");
         var cols = p.columns || [];
-        // 多軸篩選:scaffold 原本只吃第一個 filter 欄。559 筆資料光靠一個軸不夠用
+        // 多軸篩選:scaffold 原本只吃第一個 filter 欄。553 筆資料光靠一個軸不夠用
         // ——「主題」跟「語言」要能同時收斂,才找得到「Python 寫的 RAG 工具」。
         var filterCols = cols.filter(function (c) { return c.filter; });
         var st = { q: "", filters: {}, sortKey: null, dir: 1 };
@@ -737,7 +747,7 @@
           tbody.innerHTML = rows.map(function (row) {
             return "<tr data-item>" + cols.map(function (c) {
               // repo:顯示名稱、連結藏在後面。原本的 link 型別會把整串網址印出來,
-              // 559 列下來就是一面 URL 牆,既難讀也搜不到重點。
+              // 553 列下來就是一面 URL 牆,既難讀也搜不到重點。
               if (c.type === "repo" && row.url) {
                 return '<td><a class="row-link" href="' + esc(row.url) + '" target="_blank" rel="noopener">' +
                   esc(cellText(row, c)) + "</a></td>";
@@ -794,7 +804,7 @@
         }
         countEl = document.getElementById("resultCount");
         if (search) {
-          // 559 列 × 6 欄 = 每次重畫 3000+ 個儲存格,逐鍵重畫會頓。
+          // 553 列 × 6 欄 = 每次重畫 3000+ 個儲存格,逐鍵重畫會頓。
           // 120ms 去抖動:低於一般打字間隔,使用者感覺不到延遲,但省掉大部分重畫。
           var timer = null;
           search.addEventListener("input", function () {
