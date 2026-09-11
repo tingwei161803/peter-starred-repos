@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  本站自己的 sitemap。刻意不寫 <lastmod>:沒有可信的「內容最後修改時間」
+  來源(git commit 時間不等於內容變動時間),給錯的 lastmod 比不給更糟。
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://stars.peteraim.com/agents.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/all.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/apps.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/coding.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/learning.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/llm.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/media.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/rag.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/timeline.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/agents.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/all.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/apps.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/coding.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/learning.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/llm.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/media.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/overview.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/rag.html</loc>
+  </url>
+  <url>
+    <loc>https://stars.peteraim.com/zh-Hant/timeline.html</loc>
+  </url>
+</urlset>
