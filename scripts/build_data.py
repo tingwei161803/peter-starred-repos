@@ -62,6 +62,73 @@ def lang_bucket(language):
     return "other"
 
 
+# GitHub 的描述允許 emoji shortcode(`:books:`),GitHub 自己的網頁會把它渲染成 📚,
+# 但這個站是直接印原始描述,所以畫面上是字面的 `:books:` —— 首頁 tops 那五行就看得到。
+#
+# **用白名單,不用通則 `:([a-z_]+):`。** 通則會誤判命名空間運算子:`foo::bar::baz`
+# 裡就有 `:bar:` 這個子字串。目前的 559 筆描述沒有那種寫法(唯一含 `::` 的是
+# `:sparkles::sparkles:`,那本來就是兩個連著的 shortcode),但 star 一個 C++ /
+# Rust 專案就可能出現,而那種誤判會把描述改壞、還不容易發現。
+#
+# 不認得的 shortcode **原樣留著並在 build 結束時列出來** —— 留著字面文字是個看得見
+# 的訊號,可以照著補進這張表;猜錯一個 emoji 比留著 `:foo:` 糟。
+EMOJI = {
+    # 這份資料實際出現的
+    "books": "📚", "sparkles": "✨",
+    # repo 描述裡常見的其餘部分
+    "rocket": "🚀", "fire": "🔥", "star": "⭐", "zap": "⚡", "tada": "🎉",
+    "wrench": "🔧", "hammer": "🔨", "gear": "⚙️", "package": "📦", "memo": "📝",
+    "bulb": "💡", "bug": "🐛", "lock": "🔒", "key": "🔑", "art": "🎨",
+    "computer": "💻", "iphone": "📱", "globe_with_meridians": "🌐", "link": "🔗",
+    "chart_with_upwards_trend": "📈", "bar_chart": "📊", "clipboard": "📋",
+    "mag": "🔍", "mag_right": "🔎", "book": "📖", "bookmark": "🔖", "label": "🏷️",
+    "pencil": "✏️", "pencil2": "✏️", "scroll": "📜", "file_folder": "📁",
+    "open_file_folder": "📂", "card_index": "📇", "dart": "🎯", "trophy": "🏆",
+    "medal": "🏅", "crown": "👑", "gem": "💎", "boom": "💥", "dizzy": "💫",
+    "rainbow": "🌈", "sunny": "☀️", "moon": "🌙", "cloud": "☁️", "snowflake": "❄️",
+    "seedling": "🌱", "herb": "🌿", "leaves": "🍃", "cherry_blossom": "🌸",
+    "robot": "🤖", "alien": "👽", "ghost": "👻", "brain": "🧠", "eyes": "👀",
+    "muscle": "💪", "pray": "🙏", "raised_hands": "🙌", "clap": "👏",
+    "point_right": "👉", "arrow_right": "➡️", "recycle": "♻️", "warning": "⚠️",
+    "exclamation": "❗", "question": "❓", "heavy_check_mark": "✔️",
+    "white_check_mark": "✅", "x": "❌", "heart": "❤️", "sparkling_heart": "💖",
+    "coffee": "☕", "beer": "🍺", "pizza": "🍕", "cake": "🍰", "candy": "🍬",
+    "cat": "🐱", "dog": "🐶", "penguin": "🐧", "snake": "🐍", "whale": "🐳",
+    "elephant": "🐘", "bird": "🐦", "bee": "🐝", "lobster": "🦞", "unicorn": "🦄",
+    "construction": "🚧", "airplane": "✈️", "ship": "🚢", "car": "🚗",
+    "house": "🏠", "office": "🏢", "factory": "🏭", "satellite": "🛰️",
+    "telescope": "🔭", "microscope": "🔬", "test_tube": "🧪", "dna": "🧬",
+    "abacus": "🧮", "toolbox": "🧰", "magnet": "🧲", "compass": "🧭",
+    "speech_balloon": "💬", "loudspeaker": "📢", "bell": "🔔", "movie_camera": "🎬",
+    "camera": "📷", "headphones": "🎧", "musical_note": "🎵", "video_game": "🎮",
+    "game_die": "🎲", "jigsaw": "🧩", "hourglass": "⌛", "stopwatch": "⏱️",
+    "calendar": "📅", "money_with_wings": "💸", "moneybag": "💰", "credit_card": "💳",
+}
+
+# build 過程中遇到、但白名單裡沒有的 shortcode:(名稱, repo, 描述片段)。
+# 帶上 repo 與片段是因為這份回報**會有假警報** —— `foo::bar::baz` 會讓 `bar`
+# 被記下來(替換本身不受影響,白名單擋住了)。看到片段就能一眼判斷是真的
+# shortcode 還是命名空間運算子,不用回去翻資料。
+UNKNOWN_EMOJI: list[tuple[str, str, str]] = []
+SHORTCODE_RE = re.compile(r":([a-z0-9_+-]{2,}):")
+
+
+def demoji(text, where=""):
+    """把已知的 emoji shortcode 換成真的 emoji 字元。
+
+    不認得的原樣留著(字面文字是個看得見的訊號),並記進 UNKNOWN_EMOJI。
+    `re.sub` 是單次左到右掃描,連著的 `:sparkles::sparkles:` 一次就處理完
+    ——第一個匹配吃掉 index 0-9、第二個從 10 開始,不需要重跑。
+    """
+    def sub(m):
+        name = m.group(1)
+        if name in EMOJI:
+            return EMOJI[name]
+        UNKNOWN_EMOJI.append((name, where, text[:80]))
+        return m.group(0)
+    return SHORTCODE_RE.sub(sub, text)
+
+
 def human_stars(n):
     """1455 萬要顯示成 14.6M,不是 14556.8k —— 只做到 k 的話大數字反而更難讀。"""
     if n >= 1_000_000:
@@ -75,7 +142,7 @@ def build_items(raw, starred_at, zh):
     items = []
     for r in raw:
         fn = r["full_name"]
-        desc = (r.get("description") or "").strip()
+        desc = demoji((r.get("description") or "").strip(), fn)
         lang = r.get("language")
         items.append({
             "slug": slugify(fn),
@@ -460,6 +527,19 @@ def main():
         n = len(pg.get("items") or pg.get("rows") or pg.get("events") or [])
         size = f"{f.stat().st_size / 1024:>5.0f} KB" if f.exists() else "     —"
         print(f"  {pg['slug']:10s} {pg['layout']:10s} {n or '':>4}  {size}")
+
+    # 不認得的 emoji shortcode。留在描述裡會顯示成字面文字(`:foo:`),
+    # 所以這裡一定要講出來 —— 靜靜留著就會有一天出現在首頁 tops 那五行上。
+    if UNKNOWN_EMOJI:
+        seen = {}
+        for name, where, snippet in UNKNOWN_EMOJI:
+            seen.setdefault(name, (where, snippet))
+        print(f"\n⚠ 有 {len(seen)} 種不認得的 emoji shortcode(原樣留著,會顯示成字面文字):")
+        for name, (where, snippet) in sorted(seen.items()):
+            print(f"    :{name}:  {where}")
+            print(f"        {snippet}")
+        print("  真的是 emoji 就補進 build_data.py 的 EMOJI;")
+        print("  是 foo::bar::baz 這種命名空間寫法就忽略(替換本身不受影響)。")
 
 
 if __name__ == "__main__":

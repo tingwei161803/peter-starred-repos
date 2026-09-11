@@ -94,7 +94,7 @@ window.SITE_PAGE_DATA = {
     "zh": "EbookFoundation/free-programming-books"
    },
    "summary": {
-    "en": ":books: Freely available programming books",
+    "en": "📚 Freely available programming books",
     "zh": "免費程式設計電子書與課程清單,多語言版本,涵蓋幾乎所有語言與領域。"
    },
    "tags": [
@@ -104,7 +104,7 @@ window.SITE_PAGE_DATA = {
     "hacktoberfest"
    ],
    "overview": {
-    "en": ":books: Freely available programming books",
+    "en": "📚 Freely available programming books",
     "zh": "免費程式設計電子書與課程清單,多語言版本,涵蓋幾乎所有語言與領域。"
    },
    "search": "books education hacktoberfest list resource",
@@ -2189,14 +2189,14 @@ window.SITE_PAGE_DATA = {
     "zh": "apachecn/stanford-cs183-notes"
    },
    "summary": {
-    "en": ":books: [译] 斯坦福 CS183 系列中文笔记",
+    "en": "📚 [译] 斯坦福 CS183 系列中文笔记",
     "zh": "史丹佛 CS183(Peter Thiel 創業課)系列的中文翻譯筆記。"
    },
    "tags": [
     "JavaScript"
    ],
    "overview": {
-    "en": ":books: [译] 斯坦福 CS183 系列中文笔记",
+    "en": "📚 [译] 斯坦福 CS183 系列中文笔记",
     "zh": "史丹佛 CS183(Peter Thiel 創業課)系列的中文翻譯筆記。"
    },
    "search": "",
